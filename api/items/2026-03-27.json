@@ -30,7 +30,8 @@
     "content_hash": "d0f1894e43319a12dbbb43780aaae731fc928066359ca16cb72e5c068b97953d",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 74,
@@ -63,7 +64,8 @@
     "content_hash": "1c620b956a24422e5bf078185fca36b7f2b6e18252878657fb71c7251b0f2a4b",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 72,
@@ -96,7 +98,40 @@
     "content_hash": "a27e5450e636860ed99c44d407f97103e6a01569e2e64755016cd2d098bf28a4",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
+  },
+  {
+    "id": 112,
+    "uuid": "213d6de7-c45b-46e5-b828-5884a3866267",
+    "title": "Prompt写作指南：你跟AI说话的方式决定了它有多聪明",
+    "title_en": "",
+    "category": "skill",
+    "source_name": "Prompt工程社",
+    "source_url": "https://mp.weixin.qq.com/s/prompt-guide-beginner-2026",
+    "source_urls": "[]",
+    "author": "Prompt工程社",
+    "published_at": "2026-03-25T08:00:00",
+    "collected_at": "2026-03-27T20:49:19.411791",
+    "summary": "同样是ChatGPT，为什么别人用出了花，你用出来跟百度似的？秘密在于Prompt（提示词）。记住三个公式：1.角色+任务+要求（'你是一个资深HR，帮我写一份简历，要求突出项目经验'）2.给例子（'参考这个格式...'）3.分步骤（'先列提纲，再写正文，最后润色'）。就这三招，AI回答质量提升80%。",
+    "value_proposition": "Prompt是AI时代的'搜索技术'。会搜索的人找信息比别人快10倍，会写Prompt的人用AI比别人好10倍。这是2026年最值得学的技能，没有之一。",
+    "interesting_points": "[\"反面教材：问AI你好聪明吗——这不是Prompt，这是闲聊\", \"正面示范：你是一个有10年经验的Python开发者，请帮我review这段代码，重点看性能和安全问题——这才是Prompt\", \"进阶技巧：让AI先写Prompt再回答问题，套娃式操作效果更好\"]",
+    "target_audience": "所有AI用户",
+    "reviews": "",
+    "recommendation_score": 9.2,
+    "recommendation_reason": "AI时代的核心技能，投入1小时学习，收益终身",
+    "keywords": [
+      "Prompt",
+      "提示词",
+      "AI技能",
+      "ChatGPT用法",
+      "效率提升"
+    ],
+    "content_hash": "c222ad1c1b2d71d56a1782dabbe83c5d791673cb49196f49cea86a647cd677c0",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "newcomer"
   },
   {
     "id": 69,
@@ -129,7 +164,8 @@
     "content_hash": "57bfb8d31d62e9991f20166e6ac997181fbace8efd33db8c87f6aa361e561355",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 73,
@@ -162,7 +198,8 @@
     "content_hash": "cf2bd9e5430a060e467d0f9f7a34bfc563760ab63b3aae178b91f5a5ed3b41ac",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 75,
@@ -195,7 +232,8 @@
     "content_hash": "5a33e6fd7f153b758a8949563e151d1ba14033cc0a05a71b14642149d29e7cb1",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 83,
@@ -228,7 +266,169 @@
     "content_hash": "a8a206ae38aa77bdb5341f18737e47ab5c6507df1dafe007f18ddc284af55a72",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
+  },
+  {
+    "id": 105,
+    "uuid": "a9049b07-cc5f-4c38-bed4-e63df04f5b28",
+    "title": "2026年最值得普通人用的5个AI工具：全免费，上手只要3分钟",
+    "title_en": "",
+    "category": "tutorial",
+    "source_name": "数字生活指南",
+    "source_url": "https://mp.weixin.qq.com/s/top5-free-ai-tools-2026",
+    "source_urls": "[]",
+    "author": "数字生活指南",
+    "published_at": "2026-03-26T08:00:00",
+    "collected_at": "2026-03-27T20:49:19.411694",
+    "summary": "AI工具多到眼花缭乱？别慌，这5个就够了：1.豆包（聊天问答，比百度好用10倍）2.Kimi（读长文档，一本书秒变摘要）3.即梦（AI画图，说句话就出图）4.剪映AI（视频自动加字幕+剪辑）5.通义千问（写邮件写报告的利器）。全免费，注册就能用，上手不超过3分钟。",
+    "value_proposition": "不是推荐100个让你选择困难，就精选5个最好用的。每一个都解决一个具体问题，每一个都免费，每一个3分钟上手。",
+    "interesting_points": "[\"省钱计算：这5个工具的功能加起来，相当于以前花几千块买的软件\", \"避坑提醒：豆包和Kimi二选一就行，功能有重叠；即梦和通义的画图也有重叠\", \"终极建议：先从豆包开始用起，用顺手了再试其他的，别贪多\"]",
+    "target_audience": "AI零基础用户、普通人",
+    "reviews": "",
+    "recommendation_score": 9.0,
+    "recommendation_reason": "AI入门第一课，5个工具覆盖90%日常需求",
+    "keywords": [
+      "豆包",
+      "Kimi",
+      "即梦",
+      "剪映AI",
+      "通义千问",
+      "免费AI工具"
+    ],
+    "content_hash": "fbd4a001a3274dd106c2f6ce20b16d36fe8708f1dd111f0bb5904e4bfe58e0f7",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "beginner"
+  },
+  {
+    "id": 111,
+    "uuid": "84147d79-a2a6-4c9f-99af-9fb4b4d52523",
+    "title": "ChatGPT vs Claude vs Gemini：2026年三大AI助手到底选哪个",
+    "title_en": "",
+    "category": "tutorial",
+    "source_name": "AI评测室",
+    "source_url": "https://mp.weixin.qq.com/s/chatgpt-claude-gemini-compare-2026",
+    "source_urls": "[]",
+    "author": "AI评测室",
+    "published_at": "2026-03-26T10:00:00",
+    "collected_at": "2026-03-27T20:49:19.411778",
+    "summary": "三大AI助手2026年初全面横评。ChatGPT（GPT-5.4）胜在生态和工具调用，就像'瑞士军刀'什么都能干；Claude（4.6 Opus）胜在长文写作和代码，是'文科状元+程序员'的合体；Gemini（3.1）胜在多模态和长上下文，250万token的肚量谁也比不了。结论：没有最好的，只有最适合你的。",
+    "value_proposition": "别人推荐的AI不一定适合你。这篇帮你搞清楚三大AI各自的强项和短板，选对了工具效率翻倍，选错了浪费时间。",
+    "interesting_points": "[\"价格对比：ChatGPT Plus 20刀/月，Claude Pro 20刀/月，Gemini Advanced 20刀/月——巧了，一样贵\", \"隐藏差异：Claude写中文最自然，ChatGPT工具最多，Gemini对Google生态集成最好\", \"省钱建议：先都用免费版试一个月，哪个顺手再付费\"]",
+    "target_audience": "AI新手、想选AI工具的人",
+    "reviews": "",
+    "recommendation_score": 9.0,
+    "recommendation_reason": "AI入门第一问的终极答案，选对工具事半功倍",
+    "keywords": [
+      "ChatGPT",
+      "Claude",
+      "Gemini",
+      "AI对比",
+      "横评"
+    ],
+    "content_hash": "245f89101ab3e5b1a537848372dedd20fcb111da2bba9530f56b3956e1412ac8",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "newcomer"
+  },
+  {
+    "id": 119,
+    "uuid": "27b73648-e32e-4feb-9a1f-dcdf3cf403e8",
+    "title": "我用Cursor写了个小程序，零基础，3天上线——附完整教程",
+    "title_en": "",
+    "category": "success_case",
+    "source_name": "编程新手村",
+    "source_url": "https://mp.weixin.qq.com/s/cursor-mini-program-zero-2026",
+    "source_urls": "[]",
+    "author": "编程新手村",
+    "published_at": "2026-03-18T16:00:00",
+    "collected_at": "2026-03-27T20:49:19.411937",
+    "summary": "我是一个运营，完全不会写代码。但我用Cursor（AI编程工具），3天做出了一个'每日AI资讯'小程序并成功上线。全程跟AI对话式编程：我说需求，AI写代码，报错了我截图发给AI，它自己修。3天里我没写过一行代码，但我'写'出了一个完整的应用。Vibe Coding的时代真的来了。",
+    "value_proposition": "编程不再是程序员的专利。Cursor让任何人都能通过对话做出应用——你只需要知道你要什么，AI负责实现。这是创造力的解放。",
+    "interesting_points": "[\"时间线：第1天搭框架，第2天加功能，第3天调UI上线——每天也就花2-3小时\", \"踩坑记录：AI写的代码不是100%对的，但它修bug也很快——平均3次对话解决一个问题\", \"成本：Cursor Pro 20刀/月，小程序服务器20块/月——比找外包开发便宜100倍\"]",
+    "target_audience": "非技术人员、想做产品的人",
+    "reviews": "",
+    "recommendation_score": 9.0,
+    "recommendation_reason": "零基础编程的最佳实践案例，附完整路径",
+    "keywords": [
+      "Cursor",
+      "AI编程",
+      "零基础",
+      "小程序",
+      "Vibe Coding"
+    ],
+    "content_hash": "cea55b195ed87a9bdf914ad8d94a78b343cedbf9ef8fe06a4cefcda459574d3d",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "newcomer"
+  },
+  {
+    "id": 118,
+    "uuid": "f525172e-2be1-4ef1-9263-82405e26efe1",
+    "title": "AI取代你之前，先学会用AI——2026职场AI必修课",
+    "title_en": "",
+    "category": "tutorial",
+    "source_name": "职场进化论",
+    "source_url": "https://mp.weixin.qq.com/s/ai-workplace-survival-2026",
+    "source_urls": "[]",
+    "author": "职场进化论",
+    "published_at": "2026-03-19T08:00:00",
+    "collected_at": "2026-03-27T20:49:19.411864",
+    "summary": "2026年，不会用AI的人和不会用电脑的人一样吃亏。三个必须掌握的AI能力：1.用AI处理文档（写报告/做PPT/整理数据）2.用AI辅助沟通（写邮件/准备汇报/翻译）3.用AI辅助决策（市场分析/竞品调研/数据可视化）。不是每个人都要懂AI原理，但每个人都要会用AI工具。就像你不需要懂发动机原理，但你得会开车。",
+    "value_proposition": "AI不会取代所有人，但会用AI的人会取代不会用的。2026年，AI能力是职场生存必修课，不是选修课。",
+    "interesting_points": "[\"调查数据：2026年Q1，78%的500强企业已将AI工具使用纳入员工培训体系\", \"悖论：最害怕被AI取代的人，往往最不愿意学AI——这就像怕水的人拒绝学游泳\", \"入门路径：先从用AI写邮件开始，这是最低门槛、最高频、最容易见效的切入点\"]",
+    "target_audience": "所有职场人",
+    "reviews": "",
+    "recommendation_score": 8.9,
+    "recommendation_reason": "每个职场人都该读的AI生存指南",
+    "keywords": [
+      "AI职场",
+      "AI必修课",
+      "职场生存",
+      "AI技能",
+      "数字化转型"
+    ],
+    "content_hash": "1d0c33e04bfc50ae67c9d5133afef8e096ab598d869e631c8a2c49090a7260a7",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "newcomer"
+  },
+  {
+    "id": 128,
+    "uuid": "816bf533-69b4-4bd8-bdca-4afaf8d13c26",
+    "title": "AI Agent到底是什么？用外卖小哥的比喻一次讲清楚",
+    "title_en": "",
+    "category": "tutorial",
+    "source_name": "AI大白话",
+    "source_url": "https://mp.weixin.qq.com/s/ai-agent-explained-delivery-2026",
+    "source_urls": "[]",
+    "author": "AI大白话",
+    "published_at": "2026-03-19T09:00:00",
+    "collected_at": "2026-03-27T20:49:19.412074",
+    "summary": "AI Agent就像一个超级外卖小哥：普通AI像接线员——你问什么它答什么，挂了电话就忘了你；AI Agent像外卖小哥——你说'我要吃辣的'，它自己看菜单、下单、盯着出餐、送到你手上，中间遇到问题（比如这家关门了）它还能自己换一家。区别在于：接线员只回答，外卖小哥会行动+决策+处理意外。这就是Agent的本质——能自主行动的AI。",
+    "value_proposition": "Agent是2026年最热门的AI概念，但99%的人说不清它是什么。这篇用你一定懂的比喻，让你30秒理解Agent——下次别人聊AI你就不会插不上嘴了。",
+    "interesting_points": "[\"AI Agent三要素：感知（看到菜单）+决策（选最辣的）+行动（下单配送）——缺一不可\", \"升级版：Multi-Agent就像外卖平台——一个负责接单，一个负责配送，一个负责售后，各司其职\", \"现实应用：你的手机助手（Siri/小爱同学）就是最简单的Agent，只是目前还比较笨\"]",
+    "target_audience": "AI感兴趣但不懂技术的人",
+    "reviews": "",
+    "recommendation_score": 8.9,
+    "recommendation_reason": "AI Agent最通俗的解释，比喻精准，秒懂",
+    "keywords": [
+      "AI Agent",
+      "智能体",
+      "概念科普",
+      "外卖比喻",
+      "AI入门"
+    ],
+    "content_hash": "e6668a656a67d15d2bacba12aa0547c478ae979c24dc891eea48244baddf691f",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "intermediate"
   },
   {
     "id": 67,
@@ -261,7 +461,8 @@
     "content_hash": "38862468f135b10e292d32f6c3f2a0d1c523807ff43ca42c3f1b397cdd51395f",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 80,
@@ -294,7 +495,363 @@
     "content_hash": "8a63d68f8f15d49fc3ef984e0970529febaeed934081accdb78f4c22183b6eaa",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
+  },
+  {
+    "id": 102,
+    "uuid": "c106d7d5-dcb3-4fc2-98a8-0cbbb38e71ee",
+    "title": "AI帮你做PPT：输入主题30秒出50页——从此告别加班",
+    "title_en": "",
+    "category": "tip",
+    "source_name": "效率黑客",
+    "source_url": "https://mp.weixin.qq.com/s/ai-ppt-30seconds-2026",
+    "source_urls": "[]",
+    "author": "效率黑客编辑部",
+    "published_at": "2026-03-24T09:00:00",
+    "collected_at": "2026-03-27T20:49:19.411642",
+    "summary": "每周五下午老板突然说'下周一要个汇报PPT'，以前你得熬夜到凌晨三点。现在？打开Gamma或者美图AI PPT，输入主题，30秒生成50页，配图配色配动画全自动。你要做的就是挑一个最顺眼的模板，改几个数字，然后准时下班。这不是偷懒，这是效率革命。",
+    "value_proposition": "PPT焦虑症的终极解药。不需要学设计、不需要找模板、不需要通宵加班。AI做的PPT，老板看了都说专业。",
+    "interesting_points": "[\"数据：用AI做PPT平均省4小时/周，一年省200小时，相当于多了25个工作日\", \"翻车预警：AI生成的PPT有时会瞎配图，把财务报告配上沙滩度假的图片——所以还是得过一遍\", \"隐藏技巧：先跟ChatGPT聊清楚逻辑，再用PPT工具生成，质量翻倍\"]",
+    "target_audience": "职场人、学生、需要做汇报的所有人",
+    "reviews": "",
+    "recommendation_score": 8.8,
+    "recommendation_reason": "职场人最刚需的AI技能，学会直接早下班两小时",
+    "keywords": [
+      "AI PPT",
+      "Gamma",
+      "职场效率",
+      "告别加班",
+      "自动生成"
+    ],
+    "content_hash": "d94aa01fefe42a15c16938077b2d893612dc7768304054b03d668c67e8f1bd82",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "beginner"
+  },
+  {
+    "id": 113,
+    "uuid": "50558e64-cfe6-4aa1-8bd6-d7cfb0850cf8",
+    "title": "用AI做副业月入5000：6个已验证的变现路径",
+    "title_en": "",
+    "category": "success_case",
+    "source_name": "副业研究所",
+    "source_url": "https://mp.weixin.qq.com/s/ai-side-hustle-5000-2026",
+    "source_urls": "[]",
+    "author": "副业研究所",
+    "published_at": "2026-03-24T14:00:00",
+    "collected_at": "2026-03-27T20:49:19.411803",
+    "summary": "不画饼，直接上数据。6个用AI做副业的真实案例：1.AI代写（800-1500/篇）2.AI做PPT（200-500/份）3.AI修图（50-100/张）4.AI翻译（0.5-1元/字）5.AI短视频脚本（500-1000/条）6.AI数据分析（2000-5000/单）。每个路径都附了接单渠道、报价参考和避坑指南。月入5000不是天花板，是起步线。",
+    "value_proposition": "AI不只是省时间的工具，更是赚钱的工具。这6条路径都经过验证，不需要辞职、不需要投资，下班后就能开始。",
+    "interesting_points": "[\"最快变现路径：AI代写，今天学明天接单，一篇800起步\", \"天花板最高的：AI数据分析，一单2000-5000，但需要一些基础\", \"接单渠道：闲鱼、猪八戒、淘宝、小红书私域——AI副业不缺需求，缺的是靠谱的供给\"]",
+    "target_audience": "想做副业的人、自由职业者",
+    "reviews": "",
+    "recommendation_score": 8.8,
+    "recommendation_reason": "AI变现实操指南，每条路径都附了报价和接单渠道",
+    "keywords": [
+      "AI副业",
+      "AI赚钱",
+      "变现",
+      "副业",
+      "AI写作"
+    ],
+    "content_hash": "da3b3c7e41bf0bf10591d3ba034de6ec56074b4ab9ed44cd20c8fcfdf372771e",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "newcomer"
+  },
+  {
+    "id": 121,
+    "uuid": "87966afc-d36a-420c-8680-20dca0fea1b1",
+    "title": "AI不会取代你，但会用AI的人会——2026各行业AI渗透率报告",
+    "title_en": "",
+    "category": "success_case",
+    "source_name": "行业观察",
+    "source_url": "https://mp.weixin.qq.com/s/ai-industry-penetration-2026",
+    "source_urls": "[]",
+    "author": "行业观察",
+    "published_at": "2026-03-26T09:00:00",
+    "collected_at": "2026-03-27T20:49:19.411983",
+    "summary": "2026年Q1各行业AI渗透率：金融92%、法律78%、医疗65%、教育72%、零售80%、制造55%、农业28%。但渗透率不等于取代率——AI更多是在'增强'人的能力而非'替代'人。真正危险的不是AI太强，而是你的同行都在用AI而你没用。最终不是人vs机器，而是'人+AI' vs '纯人'。",
+    "value_proposition": "用数据说话，告诉你AI到底进展到哪一步了。不贩卖焦虑也不盲目乐观，让你对AI的影响有一个清醒的认知。",
+    "interesting_points": "[\"反直觉：农业AI渗透率最低（28%），但增速最快——因为基数低，且降本效果最明显\", \"最佳拍档：AI在创意行业的角色不是取代创意人，而是把他们从重复劳动中解放出来\", \"2030预测：不是50%的工作被AI取代，而是90%的工作中有30%的任务被AI接管\"]",
+    "target_audience": "职场人、管理者、决策者",
+    "reviews": "",
+    "recommendation_score": 8.8,
+    "recommendation_reason": "用数据看清AI的真实进展，告别焦虑和幻想",
+    "keywords": [
+      "AI渗透率",
+      "行业分析",
+      "AI替代",
+      "2026报告",
+      "数字化转型"
+    ],
+    "content_hash": "8358bc52766eeff65ba8db91b016f6cf3710d7245759ec7b386d94436e0242b2",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "intermediate"
+  },
+  {
+    "id": 127,
+    "uuid": "62310c63-d312-42fe-9ffa-04d3d55651bc",
+    "title": "Sora/即梦/可灵：2026年AI视频生成三巨头实测对比",
+    "title_en": "",
+    "category": "app",
+    "source_name": "创作工具评测",
+    "source_url": "https://mp.weixin.qq.com/s/sora-jimeng-kling-compare-2026",
+    "source_urls": "[]",
+    "author": "创作工具评测",
+    "published_at": "2026-03-20T11:00:00",
+    "collected_at": "2026-03-27T20:49:19.412062",
+    "summary": "三大AI视频生成工具实测：Sora胜在物理真实感，人物动作自然得吓人；即梦（Seedance 2.0）胜在中文理解和国风美学，生成旗袍美人比Sora好看10倍；可灵胜在性价比和速度，生成一条30秒视频只要2分钟。价格？Sora最贵（ChatGPT Plus会员），即梦每天免费送额度，可灵按量付费最灵活。",
+    "value_proposition": "AI视频生成2026年迎来三国大战。创作者不用纠结选哪个——每个都有免费版，都试一遍就知道哪个适合你的风格。",
+    "interesting_points": "[\"物理真实感PK：让三家生成倒水的视频，Sora的水花最自然，即梦的水有点像果冻，可灵的介于两者之间\", \"中文特色：即梦生成的古风视频完爆Sora——果然AI也有文化基因\", \"未来趋势：三家都在朝实时生成努力，预计2026年底能实现边说边生成\"]",
+    "target_audience": "视频创作者、自媒体人、广告人",
+    "reviews": "",
+    "recommendation_score": 8.8,
+    "recommendation_reason": "AI视频生成领域最全面的横评，创作者必读",
+    "keywords": [
+      "Sora",
+      "即梦",
+      "可灵",
+      "AI视频",
+      "视频生成",
+      "创作工具"
+    ],
+    "content_hash": "693ce847481885d16372f6ac0ff7b80dda2152ca2ea3f5919079477e34f8a534",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "intermediate"
+  },
+  {
+    "id": 117,
+    "uuid": "5f1b5787-2167-49bb-b37c-5815f58b8093",
+    "title": "用AI做视频：从脚本到成片，一个人就是一个团队",
+    "title_en": "",
+    "category": "tutorial",
+    "source_name": "短视频工坊",
+    "source_url": "https://mp.weixin.qq.com/s/ai-video-one-person-team-2026",
+    "source_urls": "[]",
+    "author": "短视频工坊",
+    "published_at": "2026-03-20T14:00:00",
+    "collected_at": "2026-03-27T20:49:19.411852",
+    "summary": "一条3分钟的视频，传统流程要5个人干3天。现在用AI全链路制作：ChatGPT写脚本（10分钟）→即梦/可灵生成画面（30分钟）→剪映AI自动剪辑+配音+字幕（20分钟）。总耗时1小时，总成本0元（都用免费版）。质量？不能跟专业团队比，但绝对够发抖音了。一个人就是一个内容工厂。",
+    "value_proposition": "视频创作的门槛已经低到了地板。不需要摄像机、不需要剪辑师、不需要配音员。一个人+AI，就能做出还不错的短视频。",
+    "interesting_points": "[\"对比：传统3分钟视频制作成本5000-10000元，AI全链路制作成本接近0\", \"局限性：AI生成的视频还是有AI味，真人出镜的视频依然更有信任感\", \"最佳实践：AI负责批量产出，真人出镜的精品内容穿插其中——量质结合\"]",
+    "target_audience": "短视频创作者、想做自媒体的人",
+    "reviews": "",
+    "recommendation_score": 8.7,
+    "recommendation_reason": "短视频创作全链路教程，一个人抵一个团队",
+    "keywords": [
+      "AI视频",
+      "即梦",
+      "可灵",
+      "剪映AI",
+      "短视频"
+    ],
+    "content_hash": "b237c10fb084102f974da11da8289a021e7ac948f490a71de906f47e63bc1127",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "newcomer"
+  },
+  {
+    "id": 123,
+    "uuid": "7f37b64c-4eb5-4f46-b896-0eb4c8927087",
+    "title": "AI生成内容的版权到底归谁？一文看懂2026最新规定",
+    "title_en": "",
+    "category": "service",
+    "source_name": "法律科普站",
+    "source_url": "https://mp.weixin.qq.com/s/ai-copyright-law-2026",
+    "source_urls": "[]",
+    "author": "法律科普站",
+    "published_at": "2026-03-24T09:00:00",
+    "collected_at": "2026-03-27T20:49:19.412012",
+    "summary": "2026年1月，国家版权局发布了《生成式AI内容版权指引》。核心要点：1.纯AI生成内容暂不受版权保护 2.人+AI协作的内容，版权归人（但需证明有实质性创意贡献）3.用AI生成内容商用需标注'AI辅助生成' 4.用版权素材训练AI需获得授权。简单说：AI是工具，人是创作者——但你得证明你不是按了一下生成键就完事了。",
+    "value_proposition": "做内容的人必须搞清楚这个问题。不搞清楚，你辛苦做的AI内容可能不受保护；搞清楚了，你就知道怎么让自己的AI创作合法有效。",
+    "interesting_points": "[\"灰色地带：如果你用AI生成了一幅画，然后自己做了大量修改——版权归你，但多大程度的修改才算实质性贡献？还没有明确标准\", \"国际对比：美国更严格，纯AI内容完全不受保护；日本更宽松，AI训练数据可以合理使用\", \"实操建议：所有AI辅助创作都保留过程记录（Prompt历史、修改记录），万一有争议就是证据\"]",
+    "target_audience": "内容创作者、AI应用开发者、法律从业者",
+    "reviews": "",
+    "recommendation_score": 8.7,
+    "recommendation_reason": "AI创作者必读的法律指南，不懂这些迟早吃亏",
+    "keywords": [
+      "AI版权",
+      "版权法",
+      "AI生成内容",
+      "法律科普",
+      "知识产权"
+    ],
+    "content_hash": "7a945c8bd88fdade698f35b2a6604e1a4209c0560fc9e8943aaf3292e3db41ae",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "intermediate"
+  },
+  {
+    "id": 130,
+    "uuid": "095731e8-74ca-431d-b215-24b5cc4c8f8f",
+    "title": "个人知识库搭建指南：让AI成为你的第二大脑",
+    "title_en": "",
+    "category": "skill",
+    "source_name": "效率进化论",
+    "source_url": "https://mp.weixin.qq.com/s/personal-knowledge-base-ai-2026",
+    "source_urls": "[]",
+    "author": "效率进化论",
+    "published_at": "2026-03-17T15:00:00",
+    "collected_at": "2026-03-27T20:49:19.412098",
+    "summary": "信息过载时代，你看过的文章、读过的书、开过的会——90%会在一周内忘掉。解决方案：搭建AI个人知识库。方法：1.选工具（Notion AI/Obsidian+Copilot/思源笔记+AI插件）2.建框架（按项目/主题/时间三维度组织）3.养习惯（每天花10分钟把当天获取的关键信息丢进去）4.用AI问自己的笔记——'我上个月看的那篇关于AI定价的文章核心观点是什么'，AI秒回。",
+    "value_proposition": "你的竞争力不在于知道多少，而在于能用出多少。AI知识库让你的每一条笔记都能在需要时被找到、被关联、被应用——这才是'知识就是力量'。",
+    "interesting_points": "[\"对比：没有AI知识库的人，找一条3个月前的笔记平均要8分钟；有AI知识库的人，问一句话5秒搞定\", \"隐藏价值：AI不只是帮你找笔记，还能发现你自己都没意识到的关联——比如你关注的两个看似无关的领域其实有交叉点\", \"最小可行方案：Notion免费版+AI功能就够了，不需要折腾复杂的系统\"]",
+    "target_audience": "知识工作者、学习者、效率爱好者",
+    "reviews": "",
+    "recommendation_score": 8.7,
+    "recommendation_reason": "AI时代的个人核心竞争力建设指南",
+    "keywords": [
+      "知识库",
+      "第二大脑",
+      "Notion",
+      "Obsidian",
+      "AI笔记",
+      "知识管理"
+    ],
+    "content_hash": "9a32fdd5acabca48239a21ffcb887aeeafa913104831d491a484e0fe33ba1c52",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "intermediate"
+  },
+  {
+    "id": 108,
+    "uuid": "898db11d-bb3a-4e41-9bc0-d58fa9975719",
+    "title": "AI能帮你写年终总结了：老板看完直接给了A",
+    "title_en": "",
+    "category": "success_case",
+    "source_name": "打工人日报",
+    "source_url": "https://mp.weixin.qq.com/s/ai-annual-review-boss-2026",
+    "source_urls": "[]",
+    "author": "打工人日报",
+    "published_at": "2026-03-19T09:00:00",
+    "collected_at": "2026-03-27T20:49:19.411734",
+    "summary": "年终总结写不出来？把你今年做过的事列个流水账发给AI，让它帮你'包装'。AI会把'修了个bug'包装成'优化系统稳定性，故障率降低30%'，把'参加了个会'包装成'主导跨部门协作，推动项目关键节点落地'。你做的事没变，但说法变了，老板看了直说'有成长'。",
+    "value_proposition": "年终总结是职场最重要的'自我营销'时刻。AI帮你把平凡的日常包装成亮眼的成绩，不是吹牛，是换一种更专业的表达方式。",
+    "interesting_points": "[\"对比测试：同一份工作内容，AI包装前和包装后的版本，让10个HR评分，包装后平均高2.3分\", \"注意事项：AI包装要基于真实工作，不要凭空编造——HR不傻\", \"终极技巧：先让AI写，然后改成自己的语气，自然又专业\"]",
+    "target_audience": "职场人、打工人",
+    "reviews": "",
+    "recommendation_score": 8.6,
+    "recommendation_reason": "年底必备技能，用AI把苦劳变功劳",
+    "keywords": [
+      "年终总结",
+      "AI写作",
+      "职场",
+      "绩效考核",
+      "ChatGPT"
+    ],
+    "content_hash": "2d126f70d02c29cbc6b9fd80629ca0849ef86ff3ce9e4479f4afad4e7488781c",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "beginner"
+  },
+  {
+    "id": 116,
+    "uuid": "44f5dcb9-29ff-4052-8fd4-b3222a4d5c88",
+    "title": "小红书AI种草笔记爆款公式：30分钟产出10篇高互动内容",
+    "title_en": "",
+    "category": "skill",
+    "source_name": "自媒体研习社",
+    "source_url": "https://mp.weixin.qq.com/s/xiaohongshu-ai-notes-2026",
+    "source_urls": "[]",
+    "author": "自媒体研习社",
+    "published_at": "2026-03-21T11:00:00",
+    "collected_at": "2026-03-27T20:49:19.411840",
+    "summary": "小红书种草笔记有公式：标题（数字+痛点+反转）+封面（AI生成高颜值图片）+正文（AI写框架+你加个人体验）。用这个公式，一个下午能产出10篇笔记。实测数据：AI辅助的笔记平均互动量比纯手写高40%，因为AI更懂平台算法喜欢什么格式。但记住：AI写框架，你填灵魂——没有真实体验的种草都是广告。",
+    "value_proposition": "小红书是2026年个人品牌最重要的阵地。用AI提效，用真实体验填充内容，你就能在这个平台上建立自己的影响力。",
+    "interesting_points": "[\"数据：带数字的标题点击率比不带的高65%，AI可以帮你批量生成标题\", \"避坑：纯AI生成的笔记平台能检测出来，轻则限流重则封号——必须加入个人真实体验\", \"爆款三要素：有用+好看+有共鸣，AI搞定前两个，你负责第三个\"]",
+    "target_audience": "小红书博主、自媒体人",
+    "reviews": "",
+    "recommendation_score": 8.6,
+    "recommendation_reason": "自媒体变现必修课，AI+小红书的正确打开方式",
+    "keywords": [
+      "小红书",
+      "AI种草",
+      "爆款笔记",
+      "自媒体",
+      "内容创作"
+    ],
+    "content_hash": "a2a25217aeb018c6f7177619c61034db5e12ad19398063cb9a353a13f12e195f",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "newcomer"
+  },
+  {
+    "id": 125,
+    "uuid": "49631082-b903-43a0-988e-75e2ed3aee10",
+    "title": "AI写代码能力排行榜2026Q1：不只是跑分，更看实战",
+    "title_en": "",
+    "category": "skill",
+    "source_name": "开发者头条",
+    "source_url": "https://mp.weixin.qq.com/s/ai-coding-benchmark-2026q1",
+    "source_urls": "[]",
+    "author": "开发者头条",
+    "published_at": "2026-03-22T10:00:00",
+    "collected_at": "2026-03-27T20:49:19.412037",
+    "summary": "2026年Q1 AI编码能力实测排行：1.Claude 4.6 Opus（SWE-bench 80.8%，实战王者）2.GPT-5.4（通用最强，工具调用碾压）3.Gemini 3.1 Pro（长上下文+代码理解最佳搭配）4.DeepSeek V4（开源之光，性价比无敌）5.Llama 4 405B（本地部署首选）。但跑分不等于好用——实际写代码时，Claude在复杂项目中的表现远超跑分差距。",
+    "value_proposition": "程序员选AI编程助手必看榜单。不光看跑分，更看实战场景——不同的AI在不同任务上各有优劣。",
+    "interesting_points": "[\"反常识：跑分第一的不一定实战最强。Claude在SWE-bench不是最高分，但实际写项目代码时开发者满意度排第一\", \"省钱方案：日常编码用DeepSeek V4（成本低10倍），复杂架构设计用Claude——组合拳最省钱\", \"趋势：AI代码能力每季度提升15-20%，预计2026Q4将达到中级程序员水平\"]",
+    "target_audience": "程序员、开发者、技术管理者",
+    "reviews": "",
+    "recommendation_score": 8.6,
+    "recommendation_reason": "开发者选AI编程工具的权威参考",
+    "keywords": [
+      "AI编程",
+      "代码生成",
+      "Claude",
+      "GPT",
+      "SWE-bench",
+      "开发者工具"
+    ],
+    "content_hash": "2d442c4bd0d975d7185f7a7933533292f6051e7f7a69ace379ba31fcd9cb8769",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "intermediate"
+  },
+  {
+    "id": 129,
+    "uuid": "ea705bc0-fb0d-40b8-8d0c-bf9a9ef1224b",
+    "title": "2026年AI创业避坑指南：这5个方向已经卷成红海了",
+    "title_en": "",
+    "category": "service",
+    "source_name": "创业避坑指南",
+    "source_url": "https://mp.weixin.qq.com/s/ai-startup-red-ocean-2026",
+    "source_urls": "[]",
+    "author": "创业避坑指南",
+    "published_at": "2026-03-18T14:00:00",
+    "collected_at": "2026-03-27T20:49:19.412086",
+    "summary": "2026年AI创业5大红海：1.AI聊天机器人（被大厂碾压）2.AI写作工具（100+竞品厮杀）3.AI图片生成（免费替代品太多）4.AI简历优化（市场天花板低）5.AI客服（被钉钉/飞书等大平台吃掉）。避坑建议：避开通用型、拥抱垂直型。比起做'又一个AI写作工具'，不如做'给律师用的AI合同审查工具'。垂直才有壁垒。",
+    "value_proposition": "别看到AI就觉得是风口。2026年很多AI方向已经是血海。这篇帮你避开最拥挤的赛道，找到有壁垒的机会。",
+    "interesting_points": "[\"数据：2025年成立的AI写作类公司有380+家，到2026年Q1已有60%关闭或转型\", \"反面案例：某团队做了一个通用AI助手，花了200万，上线后发现免费的豆包比它好用\", \"机会在哪：B端垂直场景（法律/医疗/教育/制造）、AI硬件（端侧AI）、AI安全合规\"]",
+    "target_audience": "AI创业者、投资人",
+    "reviews": "",
+    "recommendation_score": 8.6,
+    "recommendation_reason": "AI创业者必读的避坑指南，用数据说话",
+    "keywords": [
+      "AI创业",
+      "红海",
+      "避坑",
+      "创业方向",
+      "垂直AI"
+    ],
+    "content_hash": "e4ddc2d61f742f98b412b7062a422e6d199981cd62be6beb432927345938d7fd",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "intermediate"
   },
   {
     "id": 1,
@@ -327,7 +884,8 @@
     "content_hash": "30e0a7af9fdb4634c77c607efe65bd0a6518d24ce66f23c79c666b7c113e9067",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 2,
@@ -360,7 +918,8 @@
     "content_hash": "c574ad174000d298bf56c1676a0489b949a97dd86d3a09e10cf008649765ff7b",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 17,
@@ -393,7 +952,8 @@
     "content_hash": "2267df3cbe19e18d2dab7634112f73aaa1c7b3aba06892b44d5dc503f830e174",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 18,
@@ -426,7 +986,8 @@
     "content_hash": "e263809f39b610b43c95b9e83c16e762e5173c24c944f3d781b9ab3a3a210886",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 19,
@@ -459,7 +1020,8 @@
     "content_hash": "fb8299c0baba7868e2718a29042172d61c934e21132115e7e7dd282a3af01845",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 20,
@@ -492,7 +1054,8 @@
     "content_hash": "f052b3956a3fe489d476882e0f036e6ee6e066555a37dd7d62032ec507241780",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 21,
@@ -525,7 +1088,8 @@
     "content_hash": "00b95242cf840dc8081af798b0b56735695c503ffd07215937eb2c72cf487084",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 34,
@@ -558,7 +1122,8 @@
     "content_hash": "29fa3068eeca71d81273b1ec2fe0ecbe656ac5877d1d6edd8670cbf8f4016567",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 35,
@@ -591,7 +1156,8 @@
     "content_hash": "31f775fe07c77241c0968a8000ce224b44f2e2a8675c80a8a1c71992de25a9d0",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 36,
@@ -624,7 +1190,8 @@
     "content_hash": "58707ee0303f9a01ecbc8c585089f5fab410e88a5b8aed05d81422589211df1f",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 68,
@@ -657,7 +1224,8 @@
     "content_hash": "06df9195cfae84d180612aad9c34314f7df17ec04cb90deebb50b789f9ffa56e",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 77,
@@ -690,7 +1258,8 @@
     "content_hash": "20cad1ba7a6a6f7415bc0b6d08803755d172e18ef4dbff0dba3159820d517f03",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 78,
@@ -723,7 +1292,8 @@
     "content_hash": "348ee5bfc8927ad9fedd8510d8c3e93f63c9d6cf6f02c7b3e84ceba248d4a303",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 86,
@@ -756,7 +1326,8 @@
     "content_hash": "f484e8a89cf99b371785c9939b3a31dcd17a372ba955fc4b9caba6ec19f2d951",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 88,
@@ -789,7 +1360,8 @@
     "content_hash": "8822d8070c0031fa011d999a279814e182905b26356584ccc7228a7592c4f389",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 95,
@@ -822,7 +1394,136 @@
     "content_hash": "5b98697c89ea0b604179915f3eb135754740dadc2b2302a92905a7b22b6d1891",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
+  },
+  {
+    "id": 101,
+    "uuid": "34e5ab03-2001-4e19-bf6f-9530299a75d7",
+    "title": "ChatGPT帮我妈写了份退休金申请，审批一次通过——AI最实在的用法",
+    "title_en": "",
+    "category": "app",
+    "source_name": "AI实用派",
+    "source_url": "https://mp.weixin.qq.com/s/chatgpt-retirement-application-2026",
+    "source_urls": "[]",
+    "author": "AI实用派编辑部",
+    "published_at": "2026-03-25T10:00:00",
+    "collected_at": "2026-03-27T20:49:19.411569",
+    "summary": "我妈退休要写申请材料，折腾了三天写不出来。我说妈你别急，打开ChatGPT，把要求往里一贴，AI三分钟就写好了。格式规范、用词专业、连'恳请组织批准'都安排上了。我妈拿去交，人事科都问她找谁写的。重点是：AI最大的价值不是什么改变世界，而是帮你解决那些'明明不难但就是搞不定'的日常琐事。",
+    "value_proposition": "AI最接地气的用法：不是搞什么高大上的创新，而是帮普通人搞定生活中那些让人头疼的文书工作。你妈也能用，这才叫真正的AI普惠。",
+    "interesting_points": "[\"骚操作：以前写申请材料要找人帮忙、买模板、百度搜——现在一个ChatGPT搞定，省了200块代写费\", \"冷知识：其实AI最擅长的不是创作，而是格式化——把你想说的话变成官方认可的格式，这个能力被严重低估了\", \"细思极恐：当AI连退休申请都能写了，那些靠帮人写材料为生的副业是不是要凉？\"]",
+    "target_audience": "普通人、中老年用户、职场新人",
+    "reviews": "",
+    "recommendation_score": 8.5,
+    "recommendation_reason": "AI最接地气的用法，每个家庭都用得上",
+    "keywords": [
+      "ChatGPT",
+      "退休申请",
+      "文书写作",
+      "AI实用",
+      "日常生活"
+    ],
+    "content_hash": "bc000b16e8e90dced819ef98c0eaa85315354cc9c43543e90923df408ca15934",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "beginner"
+  },
+  {
+    "id": 114,
+    "uuid": "030c322b-1cfd-4fc1-8fa6-44f1669d7f13",
+    "title": "AI写的文案为什么没灵魂？3个技巧让AI写出人味",
+    "title_en": "",
+    "category": "tip",
+    "source_name": "文案实验室",
+    "source_url": "https://mp.weixin.qq.com/s/ai-copywriting-human-touch-2026",
+    "source_urls": "[]",
+    "author": "文案实验室",
+    "published_at": "2026-03-23T10:00:00",
+    "collected_at": "2026-03-27T20:49:19.411816",
+    "summary": "AI写的东西总有股'塑料味'——正确但无聊、流畅但空洞。三个技巧破局：1.喂'人话'（把你平时说话的方式给AI看，让它学你的语气）2.加'刺'（要求AI加入反转、冲突、争议点）3.做减法（AI写完后砍掉30%的废话，只留有力量的句子）。记住：AI是初稿机器，你才是灵魂工程师。",
+    "value_proposition": "AI+人的组合才是最强内容生产力。AI负责速度和框架，你负责灵魂和温度。学会这三招，你的内容产出速度x10，质量不降反升。",
+    "interesting_points": "[\"实验：同一个选题，纯AI写的阅读完成率35%，人+AI协作的62%——灵魂值钱\", \"反常识：让AI写得烂一点反而更好——完美的文字让人不舒服，有瑕疵的才像人写的\", \"终极心法：把AI当实习生，它写初稿你改终稿，别指望它一步到位\"]",
+    "target_audience": "内容创作者、自媒体人、文案",
+    "reviews": "",
+    "recommendation_score": 8.5,
+    "recommendation_reason": "写作者必学技巧，让AI从工具变成你的写作搭子",
+    "keywords": [
+      "AI写作",
+      "文案",
+      "人味",
+      "内容创作",
+      "写作技巧"
+    ],
+    "content_hash": "66780d9a0cda42d226e04c2677311513cdc80886b3548eb747b31c770e46868f",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "newcomer"
+  },
+  {
+    "id": 122,
+    "uuid": "4e566277-ac28-4ba3-828f-bd1b309579be",
+    "title": "从月薪8k到3w：转型AI产品经理的真实路径",
+    "title_en": "",
+    "category": "success_case",
+    "source_name": "产品经理日报",
+    "source_url": "https://mp.weixin.qq.com/s/ai-pm-career-switch-2026",
+    "source_urls": "[]",
+    "author": "产品经理日报",
+    "published_at": "2026-03-25T11:00:00",
+    "collected_at": "2026-03-27T20:49:19.411998",
+    "summary": "小张，传统互联网产品经理，月薪8k。2025年初开始系统学AI产品知识：先读了3本书（AI产品经理手册、LLM应用开发指南、AI商业化实战），然后用ChatGPT+Cursor做了3个AI小产品当作品集，最后跳槽到一家AI创业公司，月薪翻了近4倍到3w。关键不是技术有多深，而是你能不能把AI能力翻译成产品价值。",
+    "value_proposition": "AI产品经理是2026年最稀缺的岗位之一。不需要你会写代码，但需要你懂AI能做什么、不能做什么、怎么变成用户愿意付费的产品。",
+    "interesting_points": "[\"数据：2026年AI产品经理招聘量同比增长320%，但供给只增长了80%——严重供不应求\", \"核心能力：不是懂Transformer原理，而是能判断哪些场景适合用AI、ROI是多少\", \"学习路径：3个月入门（读书+用工具）→3个月实战（做作品集）→跳槽涨薪\"]",
+    "target_audience": "想转型AI方向的职场人",
+    "reviews": "",
+    "recommendation_score": 8.5,
+    "recommendation_reason": "最具参考价值的AI转型案例，附完整路径",
+    "keywords": [
+      "AI产品经理",
+      "职业转型",
+      "涨薪",
+      "AI岗位",
+      "职业规划"
+    ],
+    "content_hash": "06849b746f9244f6bc5946f63ffaeaa0ebd5bf878ffac8e921af5dfcc811679f",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "intermediate"
+  },
+  {
+    "id": 126,
+    "uuid": "1bee6128-a296-47e0-b2f9-424ec87be46a",
+    "title": "用AI做电商选品：我如何用数据分析找到月销10万的蓝海产品",
+    "title_en": "",
+    "category": "success_case",
+    "source_name": "电商实操派",
+    "source_url": "https://mp.weixin.qq.com/s/ai-ecommerce-product-selection-2026",
+    "source_urls": "[]",
+    "author": "电商实操派",
+    "published_at": "2026-03-21T14:00:00",
+    "collected_at": "2026-03-27T20:49:19.412049",
+    "summary": "传统选品靠经验和直觉，AI选品靠数据。我的方法：1.用AI爬取淘宝/拼多多热搜词趋势 2.让AI分析搜索量增长但竞品少的'蓝海词' 3.AI对比同类产品的评论，找出用户痛点 4.计算利润空间和起量成本。用这套方法，我找到了一个宠物智能喂食器的蓝海款，首月销售额突破10万。",
+    "value_proposition": "AI选品不是玄学，是科学。数据告诉你什么品有需求、什么品竞争小、什么品利润高——三个条件同时满足，就是你的机会。",
+    "interesting_points": "[\"关键指标：搜索增速>30%且竞品<50家的品类，80%是蓝海\", \"AI工具链：ChatGPT分析评论→Kimi处理数据→通义生成产品描述——三个AI配合\", \"踩坑：AI推荐的蓝海有时是伪蓝海——需求量看起来大但实际转化率很低，一定要小批量测试\"]",
+    "target_audience": "电商卖家、创业者",
+    "reviews": "",
+    "recommendation_score": 8.5,
+    "recommendation_reason": "电商创业者的AI选品实操手册",
+    "keywords": [
+      "AI选品",
+      "电商",
+      "蓝海产品",
+      "数据分析",
+      "淘宝"
+    ],
+    "content_hash": "8c40da19b41fb77ca35e7f6336f5e055c4081623bb3eafd423e289eaafa214dc",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "intermediate"
   },
   {
     "id": 22,
@@ -855,7 +1556,73 @@
     "content_hash": "620c2365761f1574c0097c3d33214010150eb33c767efa63f2213a7fd34cefd1",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
+  },
+  {
+    "id": 109,
+    "uuid": "028a6473-41dd-46b9-92c3-96ce1042ade4",
+    "title": "不会画画也能出绘本：妈妈用AI给孩子画了一本专属童话",
+    "title_en": "",
+    "category": "app",
+    "source_name": "创意妈妈",
+    "source_url": "https://mp.weixin.qq.com/s/ai-picture-book-mom-2026",
+    "source_urls": "[]",
+    "author": "创意妈妈",
+    "published_at": "2026-03-18T15:00:00",
+    "collected_at": "2026-03-27T20:49:19.411752",
+    "summary": "一位完全不会画画的妈妈，用即梦AI生成插画+ChatGPT写故事，花了一个周末做了一本20页的原创绘本。主角是自家孩子（用AI生成的卡通形象），故事是孩子最爱的恐龙冒险主题。打印装订后，成了孩子最珍贵的生日礼物——因为这是全世界独一无二的。",
+    "value_proposition": "AI让每个家长都能成为绘本作者。不需要画功、不需要排版技能、不需要花几百块买绘本。一个周末，给孩子一份独一无二的礼物。",
+    "interesting_points": "[\"成本：AI生成+打印装订，总花费不到50块，买一本进口绘本要100+\", \"孩子反应：看到自己是故事主角，激动得抱着书睡觉\", \"社交货币：发到朋友圈，收到无数私信问怎么做的——新的社交货币get\"]",
+    "target_audience": "家长、创意爱好者",
+    "reviews": "",
+    "recommendation_score": 8.4,
+    "recommendation_reason": "AI最有温度的用法，每个家庭都值得试试",
+    "keywords": [
+      "AI绘本",
+      "即梦",
+      "ChatGPT",
+      "亲子",
+      "创意"
+    ],
+    "content_hash": "166ee9d9b8a7cc2980788a1c42ac9c777ea8b1f013ed68e999d9c1ce947db83d",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "beginner"
+  },
+  {
+    "id": 124,
+    "uuid": "79ae6264-157d-411a-bd70-09bb8cbdd05d",
+    "title": "开源AI vs 闭源AI：普通创业者该押注哪边",
+    "title_en": "",
+    "category": "tutorial",
+    "source_name": "创业邦",
+    "source_url": "https://mp.weixin.qq.com/s/opensource-vs-closed-ai-2026",
+    "source_urls": "[]",
+    "author": "创业邦",
+    "published_at": "2026-03-23T14:00:00",
+    "collected_at": "2026-03-27T20:49:19.412024",
+    "summary": "2026年开源AI阵营（Llama 4、Qwen 3、DeepSeek V4）和闭源AI阵营（GPT-5.4、Claude 4.6、Gemini 3.1）的差距正在缩小。普通创业者怎么选？三个判断标准：1.数据敏感度高→开源（数据不出本地）2.需要极致性能→闭源（顶级模型还是闭源强）3.预算有限→开源（调用成本低5-10倍）。不是非此即彼，混合用才是最优解。",
+    "value_proposition": "AI创业最重要的技术决策之一就是模型选型。选错了要么成本爆炸，要么性能不够，要么数据泄露。这篇帮你做一个清晰的判断。",
+    "interesting_points": "[\"成本对比：用开源Llama 4处理100万token约0.5美元，用GPT-5.4约5美元——10倍差距\", \"性能差距：开源模型在通用任务上已达到闭源的90%水平，但在复杂推理上仍有15-20%差距\", \"最优策略：简单任务用开源，复杂任务用闭源，数据敏感任务用本地部署的开源——三条腿走路\"]",
+    "target_audience": "AI创业者、技术决策者、CTO",
+    "reviews": "",
+    "recommendation_score": 8.4,
+    "recommendation_reason": "AI创业模型选型的决策框架，省钱又避坑",
+    "keywords": [
+      "开源AI",
+      "闭源AI",
+      "AI创业",
+      "模型选型",
+      "Llama",
+      "GPT"
+    ],
+    "content_hash": "c4fb4e378069eb2fa0e52f5709ad6c4fc0c4768e0bf979c6314ce766553497c2",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "intermediate"
   },
   {
     "id": 23,
@@ -888,7 +1655,8 @@
     "content_hash": "c19c7b9d382f38ea1fb3f14b8b171cc01479d317d4ea25407ed06324563a35a3",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 24,
@@ -921,7 +1689,8 @@
     "content_hash": "130b65dd71daf12a9b99c327b2453ad6b463894621c8a70ab541fcd4f697c23b",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 25,
@@ -954,7 +1723,8 @@
     "content_hash": "b7dad986d5cdf6de6f615733f3ce9b007e73b4f62d64532dc92e888ed797dd72",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 26,
@@ -987,7 +1757,8 @@
     "content_hash": "b5e6fb59ce7bf65cf942c9ce19213aa01a5b6dfec1a42eecbf42b74c087cc36b",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 27,
@@ -1020,7 +1791,8 @@
     "content_hash": "d9a2f7fd5918af1c7b85349f968590f27b13288f92e44d5c6df3b095d2c65f94",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 28,
@@ -1053,7 +1825,8 @@
     "content_hash": "77abb4bd9b3b5beb8650b0a11cb22a326f53cf1e9f0a9a54c99339cbd7544c38",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 29,
@@ -1086,7 +1859,8 @@
     "content_hash": "a04a1840dd563d99bf7cb10fed0135340bbd4c3708df3ef186563c87cc03fc19",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 30,
@@ -1119,7 +1893,8 @@
     "content_hash": "293af46ba1c35482a3e1eb164a0a47826f0c0ed53f98e8bb7347fb7649e8061e",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 31,
@@ -1152,7 +1927,8 @@
     "content_hash": "01d84c77c0d1899188e030059a63af43b79409ff6b8551f8b20ebd720432f124",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 37,
@@ -1185,7 +1961,8 @@
     "content_hash": "fc7a213602cf9bb22365674df694e08a2070a621512b98d3d5a082790eab370b",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 38,
@@ -1218,7 +1995,8 @@
     "content_hash": "d545420281c67dc63e4ca6b13cde1807c3d583aae390586eb972429b8862509d",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 39,
@@ -1251,7 +2029,8 @@
     "content_hash": "e7c3a44ffacd5e36c9a01372c1bb340bcf52fd00bcb5fd18db4aa06a7420200f",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 96,
@@ -1284,7 +2063,72 @@
     "content_hash": "18d61972dfa5447a01cacec4d12f6379279e97eddd07f1e933c03120682e8f3e",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
+  },
+  {
+    "id": 103,
+    "uuid": "e989790d-16e5-4411-9a68-049a0f627ef8",
+    "title": "用AI给孩子讲睡前故事：每晚一个不重样的冒险",
+    "title_en": "",
+    "category": "app",
+    "source_name": "育儿新视野",
+    "source_url": "https://mp.weixin.qq.com/s/ai-bedtime-story-kids-2026",
+    "source_urls": "[]",
+    "author": "育儿新视野",
+    "published_at": "2026-03-23T20:00:00",
+    "collected_at": "2026-03-27T20:49:19.411664",
+    "summary": "孩子每晚要听故事，三只小猪讲了200遍你都能背了。试试这个：打开ChatGPT，说'给我5岁的女儿讲一个关于小恐龙去太空探险的故事，要有反转，结尾温馨'。30秒后，一个你从没听过的原创故事就出来了。孩子听得入迷，你也觉得新鲜。关键是——每晚都能不重样。",
+    "value_proposition": "解放家长的想象力，让AI当你的故事库。不用翻绘本、不用编剧情、不用担心重复。每晚一个专属定制故事，孩子听了直呼'还要还要'。",
+    "interesting_points": "[\"妙用：让AI根据孩子名字编故事，主角就是你家娃，代入感直接拉满\", \"进阶：配合AI语音朗读（豆包或ChatGPT语音），直接解放双手\", \"意外收获：有家长发现AI故事帮孩子学会了分享、勇敢等品质——比说教管用多了\"]",
+    "target_audience": "家长、幼儿园老师",
+    "reviews": "",
+    "recommendation_score": 8.3,
+    "recommendation_reason": "每个有娃家庭都能用，AI最暖心的应用场景",
+    "keywords": [
+      "AI故事",
+      "睡前故事",
+      "ChatGPT",
+      "育儿",
+      "亲子"
+    ],
+    "content_hash": "ff49662db1f4ded4251c770cc0a988a6be7d3c08e37d25c05ce58b632614074d",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "beginner"
+  },
+  {
+    "id": 115,
+    "uuid": "c51e6428-e8a3-4c54-8984-cc708b7656a0",
+    "title": "Notion AI + 飞书AI + 钉钉AI：打工人三大办公AI横评",
+    "title_en": "",
+    "category": "service",
+    "source_name": "办公效率研究所",
+    "source_url": "https://mp.weixin.qq.com/s/notion-feishu-dingtalk-ai-2026",
+    "source_urls": "[]",
+    "author": "办公效率研究所",
+    "published_at": "2026-03-22T09:00:00",
+    "collected_at": "2026-03-27T20:49:19.411828",
+    "summary": "三大办公AI实测对比：Notion AI胜在知识管理和个人笔记，'你的第二大脑'名不虚传；飞书AI胜在团队协作和会议纪要，开完会自动生成待办事项；钉钉AI胜在审批流程和企业管理，老板最爱。价格？Notion 10刀/月，飞书和钉钉企业版按人头算。个人用选Notion，团队用看你司用什么。",
+    "value_proposition": "办公AI选错了比不用更浪费时间。这篇帮你快速做决策：个人效率选Notion，团队协作选飞书，企业管理选钉钉。别三个都试，选一个深度用。",
+    "interesting_points": "[\"隐藏功能：飞书AI可以自动总结群聊里的关键信息，再也不用翻500条消息找那一条重要的\", \"Notion AI的杀手级功能：问它你自己笔记里的内容，比你自己找还快\", \"钉钉AI的争议：老板用来监控工作效率——这到底是提效还是监控？\"]",
+    "target_audience": "职场人、团队管理者",
+    "reviews": "",
+    "recommendation_score": 8.3,
+    "recommendation_reason": "办公AI选择指南，一文终结选择困难症",
+    "keywords": [
+      "Notion AI",
+      "飞书AI",
+      "钉钉AI",
+      "办公效率",
+      "横评"
+    ],
+    "content_hash": "7a62b62d001fb94757b1578fd369d47b96fcf94bac92d9a3b5ea15f588ff8e5e",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "newcomer"
   },
   {
     "id": 81,
@@ -1317,7 +2161,8 @@
     "content_hash": "17f06f08b9173b821c6785cbf02bfc6f248dad18867339476dd3f22632f86c08",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 93,
@@ -1350,7 +2195,40 @@
     "content_hash": "c6fb82d3e3651dc807017f61f81f633acf3cf7b5e9c7e5951f2e56312ffd2d42",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
+  },
+  {
+    "id": 106,
+    "uuid": "3352b3e8-497f-4cd5-b1a4-63cd8e39ca94",
+    "title": "AI帮你砍价？淘宝客服都震惊了：这个买家怎么什么都知道",
+    "title_en": "",
+    "category": "success_case",
+    "source_name": "省钱小能手",
+    "source_url": "https://mp.weixin.qq.com/s/ai-bargain-taobao-2026",
+    "source_urls": "[]",
+    "author": "省钱小能手",
+    "published_at": "2026-03-21T16:00:00",
+    "collected_at": "2026-03-27T20:49:19.411708",
+    "summary": "买家电前先问AI：'这款洗衣机历史最低价多少？竞品有哪些？现在值不值得买？'AI帮你查完历史价格、对比参数、甚至帮你组织砍价话术。拿着AI给的'武器'去跟客服聊，对方都懵了——这人怎么比我还懂行情？结果：成功砍下300块，还送了个赠品。",
+    "value_proposition": "AI不只是聊天工具，还是你的购物军师。帮你做功课、查价格、组织话术，让你从'人傻钱多'变成'精明买家'。",
+    "interesting_points": "[\"实操：把商品链接发给Kimi，让它分析产品参数和历史价格，准确率比价格追踪APP还高\", \"名场面：买家拿着AI整理的竞品参数表去砍价，客服以为碰到了同行\", \"注意：AI给的价格信息有时不够实时，大促期间建议多查几个来源\"]",
+    "target_audience": "网购用户、精打细算的消费者",
+    "reviews": "",
+    "recommendation_score": 8.2,
+    "recommendation_reason": "会用AI的消费者，每笔大额消费至少省10%",
+    "keywords": [
+      "AI砍价",
+      "智能购物",
+      "淘宝",
+      "价格对比",
+      "消费决策"
+    ],
+    "content_hash": "54c33597aaaad69b6f83639106639174cb3f934fd734e8c0870e8e0c0e09a08c",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "beginner"
   },
   {
     "id": 40,
@@ -1383,7 +2261,8 @@
     "content_hash": "34daa5138a21550b6b05702cedd4b28528e9e91d7c7707f6dfaa3f74413b8a28",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 41,
@@ -1416,7 +2295,8 @@
     "content_hash": "ffde970b7daed292921fca3788ee6038acf5fc4d9b42fa22004bb44fa3c7e79d",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 42,
@@ -1449,7 +2329,8 @@
     "content_hash": "41cba7fe72f259bffb2a696201aa5cf14a8da1c1901fea28da6925df442bf0b3",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 43,
@@ -1482,7 +2363,8 @@
     "content_hash": "123a83ae425a2f8ccb9be6a53b42ae09892a5b9aab4e4e4cca30d1eba730267a",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 44,
@@ -1515,7 +2397,8 @@
     "content_hash": "f6d476b4b86dbd99aee443f540b3d4840cc32b4ecb3bf344d5949cc34f5d3507",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 45,
@@ -1548,7 +2431,8 @@
     "content_hash": "d41f7e0dce3e520d492d1f998c0fc83beb8b767573fc77ff8a5bc17e15b33b9d",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 46,
@@ -1581,7 +2465,8 @@
     "content_hash": "b7376ace5aee0b404690efbaa156d8f21f2ba124af6a87023d1069442b972dc5",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 47,
@@ -1614,7 +2499,8 @@
     "content_hash": "df19d75d8baa9e172f6794491320f208c4d97708edc48a8717abd9ad9a9cef0e",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 48,
@@ -1647,7 +2533,8 @@
     "content_hash": "87b6b92e8fb64f2bb15aa3c624568cd89f4869ea3692cc43d8accbccd1128364",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 79,
@@ -1680,7 +2567,8 @@
     "content_hash": "f03527a4b738201764cbb4a8cb2e3c911c621f0b4f7ae09749343a93b7b7c1f0",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 91,
@@ -1713,7 +2601,8 @@
     "content_hash": "5bed96c8365071a37fe945cddde9129ee12100a602e95b1ce1380e5367b1f2bf",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 94,
@@ -1746,7 +2635,8 @@
     "content_hash": "21bf370e2689c3a1dc20d41bde46a9dacc769d3864ab360d8b76c475917a0709",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 99,
@@ -1779,7 +2669,72 @@
     "content_hash": "15cbd1a40db16f297c93a167bd8ccaedb8390b31da895e594edc5a2610fce614",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
+  },
+  {
+    "id": 104,
+    "uuid": "aa101adf-ef94-4c10-9350-7aaf24ea85a6",
+    "title": "AI修图不求人：一键把路人甲P掉，比PS简单100倍",
+    "title_en": "",
+    "category": "tip",
+    "source_name": "手机摄影课堂",
+    "source_url": "https://mp.weixin.qq.com/s/ai-photo-edit-remove-2026",
+    "source_urls": "[]",
+    "author": "手机摄影课堂",
+    "published_at": "2026-03-22T14:00:00",
+    "collected_at": "2026-03-27T20:49:19.411680",
+    "summary": "出去玩拍了张绝美风景照，结果背景里站了个穿红衣服的大叔。以前你得打开PS，用仿制图章一点点抠——现在？打开手机自带的AI橡皮擦，手指一划，大叔消失了，背景自动补全，看不出任何痕迹。三星、苹果、小米都内置了这功能，连APP都不用下。",
+    "value_proposition": "修图从'技术活'变成了'手指活'。不用学PS、不用请人帮忙、不用忍受路人甲抢镜。AI让每个人都是修图大师。",
+    "interesting_points": "[\"实测：AI橡皮擦处理一张图只要2秒，PS老手也得3分钟\", \"小心翼翼：别用来P掉合影里的前任——万一被发现很尴尬\", \"冷知识：苹果的Clean Up、三星的AI橡皮擦、小米的魔法消除，底层都是同一类AI技术\"]",
+    "target_audience": "手机用户、摄影爱好者",
+    "reviews": "",
+    "recommendation_score": 8.0,
+    "recommendation_reason": "最实用的AI功能之一，手机自带就能用",
+    "keywords": [
+      "AI修图",
+      "AI橡皮擦",
+      "手机修图",
+      "路人消除",
+      "照片编辑"
+    ],
+    "content_hash": "18a5ce531372177e7ffe2b87ad2382a2d78c447745651fd59e92500f65641b72",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "beginner"
+  },
+  {
+    "id": 110,
+    "uuid": "1e6f7193-dd96-432d-b64c-b2594afd087e",
+    "title": "AI帮你整理衣柜：拍张照就能搭配出时尚穿搭",
+    "title_en": "",
+    "category": "app",
+    "source_name": "穿搭研究所",
+    "source_url": "https://mp.weixin.qq.com/s/ai-wardrobe-fashion-2026",
+    "source_urls": "[]",
+    "author": "穿搭研究所",
+    "published_at": "2026-03-17T12:00:00",
+    "collected_at": "2026-03-27T20:49:19.411765",
+    "summary": "衣柜满满当当，每天早上还是'没衣服穿'。试试这个：把衣柜里的衣服拍照发给AI（ChatGPT或者豆包都行），告诉它'今天约会/面试/逛街'，AI直接给你搭配方案，还告诉你为什么这样搭好看。更绝的是，它还会指出你衣柜里缺什么单品——精准种草，钱包在哭。",
+    "value_proposition": "AI当你的私人造型师，零成本。不用看穿搭博主、不用买一堆新衣服、不用为'穿什么'纠结半小时。已有的衣服就能搭出新花样。",
+    "interesting_points": "[\"实测：AI的搭配建议跟专业造型师重合度达70%，有些组合连造型师都说没想到\", \"省钱效果：知道衣柜缺什么再买，比盲目买衣服一年少花3000+\", \"社死预警：有人让AI分析衣柜，AI委婉地说你的衣服风格太统一了建议增加变化——AI也会嫌你土\"]",
+    "target_audience": "爱美人士、不会搭配的人",
+    "reviews": "",
+    "recommendation_score": 7.9,
+    "recommendation_reason": "每天都能用的AI功能，解决人类千年难题",
+    "keywords": [
+      "AI穿搭",
+      "衣柜整理",
+      "时尚搭配",
+      "ChatGPT",
+      "生活AI"
+    ],
+    "content_hash": "5d02d32225e6b8cbbec154dca97f8d353f8acd8925069ecd484d6cd522f51ce5",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "beginner"
   },
   {
     "id": 3,
@@ -1812,7 +2767,8 @@
     "content_hash": "16a2fa86f7a835dc9aacaa3959d4fb9e6d5e7c91b0b33ed65e9ddb01dc9333de",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 82,
@@ -1845,7 +2801,8 @@
     "content_hash": "13720c20c667b22de09f1f510c01b151f335e2a34453af50850a1c7cdd6941d4",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 89,
@@ -1878,7 +2835,8 @@
     "content_hash": "2cb37831ee0561d7f3561a084946d8007b6881787ea224736ad077c8c4c74fbb",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 97,
@@ -1911,7 +2869,8 @@
     "content_hash": "866bf17c8cb9332908392a45599c5f5799bba78379d7537aff42a9d8336f9806",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 100,
@@ -1944,7 +2903,72 @@
     "content_hash": "1c788cc80fadefd2eae4fc645efa9798e07c6eae11ada6844b317d918a80124c",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
+  },
+  {
+    "id": 107,
+    "uuid": "d4a34766-0f1f-4f39-bd35-525842c9f265",
+    "title": "用AI翻译菜单点菜：出国旅行再也不怕踩雷",
+    "title_en": "",
+    "category": "tip",
+    "source_name": "旅行Lab",
+    "source_url": "https://mp.weixin.qq.com/s/ai-translate-menu-travel-2026",
+    "source_urls": "[]",
+    "author": "旅行Lab",
+    "published_at": "2026-03-20T11:00:00",
+    "collected_at": "2026-03-27T20:49:19.411721",
+    "summary": "在日本居酒屋，菜单全是日文，Google翻译出来的鬼都看不懂。现在掏出手机拍张菜单照片，发给ChatGPT或豆包：'帮我翻译这个菜单，告诉我哪些是招牌菜，有没有踩雷的'。AI不但翻译了菜名，还告诉你'这个是生马肉，不习惯的慎点'——比导游还靠谱。",
+    "value_proposition": "出国旅行语言不通最大的痛点就是吃饭。AI拍照翻译+推荐，让你在异国他乡也能吃到地道美食，不再对着菜单两眼一抹黑。",
+    "interesting_points": "[\"进阶操作：让AI推荐当地特色美食+避雷清单，比小红书攻略还详细\", \"翻车名场面：有人在泰国用AI翻译，结果发现名字很诗意的菜其实是炸虫子\", \"省钱技巧：问AI当地人去哪吃，通常比旅游区便宜一半以上\"]",
+    "target_audience": "旅行者、出差人士",
+    "reviews": "",
+    "recommendation_score": 7.8,
+    "recommendation_reason": "出国旅行必备AI技能，吃好喝好不踩雷",
+    "keywords": [
+      "AI翻译",
+      "旅行",
+      "菜单翻译",
+      "ChatGPT",
+      "出国"
+    ],
+    "content_hash": "29b84732cfd0b2e8cfc122e626287734e485ecd25c96762ddead72dbd8094c95",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "beginner"
+  },
+  {
+    "id": 120,
+    "uuid": "aa70a12e-2144-4f20-8c8a-feaad3ddf830",
+    "title": "AI客服VS人工客服：为什么你跟机器人聊半天解决不了问题",
+    "title_en": "",
+    "category": "app",
+    "source_name": "消费者权益研究",
+    "source_url": "https://mp.weixin.qq.com/s/ai-vs-human-customer-service-2026",
+    "source_urls": "[]",
+    "author": "消费者权益研究",
+    "published_at": "2026-03-17T10:00:00",
+    "collected_at": "2026-03-27T20:49:19.411965",
+    "summary": "拨打客服电话，先跟AI机器人绕半天，问题没解决还浪费20分钟。2026年了，AI客服为什么还是这么蠢？真相是：大部分企业用的是最便宜的AI方案，能解决的问题不超过30%；真正好的AI客服（比如苹果、京东的）解决率已经到80%。关键区别：便宜的AI只会关键词匹配，好的AI真的能理解你的问题。",
+    "value_proposition": "作为消费者，知道AI客服的'底裤'能帮你更快解决问题。技巧：一上来就说'转人工'不如先试试用精确关键词跟AI沟通——好的AI客服真的比人工快。",
+    "interesting_points": "[\"数据：2026年中国企业客服AI渗透率已达85%，但用户满意度仅58%\", \"破解之道：跟AI客服说话要像写Prompt——精确、具体、一次说清楚\", \"行业内幕：企业上AI客服主要为了省成本，一个AI能替代10个人工坐席\"]",
+    "target_audience": "消费者、产品经理",
+    "reviews": "",
+    "recommendation_score": 7.8,
+    "recommendation_reason": "消费者视角看AI落地，实用又涨知识",
+    "keywords": [
+      "AI客服",
+      "人工客服",
+      "消费者权益",
+      "用户体验",
+      "AI落地"
+    ],
+    "content_hash": "a1f555fc267e798797309c5cd93ceea7f21c0dfd8b892072ca9140d79ad30ff5",
+    "media_files": "[]",
+    "report_date": "2026-03-27",
+    "status": "active",
+    "audience_level": "newcomer"
   },
   {
     "id": 4,
@@ -1977,7 +3001,8 @@
     "content_hash": "d2b13b191b406fc894de45f28c3f79a9473ef97818c341f8462e2398dd1009fd",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 5,
@@ -2010,7 +3035,8 @@
     "content_hash": "21595480fbd1d6bb27844da5efeac26123e6929398627894aacb45c48ffb4e05",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 6,
@@ -2043,7 +3069,8 @@
     "content_hash": "cdbd262111e1ad4a46b587135a83d5cbd92b2e05620d461ce7aaf7430ca07590",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 7,
@@ -2076,7 +3103,8 @@
     "content_hash": "3948304c7a7dfea8e342c3ba92d5f63d3c8d6541ae0c5920992e3d3916482d77",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 16,
@@ -2109,7 +3137,8 @@
     "content_hash": "0fe94a37f1c9b032804d32b45caca8f5ee473086590d5cfb2cd9e14a4beca80e",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 49,
@@ -2142,7 +3171,8 @@
     "content_hash": "9a902f21d52293b5bf10c22cf7e006fd0f2aa1cc14e6b1aaaa0f4515fb69da76",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 50,
@@ -2175,7 +3205,8 @@
     "content_hash": "21a3f256beb152b7b7b934ecec39860994d092c0f087f999d2132f4a5ea01707",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 61,
@@ -2208,7 +3239,8 @@
     "content_hash": "0e7cc77ad2d83f7c1cc4a6f62a9ffe4a3604b7390dec30fcb92ac77ad31b9fd4",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 84,
@@ -2241,7 +3273,8 @@
     "content_hash": "e8e1c9d5628c603cb9bf290884d44b796353e866f7ae3f0b0b7e66ff61c5fb4d",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 87,
@@ -2274,7 +3307,8 @@
     "content_hash": "2ee1e1b920c37447534030c5ff1af4b18077e35dc8b091d52da1624613445bd2",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 90,
@@ -2307,7 +3341,8 @@
     "content_hash": "fd484bfadb592b262e9167ad4b50aefbf5b4614c94754b7497719bb7fa11910e",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 92,
@@ -2340,7 +3375,8 @@
     "content_hash": "9763246af21e15bb05a360fa6dd99bbae91d83e40f239f9e8913c16798ab8db6",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 8,
@@ -2373,7 +3409,8 @@
     "content_hash": "5fc05dae8401758fd4bf18ee31d4d1cf2ebdd273364e122b65cf6ba93dde0baf",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 9,
@@ -2406,7 +3443,8 @@
     "content_hash": "3d70b7a48de28701103c3ac842f7174fa66a82a78e1cb6720544ac54d3844f75",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 10,
@@ -2439,7 +3477,8 @@
     "content_hash": "1f640991f4fe8e9e708c741f301992bfe8d7880f9e8c8ef0879118bea88db5d2",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 11,
@@ -2472,7 +3511,8 @@
     "content_hash": "ac115c08acec6167fa78d012d2d1fd85317894800ec762a4f47c5f1ffeac1092",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 12,
@@ -2505,7 +3545,8 @@
     "content_hash": "76e4f29e059dc5d6fcaccb5610c99c7c38814c65aa416586048da19feec61194",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 13,
@@ -2538,7 +3579,8 @@
     "content_hash": "384ce764582750ee6d08ffa8749523a768d28311cfb95a8e28fb194220467410",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 14,
@@ -2571,7 +3613,8 @@
     "content_hash": "c49e764b8dce064ef83f22850418f66b56d0415a3502cb8183d63fb7109ab3d5",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 51,
@@ -2604,7 +3647,8 @@
     "content_hash": "95cf65753c39e870625d13495820b54bed44eccdba6d5f5cee5b69dfa8e881be",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 52,
@@ -2637,7 +3681,8 @@
     "content_hash": "d18ba8aa48ba0adf0a09cc5d3764ea9fdf626d2635ca4aa41d8a98668a3d66ca",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 53,
@@ -2670,7 +3715,8 @@
     "content_hash": "625887e1c2247fa2c3c6d2f8d9cfe220b2c2bedd4471a34f1af9cf6cbeb19809",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 62,
@@ -2703,7 +3749,8 @@
     "content_hash": "89d1731131deb377419741eff8b107e075974488d225c94678a15f7583a55490",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 85,
@@ -2736,7 +3783,8 @@
     "content_hash": "df60def6f4de1efb58111a366c442763e3974874a8bb36771fe2840612e40acb",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 98,
@@ -2769,7 +3817,8 @@
     "content_hash": "a9d9bbcb447f96eaf00c5da042d6d7349b4c24bee132f0483cc25351af516350",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 15,
@@ -2802,7 +3851,8 @@
     "content_hash": "e8e9255689f53058730ef12227bb793d15da0fa49ed71c399b2b5d76b190329f",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 32,
@@ -2835,7 +3885,8 @@
     "content_hash": "2a99c4e3466ffa1639d01c962c51fd1372145ceddfd28b1a628c6d36819b2bb1",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 54,
@@ -2868,7 +3919,8 @@
     "content_hash": "ca38a98faa7a40a54c59098d1139c16e50a43a1a5eadc9321cb70b198b85a1d3",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 55,
@@ -2901,7 +3953,8 @@
     "content_hash": "007c0636bf9d2016f00858721414bf1810c379243d30849e7eb0640175605adc",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 56,
@@ -2934,7 +3987,8 @@
     "content_hash": "cc7064a3c4480b88a49353318d0c0feb0e3a88ec36a94ed4a643ff621b6fa21d",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 57,
@@ -2967,7 +4021,8 @@
     "content_hash": "444b371c9f26f1f0bdfb94a5908883acfd8baf29c8cabba249536ccfe43b0538",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 58,
@@ -3000,7 +4055,8 @@
     "content_hash": "e63f1d702d63a509a86f02de0b29185637e3b6169bc2b4aab11a2cb3428f8ae9",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 59,
@@ -3033,7 +4089,8 @@
     "content_hash": "45e0c7cc821c536f3865e360855fa30e8372a478b3495ee97dae374f689be476",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 60,
@@ -3066,7 +4123,8 @@
     "content_hash": "054516a4ebc4643289cbcc0bdc4659661b5bfa8d3f12a6c29bc4069e49086adc",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 63,
@@ -3099,7 +4157,8 @@
     "content_hash": "bd9af3c633799cc0cb36a0445a066c801250db32af60787baaad08bd1d45db44",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 33,
@@ -3132,7 +4191,8 @@
     "content_hash": "01e09a22e1b3d8af5f55fe0a08fda78ed55eaf9b47fd45b21ac8aeea5c6c2336",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 64,
@@ -3165,7 +4225,8 @@
     "content_hash": "be1dc4b271b6aea3b6065e55e700fbc0f5f7dd2ea8be36f40920ab1bcd609be2",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   },
   {
     "id": 65,
@@ -3198,6 +4259,7 @@
     "content_hash": "40ec78bc028dd1661191aa05eed7f65fee953620cb3a0d7d71a6b0ef34d21ba7",
     "media_files": "[]",
     "report_date": "2026-03-27",
-    "status": "active"
+    "status": "active",
+    "audience_level": ""
   }
 ]
