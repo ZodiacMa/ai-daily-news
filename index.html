@@ -80,6 +80,18 @@ a:hover{color:var(--accent-hover)}
 .cat-count{font-size:.65rem;font-weight:600;padding:1px 5px;border-radius:var(--radius-full);background:rgba(0,0,0,.05)}
 .cat-tab.active .cat-count{background:rgba(255,255,255,.22)}
 
+.audience-wrap{margin-top:-8px}
+.audience-tabs{display:flex;gap:8px;padding:0 20px;overflow-x:auto;scrollbar-width:none}
+.audience-tabs::-webkit-scrollbar{display:none}
+.aud-tab{display:flex;align-items:center;gap:5px;padding:5px 14px;border-radius:var(--radius-full);font-size:.78rem;font-weight:500;cursor:pointer;transition:all .2s;background:var(--gray-bg);color:var(--text-secondary);white-space:nowrap;border:1.5px solid transparent}
+.aud-tab:hover{opacity:.85}
+.aud-tab.active{font-weight:700;border-color:currentColor}
+.aud-tab.active.al-beginner{background:#dcfce7;color:#166534}
+.aud-tab.active.al-newcomer{background:#dbeafe;color:#1e40af}
+.aud-tab.active.al-intermediate{background:#fef3c7;color:#92400e}
+.aud-tab.active.al-advanced{background:#fce7f3;color:#9d174d}
+.aud-tab .cat-count{font-size:.65rem;font-weight:600;padding:1px 5px;border-radius:var(--radius-full);background:rgba(0,0,0,.05)}
+
 /* ── Feed Layout ── */
 .content{max-width:860px;margin:0 auto;padding:12px 20px 48px}
 .feed{display:flex;flex-direction:column;gap:1px;background:var(--border);border-radius:var(--radius);overflow:hidden}
@@ -291,13 +303,27 @@ a:hover{color:var(--accent-hover)}
     <div class="cat-tabs">
       <div class="cat-tab" :class="{active:selectedCategory===''}" @click="selectCategory('')">
         <span>全部</span>
-        <span class="cat-count">{{ filteredByDate.length }}</span>
+        <span class="cat-count">{{ filteredByDateAndAudience.length }}</span>
       </div>
       <div class="cat-tab" :class="{active:selectedCategory===cat.id}"
         v-for="cat in visibleCategories" :key="cat.id" @click="selectCategory(cat.id)">
         <span class="cat-icon" v-html="cat.icon"></span>
         <span>{{ cat.name_zh }}</span>
         <span class="cat-count">{{ catCounts[cat.id] || 0 }}</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Audience Level Filter -->
+  <div class="tabs-wrap audience-wrap">
+    <div class="audience-tabs">
+      <div class="aud-tab" :class="{active:selectedAudience===''}" @click="selectAudience('')">
+        <span>全部受众</span>
+      </div>
+      <div class="aud-tab" :class="{active:selectedAudience===al.id, ['al-'+al.id]:true}"
+        v-for="al in audienceLevels" :key="al.id" @click="selectAudience(al.id)">
+        <span>{{ al.label }}</span>
+        <span class="cat-count">{{ audCounts[al.id] || 0 }}</span>
       </div>
     </div>
   </div>
@@ -535,6 +561,13 @@ createApp({
     const allCategories = ref(DATA.categories || []);
     const selectedDate = ref(allDates.value[0] || new Date().toISOString().slice(0,10));
     const selectedCategory = ref('');
+    const selectedAudience = ref('');
+    const audienceLevels = ref([
+      {id:'beginner',label:'\u5C0F\u767D'},
+      {id:'newcomer',label:'\u65B0\u624B'},
+      {id:'intermediate',label:'\u8FDB\u9636'},
+      {id:'advanced',label:'\u9AD8\u7EA7'}
+    ]);
     const searchQuery = ref('');
     const currentPage = ref(1);
     const perPage = 30;
@@ -551,10 +584,36 @@ createApp({
       return allItems.value.filter(i => i.report_date === selectedDate.value);
     });
 
+    // Items filtered by audience only (for category counts)
+    const filteredByAudience = computed(() => {
+      let items = dateItems.value;
+      if (selectedAudience.value) {
+        items = items.filter(i => i.audience_level === selectedAudience.value);
+      }
+      return items;
+    });
+
     const catCounts = computed(() => {
       const counts = {};
-      dateItems.value.forEach(i => {
+      filteredByAudience.value.forEach(i => {
         counts[i.category] = (counts[i.category] || 0) + 1;
+      });
+      return counts;
+    });
+
+    // Items filtered by category only (for audience counts)
+    const filteredByCategory = computed(() => {
+      let items = dateItems.value;
+      if (selectedCategory.value) {
+        items = items.filter(i => i.category === selectedCategory.value);
+      }
+      return items;
+    });
+
+    const audCounts = computed(() => {
+      const counts = {};
+      filteredByCategory.value.forEach(i => {
+        if (i.audience_level) counts[i.audience_level] = (counts[i.audience_level] || 0) + 1;
       });
       return counts;
     });
@@ -563,13 +622,19 @@ createApp({
       return allCategories.value.filter(c => catCounts.value[c.id] > 0);
     });
 
-    const filteredByDate = computed(() => {
+    // Combined filter: category + audience
+    const filteredByDateAndAudience = computed(() => {
       let items = dateItems.value;
       if (selectedCategory.value) {
         items = items.filter(i => i.category === selectedCategory.value);
       }
+      if (selectedAudience.value) {
+        items = items.filter(i => i.audience_level === selectedAudience.value);
+      }
       return items;
     });
+
+    const filteredByDate = computed(() => filteredByDateAndAudience.value);
 
     const filteredItems = computed(() => {
       if (searchQuery.value.trim()) {
@@ -659,11 +724,17 @@ createApp({
     function onDateChange() {
       searchQuery.value = '';
       selectedCategory.value = '';
+      selectedAudience.value = '';
       currentPage.value = 1;
     }
     function selectCategory(cat) {
       searchQuery.value = '';
       selectedCategory.value = cat;
+      currentPage.value = 1;
+    }
+    function selectAudience(level) {
+      searchQuery.value = '';
+      selectedAudience.value = level;
       currentPage.value = 1;
     }
     function onSearchInput() {
@@ -697,12 +768,12 @@ createApp({
     });
 
     return {
-      allItems, allDates, selectedDate, selectedCategory, searchQuery,
-      currentPage, totalPages, detailItem, dateItems, catCounts,
-      visibleCategories, filteredByDate, displayItems,
+      allItems, allDates, selectedDate, selectedCategory, selectedAudience, audienceLevels, searchQuery,
+      currentPage, totalPages, detailItem, dateItems, catCounts, audCounts,
+      visibleCategories, filteredByDate, filteredByDateAndAudience, displayItems,
       avgScore, reportAvail, dateLabel, pageRange,
       parsedActionItems, parsedKeywords,
-      prevDay, nextDay, goToday, onDateChange, selectCategory,
+      prevDay, nextDay, goToday, onDateChange, selectCategory, selectAudience,
       onSearchInput, goPage, openDetail, categoryName, scoreClass, formatDate,
       getCategoryName, getRealImageUrl, formatSummary, formatWhyCare, formatActionItem, audienceLabel,
     };
