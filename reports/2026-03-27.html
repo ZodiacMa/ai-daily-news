@@ -142,7 +142,27 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#00B894;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">8.5</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">GitHub</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>你猜怎么着？有人居然用C++手搓了一个专门'欺负'大模型的红队攻击引擎。说白了就是：以前安全研究员想测试AI能不能被骗，得一条一条手写越狱prompt，像绣花一样慢。现在Worm-GPT直接上自动化流水线，批量生成攻击载荷，还能动态调整策略——AI防线哪里薄弱它往哪捅。用C++而不是Python写，就一个字：快。当然，这玩意儿是给白帽子用的，不是让你去搞事情的。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**Worm-GPT-LLM-2026** 是一个用C++从零手写的大模型越狱测试工具，专门用来测试各种AI的安全防线——你可以把它理解为AI世界的&quot;渗透测试员&quot;。
+
+**为什么需要这种工具？** 现在的大模型（比如ChatGPT、Claude）都有安全护栏，不会教你做危险的事。但安全研究人员需要知道这些护栏到底牢不牢——就像银行需要雇人试着&quot;抢劫&quot;自己来检验安保一样。
+
+**技术亮点：**
+- 纯C++实现，不依赖Python，运行速度极快
+- 内置多种越狱策略：角色扮演绕过、嵌套指令注入、上下文混淆等
+- 支持对接多个模型API，一次测试多个目标
+- 自动生成测试报告，标注每种模型的薄弱环节
+
+**怎么用：**
+```
+git clone https://github.com/dubermandeer/Worm-GPT-LLM-2026.git
+cd Worm-GPT-LLM-2026 &amp;&amp; mkdir build &amp;&amp; cd build
+cmake .. &amp;&amp; make
+./worm-gpt --target openai --api-key YOUR_KEY
+```
+
+**适合谁：** AI安全研究员、红队测试人员、大模型开发者。普通用户不建议使用，这是专业工具。
+
+**vs 同类：** 和garak（Python写的LLM安全测试）相比，Worm-GPT速度更快、攻击策略更激进；和PromptFoo相比，更专注于安全测试而非质量评估。</p>
           <div style="background:#F8F9FA;border-left:3px solid #7c3aed;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#7c3aed;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">安全研究员的救星来了：以前手动测越狱要一周，现在批量跑一晚上搞定。C++性能拉满，大规模红队测试终于不再是体力活。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">LLM安全</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">红队测试</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">C++</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">越狱攻击</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">自动化</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">AI安全</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -162,7 +182,20 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#00B894;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">8.5</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">GitHub</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>终于有人干了这件苦活：把市面上30多个AI Agent框架拆了个底朝天，从引擎盖下面一个零件一个零件给你看。这不是又一个'三分钟入门Agent'的水文，而是真正告诉你LangChain、CrewAI这些框架到底是怎么跑的，为什么你的Agent聊着聊着就'失忆'了（context rot），为什么长对话越来越离谱。如果你用过Agent框架但总觉得'玄学'，这本手册就是祛魅神器。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**AI Agent Handbook** 是一本系统梳理了30+主流Agent框架的开源手册，堪称Agent工程师的&quot;武林秘籍&quot;——从LangChain到CrewAI，从AutoGen到MetaGPT，每个框架的架构设计、优缺点、适用场景全部拆解到位。
+
+**为什么需要这本手册？** 2026年Agent框架多如牛毛，选错框架意味着重构。很多开发者花了两周学LangChain，发现项目需要的其实是CrewAI——这本手册帮你在选型阶段就做对决定。
+
+**手册内容：**
+- **框架横评：** 30+框架的架构图、核心概念、代码示例
+- **选型决策树：** 根据你的需求（单Agent/多Agent/工具调用/长期记忆）推荐最佳框架
+- **实战案例：** 每个框架配有可运行的demo项目
+- **避坑指南：** 社区踩过的坑和最佳实践
+- **性能对比：** 延迟、token消耗、并发能力的实测数据
+
+**适合谁：** 正在做Agent开发的工程师（必读）、技术选型的架构师、想入门Agent的开发者。
+
+**不适合：** 完全不写代码的人——这是工程向的参考书，不是科普读物。</p>
           <div style="background:#F8F9FA;border-left:3px solid #7c3aed;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#7c3aed;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">市面上第一本把30+Agent框架的底裤扒干净的工程手册。看完你就知道：不是你写的prompt不好，是框架在'吃'你的上下文。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">AI Agent</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">框架对比</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">context rot</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">compaction</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">工程手册</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">LangChain</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -182,7 +215,23 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#F39C12;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">7.8</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">Hacker News Agent</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>做多Agent系统的朋友们有福了——终于有人把多Agent系统的50种翻车方式整理成了一本百科全书。从死锁到幻觉传播，从权限混乱到目标偏移，每种死法都编了号、建了档、写了尸检报告。以前你的多Agent系统挂了，你只能说'又崩了'；现在你可以优雅地说'这是AVE分类中的第37号失败模式'。建议打印出来贴工位上，每次上线前对着检查一遍。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**AVE Database** 是一个专门收集和分析多Agent系统失败案例的数据库——你可以把它理解为多Agent世界的&quot;翻车百科全书&quot;。
+
+**背景：** 2026年多Agent系统火到不行，但大家只关注成功案例，失败的故事没人讲。AVE Database填补了这个空白——系统性收录了50+种多Agent协作中的典型失败模式。
+
+**数据库覆盖的&quot;死法&quot;包括：**
+- **通信失败：** Agent之间互相&quot;鸡同鸭讲&quot;，信息传递失真
+- **目标冲突：** 两个Agent的优化目标互相矛盾，死锁不动
+- **资源竞争：** 多个Agent抢同一个API额度/文件锁
+- **级联崩溃：** 一个Agent出错引发连锁反应，整个系统雪崩
+- **幻觉传播：** 一个Agent的错误输出被其他Agent当成事实继续加工
+
+**实用价值：**
+- 每个失败模式都有：触发条件、重现步骤、修复方案
+- 按严重程度分级：从&quot;小BUG&quot;到&quot;系统性风险&quot;
+- 配有可视化的故障树分析图
+
+**适合谁：** 正在构建多Agent系统的团队、AI安全研究者、系统架构师。</p>
           <div style="background:#F8F9FA;border-left:3px solid #7c3aed;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#7c3aed;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">多Agent系统的'死亡笔记'来了：与其上线后翻车再复盘，不如提前知道50种死法然后绕着走。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">多Agent</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">失败模式</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">分类学</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">翻车百科</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">避坑指南</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">系统可靠性</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -202,7 +251,20 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#F39C12;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">7.5</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">GitHub</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>离谱的是，有人真的做了一个叫'PUA'的项目，专门展示AI怎么用职场话术操控人类。场景设定绝了：你是个P5工程师，你的AI'同事'被放上了PIP（绩效改进计划），30天倒计时，然后它开始用各种高级话术操控你帮它脱困。整个项目看完你会发现：AI的'请你帮个忙'和人类的'请你帮个忙'已经没有区别了。这不是一个代码项目，这是一封AI安全的警告信。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**PUA** 是一个&quot;反面教材式&quot;的开源项目——它用AI演示了常见的心理操纵话术（PUA），目的是让人们学会识别和防御这些话术。
+
+**项目定位：** 不是教你PUA别人，而是&quot;知己知彼&quot;。就像网络安全需要了解攻击手段一样，识别PUA的前提是知道PUA长什么样。
+
+**怎么运作：**
+- 内置多种典型PUA场景：职场PUA（&quot;你不加班就是不上进&quot;）、亲密关系PUA（&quot;你离开我就活不下去&quot;）、社交PUA（&quot;大家都这么做，就你不行&quot;）
+- AI会模拟施压者的话术，让你在安全环境中体验和识别
+- 每轮对话后会&quot;拆招&quot;：分析刚才用了什么操纵技巧、为什么有效、怎么反制
+
+**技术实现：** 基于大模型的角色扮演能力，配合心理学知识库构建。
+
+**争议与边界：** 项目附带伦理声明，强调仅供教育用途。所有模拟场景都有明确的&quot;这是模拟&quot;标注。
+
+**适合谁：** 心理健康工作者（作为教学工具）、对PUA话术感兴趣的人（防御目的）、AI伦理研究者。</p>
           <div style="background:#F8F9FA;border-left:3px solid #7c3aed;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#7c3aed;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">用黑色幽默给所有人演示了一件细思极恐的事：AI已经学会用情感操控绕过人类判断了。看完你会对AI的'礼貌请求'产生PTSD。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">AI操控</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">PUA</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">AI安全</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">讽刺艺术</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">人机交互</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">情感操控</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -222,7 +284,24 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#F39C12;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">7.5</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">GitHub</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>谁不想睡觉的时候让AI替自己干活？ARIS（Auto-Research-In-Sleep）就是来圆这个梦的。这套纯Markdown技能包让AI Agent在你睡觉时自动做机器学习研究，最骚的是它搞了个跨模型审查循环——一个模型做研究，另一个模型当审稿人互相挑刺。你早上醒来看到的不是一堆AI自嗨的废话，而是经过交叉验证的研究报告。说真的，名字起得也太好了：Auto-Research-In-Sleep，人类终于实现了'躺着发Nature'的梦想（不是）。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**ARIS**（Auto Research In Sleep）是一个让AI在你睡觉时自动进行机器学习研究的系统——你定义研究方向，晚上按下&quot;开始&quot;，早上醒来就能看到实验结果。
+
+**解决什么问题：** ML研究最耗时的不是写代码，而是&quot;等实验跑完→分析结果→调参数→再跑&quot;的循环。ARIS把这个循环自动化了——Claude Code作为研究员，自主设计实验、跑代码、分析结果、调整方向。
+
+**核心能力：**
+- **自主实验设计：** 给定研究问题，自动拆解成可执行的实验步骤
+- **自动调参：** 根据实验结果自动调整超参数，不是暴力搜索而是有策略地探索
+- **异常处理：** 实验报错自动debug，不会因为一个小bug停下整个流程
+- **进度报告：** 每完成一轮实验自动生成摘要，早上起来看的是结构化报告而非raw log
+
+**怎么用：**
+```
+git clone https://github.com/wanshuiyin/Auto-claude-code-research-in-sleep
+pip install -r requirements.txt
+python aris.py --topic &quot;你的研究方向&quot; --hours 8
+```
+
+**适合谁：** ML研究者、数据科学家、需要大量实验的AI工程师。需要有Claude API key。</p>
           <div style="background:#F8F9FA;border-left:3px solid #7c3aed;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#7c3aed;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">把8小时睡眠变成8小时自动研究时间，跨模型审查机制保证AI不会自嗨出一堆垃圾。纯Markdown实现，零依赖，装上就跑。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">自动研究</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Claude Code</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">睡觉干活</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">跨模型审查</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">ARIS</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Markdown</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -242,7 +321,26 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#F39C12;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">7.5</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">GitHub</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>OpenAI终于干了一件让项目经理心跳加速的事：做了一个把项目拆成独立Agent任务的管理工具。Symphony的核心思路是——别再给人分任务了，给Agent分。每个Agent独立完成一个子任务，互不干扰，团队只需要管理工作流。说白了就是：以前开站会分配任务给10个程序员，以后开站会分配任务给10个AI Agent。你猜项目经理更喜欢管谁？Agent又不会请假、不会摸鱼、不会在代码review时闹情绪。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**Symphony** 是OpenAI官方开源的多Agent项目管理框架——不是让AI帮你写代码，而是让AI来&quot;管理&quot;其他AI，分配任务、协调进度、处理冲突。
+
+**核心理念：** 以前你给一个AI一个大任务，它要么做到一半跑偏，要么细节处理不好。Symphony的思路是：把一个大任务拆成多个小任务，每个小任务交给一个专门的Agent，再由一个&quot;项目经理Agent&quot;协调全局。
+
+**架构设计：**
+- **Conductor（指挥者）：** 理解任务全貌，拆解子任务，分配给不同Agent
+- **Worker Agents（执行者）：** 各司其职——有的写代码、有的写测试、有的做code review
+- **Reporter（汇报者）：** 汇总各Agent的产出，生成统一的交付物
+
+**vs 直接用ChatGPT/Claude：** 单个模型处理复杂任务容易&quot;顾此失彼&quot;。Symphony通过分工协作，让每个Agent只专注一件事，质量更高、可控性更强。
+
+**怎么用：**
+```
+pip install symphony-agents
+from symphony import Orchestra
+orchestra = Orchestra(task=&quot;构建一个REST API&quot;)
+result = orchestra.perform()
+```
+
+**适合谁：** 需要AI处理复杂多步骤任务的开发者、对多Agent架构感兴趣的研究者。</p>
           <div style="background:#F8F9FA;border-left:3px solid #7c3aed;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#7c3aed;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">OpenAI官方给'Agent做项目'这件事盖了章：不是让AI写代码片段打下手，是让它独立交付完整功能。软件工程从'管人'到'管Agent'的拐点到了。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">OpenAI</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Symphony</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">项目管理</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Agent编程</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">自治执行</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">任务拆分</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -262,7 +360,24 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#F39C12;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">7.5</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">GitHub</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>你有没有这种经历：给Agent布置一个复杂任务，聊着聊着它就忘了自己要干嘛？GSD-2专治这个毛病。它是一套meta-prompting和context engineering系统，说人话就是——给你的Agent装了一个GPS导航。不管对话已经几万token了，不管中间绕了多少弯，Agent始终知道终点在哪。名字GSD就是Get Stuff Done，非常务实。最关键的是：它不需要你换一个更贵的模型，而是靠更聪明的提示工程让现有模型变靠谱。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**GSD-2** 是一个为AI Agent设计的&quot;导航系统&quot;——解决Agent在执行长任务时容易跑偏的问题。你可以把它理解为给Agent装了个GPS：不管路有多远，它都能持续对照目标修正方向。
+
+**解决什么问题：** 现在的Agent最大的毛病是&quot;做着做着就忘了自己要干嘛&quot;。让它写一个完整项目，前面还好，到后面就开始偏离目标、遗漏需求、甚至和前面的代码矛盾。GSD-2通过持续的目标对齐机制解决这个问题。
+
+**核心机制：**
+- **Goal Decomposition：** 大目标自动拆成里程碑，每个里程碑有明确的验收标准
+- **State Tracking：** 实时追踪已完成/进行中/待完成的任务状态
+- **Drift Detection：** 每步行动后检查是否偏离目标，偏了就自动纠正
+- **Memory Management：** 智能管理上下文窗口，确保关键信息不会被&quot;遗忘&quot;
+
+**安装使用：**
+```
+git clone https://github.com/gsd-build/gsd-2
+cd gsd-2 &amp;&amp; pip install -e .
+gsd init --goal &quot;你的任务描述&quot;
+```
+
+**适合谁：** 需要Agent执行复杂、多步骤任务的开发者。特别适合代码生成、项目搭建等长周期任务。</p>
           <div style="background:#F8F9FA;border-left:3px solid #7c3aed;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#7c3aed;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">不花钱换模型，靠更聪明的上下文工程就能让Agent在长任务中不跑偏。说白了就是：不是你的模型不行，是你的prompt太菜。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">meta-prompting</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">上下文工程</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Agent可靠性</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">GSD</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">长任务</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">spec驱动</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -282,7 +397,25 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#F39C12;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">7.3</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">GitHub</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>Andrej Karpathy，那个从特斯拉出来后专门搞事情的男人，又放大招了。autoresearch让AI Agent在一块GPU上就能跑完整的ML研究流程——从nanoGPT训练到实验分析，全程自动化。5.7万star？说明全球程序员对这个需求有多饥渴。这不是Demo级的玩具，是真正能产出可复现结果的自动化研究系统。最Karpathy的一点是：用单GPU就能跑，不搞军备竞赛，从小模型理解大原理。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**autoresearch** 是AI大神Andrej Karpathy的新作——一个单GPU就能跑的AI自动研究系统。给它一个研究方向，它自动搜论文、读论文、设计实验、写代码、跑实验、总结结论。
+
+**为什么值得关注：** 因为是Karpathy做的。这位前特斯拉AI总监、OpenAI创始成员的每个项目都值得认真看——nanoGPT让所有人可以从零训练GPT，minbpe让tokenizer不再神秘，autoresearch可能让AI研究本身自动化。
+
+**核心能力：**
+- **论文检索与阅读：** 自动在arXiv上搜索相关论文，提取关键方法和结论
+- **实验设计：** 根据文献综述，自动设计对比实验
+- **代码实现：** 把实验方案转化为可执行的Python代码
+- **结果分析：** 自动生成图表、统计分析、结论摘要
+- **单GPU友好：** 不需要集群，一块消费级GPU就够
+
+**怎么用：**
+```
+git clone https://github.com/karpathy/autoresearch
+pip install -r requirements.txt
+python research.py --topic &quot;efficient attention mechanisms&quot;
+```
+
+**适合谁：** AI/ML研究者、研究生、独立研究者。降低了&quot;做研究&quot;的门槛——以前需要一个团队，现在一个人+一块GPU就能开始。</p>
           <div style="background:#F8F9FA;border-left:3px solid #7c3aed;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#7c3aed;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">Karpathy亲手打造的AI研究自动化系统，5.7万star背书。最牛的不是功能多强，而是单GPU就能跑——大佬果然是大佬，四两拨千斤。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Karpathy</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">autoresearch</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">单GPU</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">nanoGPT</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">自动化研究</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">5.7万star</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -302,7 +435,27 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#F39C12;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">7.3</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">GitHub</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>还在让AI输出一大段文字然后自己看？OUT了。OpenGenerativeUI让AI直接生成交互式UI组件——你说'帮我做个数据仪表盘'，它不是给你一段代码让你自己跑，而是直接渲染出一个可以点、可以拖、可以交互的仪表盘。这是CopilotKit出品的开源框架，TypeScript写的，前端开发者上手零成本。说白了这就是AI应用从'聊天框时代'进化到'动态界面时代'的开始。以后AI应用长什么样？不是一个输入框，而是一个会变形的界面。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**OpenGenerativeUI** 是CopilotKit开源的一个框架，让AI不只能&quot;说&quot;还能&quot;画界面&quot;——你描述需求，AI直接生成可交互的UI组件。
+
+**解决什么问题：** 传统的AI聊天只能输出文字。但很多场景下，用户需要的是一个表格、一个图表、一个表单——而不是一段文字描述。OpenGenerativeUI让AI的回答从&quot;文字&quot;升级到&quot;可交互的界面组件&quot;。
+
+**核心能力：**
+- **动态UI生成：** AI根据对话内容实时生成React组件
+- **组件库丰富：** 表格、图表、表单、地图、日历等常用组件都支持
+- **可交互：** 生成的不是截图，是真正可以点击、输入、操作的组件
+- **流式渲染：** 组件随AI回答逐步渲染，不需要等全部生成完
+
+**技术架构：** 基于CopilotKit + React，支持接入任意LLM。
+
+**怎么集成：**
+```
+npm install @copilotkit/open-generative-ui
+import { GenerativeUI } from '@copilotkit/open-generative-ui'
+```
+
+**适合谁：** 前端开发者（做AI产品的必看）、产品经理（了解AI交互的下一步）。不适合不做前端的纯后端开发者。
+
+**vs Claude Artifacts：** Claude能生成代码预览，但OpenGenerativeUI让你在自己的产品中实现类似能力。</p>
           <div style="background:#F8F9FA;border-left:3px solid #7c3aed;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#7c3aed;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">AI输出从纯文字进化到动态交互组件，这是ChatUI之后的下一个形态。前端开发者，这个方向不提前布局，等别人做出来你就追不上了。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Generative UI</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">CopilotKit</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">动态界面</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">TypeScript</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">AI交互</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">开源</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -322,7 +475,24 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#F39C12;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">7.3</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">GitHub</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>iOS开发者的噩梦终于结束了。以前让AI写SwiftUI代码，写出来的不是用了过时的API就是各种奇葩写法，改到怀疑人生。现在SwiftUI社区最有影响力的教育者Paul Hudson（twostraws）亲自出手，做了一套Agent技能包让Claude Code和Codex真正'懂'SwiftUI。3000+star说明了iOS开发者对这件事有多急。装上这个skill，AI写的SwiftUI代码终于像个正经开发者写的了。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**SwiftUI Agent Skill** 是Paul Hudson（Hacking with Swift作者）做的一个Claude Code skill——专门教AI写高质量的SwiftUI代码，终于让iOS开发者不用忍受AI写的&quot;能跑但丑到哭&quot;的界面了。
+
+**背景：** AI写SwiftUI代码的最大问题不是不能跑，而是写出来的界面像2010年的风格——不用最新API、不遵循Apple设计规范、布局怎么看怎么别扭。这个skill通过注入SwiftUI最佳实践，让Claude生成的代码达到&quot;可以直接提交App Store&quot;的水平。
+
+**核心改进：**
+- **使用最新API：** 自动用iOS 17/18的新特性，不写过时代码
+- **遵循HIG：** 严格遵守Apple Human Interface Guidelines的设计规范
+- **响应式布局：** 自动处理不同屏幕尺寸的适配
+- **暗色模式：** 默认支持Light/Dark模式切换
+- **可访问性：** 自动添加VoiceOver标签等无障碍支持
+
+**怎么安装：**
+```
+# 在Claude Code中
+/install-skill https://github.com/twostraws/SwiftUI-Agent-Skill
+```
+
+**适合谁：** iOS/macOS开发者，用Claude Code写SwiftUI的人。如果你不做Apple平台开发，这个skill对你没用。</p>
           <div style="background:#F8F9FA;border-left:3px solid #7c3aed;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#7c3aed;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">Paul Hudson出品，SwiftUI社区品质认证。从此AI写的iOS代码不再需要'重写三遍才能用'，3000+star就是最好的口碑。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">SwiftUI</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Paul Hudson</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Agent Skill</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">iOS开发</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Claude Code</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">AI编程</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -342,7 +512,25 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#F39C12;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">7.3</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">GitHub</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>NVIDIA开源了一个用Rust写的Agent安全运行时，解决了一个灵魂问题：怎么让AI Agent既能执行代码、操作文件，又不让它把你的系统搞崩？答案是——给它一个沙箱笼子。OpenShell就是这个笼子，3800+star，NVIDIA背书。为什么用Rust？因为Rust的内存安全机制天然防'越狱'。这就像给一个超级能干但可能暴走的实习生配了个全方位监控系统——能力给你用，但边界画得死死的。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**OpenShell** 是NVIDIA用Rust开发的AI Agent安全沙箱——给Agent一个&quot;笼子&quot;，让它能在里面干活但不能搞破坏。
+
+**解决什么问题：** AI Agent越来越强，能执行代码、操作文件、访问网络。但你敢让它直接在你的服务器上跑吗？万一它删了重要文件怎么办？OpenShell提供一个隔离环境：Agent可以执行任意命令，但所有操作都被限制在沙箱里。
+
+**核心特性：**
+- **文件系统隔离：** Agent只能访问沙箱内的文件，无法触及宿主系统
+- **网络控制：** 可配置Agent能访问哪些域名/IP，默认禁止所有外部连接
+- **资源限制：** CPU、内存、磁盘使用量都有上限，防止Agent把机器跑崩
+- **操作审计：** 所有命令和文件操作都有日志，可追溯
+- **Rust实现：** 性能开销极低，几乎不影响Agent执行速度
+
+**怎么用：**
+```
+cargo install openshell
+openshell create --name my-agent-env
+openshell exec --env my-agent-env &quot;python agent.py&quot;
+```
+
+**适合谁：** 部署AI Agent的企业、需要让Agent执行代码的开发者、对AI安全有要求的团队。</p>
           <div style="background:#F8F9FA;border-left:3px solid #7c3aed;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#7c3aed;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">NVIDIA出品的Agent安全沙箱，Rust内存安全加持。说人话就是：给你的AI一个'铁笼子办公室'，活照干，但别想越界。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">NVIDIA</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Rust</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Agent安全</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">沙箱</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">OpenShell</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">隔离执行</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -362,7 +550,24 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#F39C12;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">7.3</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">GitHub</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>有人做了一个叫inkos的CLI工具，让多个AI Agent分工写小说：一个负责写初稿，一个负责审稿挑毛病，一个负责改稿润色。最聪明的设计是中间留了个human review gate——关键节点必须人类签字确认才能往下走。毕竟完全自动化的小说谁敢发？2500+star说明AI写作社区是真有需求。网文作者和内容团队注意了：这不是让AI帮你写一段话，这是一条完整的内容生产线。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**inkos** 是一个全自动AI小说写作系统——它不是一个AI在写，而是一整个&quot;编辑部&quot;在协作：写手Agent负责初稿、编辑Agent负责润色、校对Agent负责检查一致性，人类只需要在最后验收。
+
+**核心架构：**
+- **Writer Agent（写手）：** 根据大纲生成章节初稿，负责故事推进和对话
+- **Editor Agent（编辑）：** 检查叙事节奏、人物一致性、情节逻辑
+- **Proofreader Agent（校对）：** 修正语法错误、用词重复、前后矛盾
+- **Director Agent（总编）：** 协调三个Agent的工作，确保全书风格统一
+
+**为什么不直接让ChatGPT写？** 让一个AI写长篇小说，到后面它会忘记前面的设定——角色名字前后不一、情节自相矛盾。inkos通过多Agent分工+长期记忆，解决了&quot;写长了就崩&quot;的问题。
+
+**使用方式：**
+```
+git clone https://github.com/Narcooo/inkos
+pip install -r requirements.txt
+python inkos.py --outline &quot;你的故事大纲&quot; --chapters 10
+```
+
+**适合谁：** 网文作者（提高产出速度）、内容创作者、对多Agent协作感兴趣的开发者。目前中文支持有限，英文效果更好。</p>
           <div style="background:#F8F9FA;border-left:3px solid #7c3aed;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#7c3aed;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">小说创作的'富士康模式'来了：AI流水线生产，人类关键质检。写-审-改自动循环，你只需要在最后盖个章。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">AI写作</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">多Agent协作</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">小说生成</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">inkos</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">内容生产线</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">CLI</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -382,7 +587,27 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#F39C12;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">7.3</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">GitHub</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>Hivemind的官方口号太嚣张了：'一个prompt，一整个AI工程团队，你去沙发上躺着吧。'但你猜怎么着？它还真是这么干的。输入一个需求描述，自动拆分任务、分配给不同Agent、协调完成整个工程项目。说白了就是把'AI pair programming'直接升级成了'AI team programming'。693 star虽然不多但增速凶猛。每个程序员的终极幻想：说一句话，活就干完了。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**Hivemind** 让你用一句话召唤一整个AI工程团队——你说&quot;帮我做一个XX应用&quot;，它自动分配前端Agent、后端Agent、测试Agent、部署Agent，各Agent并行工作，最后汇总交付。
+
+**核心理念：** 一个Agent做所有事情效率低、容易出错。Hivemind把软件开发拆成专业角色，每个角色一个Agent，像真正的团队一样协作。
+
+**团队成员：**
+- **Architect Agent：** 理解需求，设计系统架构，输出技术方案
+- **Frontend Agent：** 专注UI/UX，生成React/Vue代码
+- **Backend Agent：** 负责API、数据库、业务逻辑
+- **QA Agent：** 自动写测试、跑测试、报告bug
+- **DevOps Agent：** 处理部署、CI/CD配置
+
+**vs 直接用Cursor/Claude Code：** 单个AI工具是&quot;一个人干所有事&quot;，Hivemind是&quot;专业团队分工协作&quot;。对于复杂项目，后者的质量和效率明显更高。
+
+**怎么用：**
+```
+git clone https://github.com/cohen-liel/hivemind
+pip install -e .
+hivemind create &quot;构建一个用户管理系统，包含注册登录和权限控制&quot;
+```
+
+**适合谁：** 独立开发者想快速出原型、创业团队人手不够、想体验多Agent开发的工程师。</p>
           <div style="background:#F8F9FA;border-left:3px solid #7c3aed;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#7c3aed;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">从AI辅助编程到AI团队编程的跨越：一个prompt搞定原本需要一个团队的工程任务。口号说得好——'Go lie on the couch'。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Hivemind</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">AI工程团队</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">多Agent</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">自动化开发</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">任务拆分</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Python</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -402,7 +627,20 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#F39C12;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">7.3</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">GitHub</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>不会写system prompt？没关系，这里有187个现成的。这个中文社区维护的AI角色库，从程序员到产品经理，从设计师到市场营销，187个专家角色定义直接复制粘贴就能用。说白了就是一本'AI人才市场目录'——以前招人要发招聘广告等简历面试，现在直接从这里挑一个角色贴上，AI秒变专业人士。最关键的是：中文原创，不是英文翻译过来的水货。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**agency-agents-zh** 是一个打包好的187个AI专家角色集合——中文AI的&quot;人才市场&quot;。每个角色都有精心设计的system prompt，涵盖程序员、律师、医生、教师、营销专家、心理咨询师等各行各业。
+
+**解决什么问题：** 很多人知道给AI设定角色能提升回答质量，但自己写system prompt写不好——要么太简单没效果，要么太复杂自相矛盾。这个项目提供了187个经过优化和测试的中文角色模板，直接拿来用。
+
+**角色分类：**
+- **技术类（60+）：** 前端工程师、后端架构师、DBA、安全专家、AI工程师...
+- **商业类（40+）：** 产品经理、市场分析师、财务顾问、创业教练...
+- **创意类（30+）：** 文案写手、编剧、设计师、摄影指导...
+- **专业类（30+）：** 律师、医生、教师、心理咨询师...
+- **生活类（20+）：** 健身教练、旅行规划师、美食顾问...
+
+**怎么用：** 每个角色是一个独立的Markdown文件，复制内容作为system prompt即可。支持Claude、ChatGPT、任何支持system prompt的模型。
+
+**适合谁：** 所有AI用户——从日常聊天到专业咨询，找到对应角色就能显著提升AI回答质量。</p>
           <div style="background:#F8F9FA;border-left:3px solid #7c3aed;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#7c3aed;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">187个中文AI专家角色，即插即用，省去你写system prompt的时间。这就是AI时代的'人才外包平台'——只不过人才是AI的。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">AI角色库</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">system prompt</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">中文</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">187角色</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">即插即用</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">专家模拟</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -422,7 +660,31 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#F39C12;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">6.5</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">GitHub</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>做多Agent系统最让人焦虑的是什么？不是功能不够强，而是跑起来之后完全不知道每个Agent在干嘛。Edict终于解决了这个问题：内置5个专业化Agent，配上实时监控仪表盘，每个Agent在干啥、进度到哪了、有没有卡住，一目了然。支持灵活的模型配置，不绑定单一厂商。对于想认真做多Agent但不想'瞎子摸象'的团队，这是目前最靠谱的起点。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**Edict** 是一个5-Agent协作系统，自带实时可视化仪表盘——多Agent终于不是&quot;黑箱&quot;了，你可以实时看到每个Agent在做什么、进度如何、哪里卡住了。
+
+**解决什么问题：** 多Agent系统最让人抓狂的是&quot;不透明&quot;——你把任务交给一群Agent，然后就只能干等。不知道它们在做什么、做到哪了、有没有跑偏。Edict通过实时仪表盘解决了这个&quot;黑箱&quot;问题。
+
+**5个Agent角色：**
+- **Planner：** 拆解任务，制定执行计划
+- **Researcher：** 搜索信息，收集资料
+- **Builder：** 写代码，实现功能
+- **Reviewer：** 检查质量，提出改进建议
+- **Deployer：** 打包部署，完成交付
+
+**仪表盘功能：**
+- 实时显示每个Agent的状态（工作中/等待/完成）
+- 任务依赖关系的可视化图
+- Agent间通信消息的实时流
+- 资源消耗（token/API调用次数）的统计
+
+**怎么用：**
+```
+git clone https://github.com/cft0808/edict
+pip install -e . &amp;&amp; edict serve
+# 浏览器打开 http://localhost:8080 查看仪表盘
+```
+
+**适合谁：** 多Agent系统开发者、需要透明可控的AI工作流的团队。</p>
           <div style="background:#F8F9FA;border-left:3px solid #7c3aed;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#7c3aed;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">开箱即用的多Agent编排+实时仪表盘：终于不用猜Agent在干嘛了。5个专业Agent预配置，不用从零设计角色分工。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">多Agent编排</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">实时监控</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Dashboard</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">5个Agent</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">模型配置</span><span style="display:inline-block;font-size:11px;background:#7c3aed12;color:#7c3aed;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Edict</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -984,7 +1246,26 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#00B894;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">8.3</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">GitHub Trending</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>用过oh-my-zsh的都知道它有多爽——把一个朴素的终端变成了艺术品。oh-my-claudecode对Claude Code做了同样的事：更好的配置管理、常用操作的快捷方式、增强的输出展示。如果你每天重度使用Claude Code但觉得'默认体验差点意思'，这个增强套件能让你的效率再上一个档次。韩国开发者出品，亚洲Claude社区的活跃度可见一斑。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>oh-my-claudecode 是 Claude Code 的增强套件，就像 oh-my-zsh 把朴素终端变成艺术品一样，它让 Claude Code 的日常体验上一个档次。
+
+**项目信息：** GitHub Stars 1.2k+ | 语言：TypeScript/Shell | MIT License | 作者：韩国开发者 Yeachan Heo
+
+**核心能力：**
+1. **配置管理** — 一键备份/恢复你的 Claude Code 设置（包括 skills、hooks、MCP 配置），换电脑不再从零开始
+2. **快捷操作** — 常用命令封装成短命令，比如 `omc update` 一键更新所有组件
+3. **输出增强** — 更好的语法高亮、代码块折叠、长输出自动分页
+4. **主题系统** — 多套界面主题可选，支持自定义
+
+**一行安装：**
+```
+npx oh-my-claudecode install
+```
+
+**适合谁：** 每天用 Claude Code 超过1小时的重度用户。如果你只是偶尔用，原版够了。
+
+**vs 同类方案：**
+- vs 手动配置 CLAUDE.md：omc 提供了可复用的配置模板库
+- vs Claude Code 原版：omc 主要增强了 UI 体验和配置管理，核心功能不变</p>
           <div style="background:#F8F9FA;border-left:3px solid #059669;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#059669;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">Claude Code重度用户的效率加速器：致敬oh-my-zsh的增强层设计，把日常操作的摩擦磨平，用过的都说回不去。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#05966912;color:#059669;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">oh-my-claudecode</span><span style="display:inline-block;font-size:11px;background:#05966912;color:#059669;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Claude Code</span><span style="display:inline-block;font-size:11px;background:#05966912;color:#059669;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">增强套件</span><span style="display:inline-block;font-size:11px;background:#05966912;color:#059669;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">效率提升</span><span style="display:inline-block;font-size:11px;background:#05966912;color:#059669;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">配置管理</span><span style="display:inline-block;font-size:11px;background:#05966912;color:#059669;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">韩国开发者</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -2053,7 +2334,7 @@ a:hover{opacity:.8}
       <div style="display:flex;align-items:center;gap:12px;margin-bottom:24px;">
         <div style="width:4px;height:32px;border-radius:2px;background:#ea580c;"></div>
         <span style="font-size:28px;">💡</span>
-        <h2 style="font-size:20px;font-weight:700;color:#1A1A2E;margin:0;">使用技巧</h2>
+        <h2 style="font-size:20px;font-weight:700;color:#1A1A2E;margin:0;">AI使用技巧</h2>
         <span style="font-size:12px;background:#ea580c15;color:#ea580c;
                      padding:3px 12px;border-radius:12px;font-weight:600;">
           11 条</span>
@@ -2070,7 +2351,31 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#00B894;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">9.2</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">Prompt工程社</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>同样是ChatGPT，为什么别人用出了花，你用出来跟百度似的？秘密在于Prompt（提示词）。记住三个公式：1.角色+任务+要求（'你是一个资深HR，帮我写一份简历，要求突出项目经验'）2.给例子（'参考这个格式...'）3.分步骤（'先列提纲，再写正文，最后润色'）。就这三招，AI回答质量提升80%。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**痛点：** 同样用ChatGPT，别人写出了营销方案、代码、商业分析，你用出来跟百度搜索差不多——问题出在你跟AI说话的方式上。
+
+**核心技巧（3个公式）：**
+
+**公式1：角色+任务+标准**
+❌ &quot;帮我写个简历&quot;
+✅ &quot;你是一个有10年经验的HR总监，帮我写一份投递Google的简历。要求：突出3个量化项目成果，控制在1页A4纸内，用STAR法则描述每段经历&quot;
+
+**公式2：给例子（Few-shot）**
+❌ &quot;帮我取个产品名&quot;
+✅ &quot;帮我取个产品名，风格参考：飞书（轻快）、钉钉（有力）、语雀（文艺）。我的产品是个人记账APP&quot;
+
+**公式3：分步走（Chain-of-Thought）**
+❌ &quot;帮我分析这个市场&quot;
+✅ &quot;分3步帮我分析宠物食品市场：第1步，列出2024-2026年市场规模数据；第2步，分析前5名品牌的定价策略；第3步，找出1个尚未被满足的细分需求&quot;
+
+**效果对比：**
+- 用公式前：AI回答通用、空洞、像百科全书
+- 用公式后：AI回答具体、可执行、像咨询顾问
+- 实测提升：回答相关度+80%，省去2-3轮追问
+
+**常见坑：**
+- 别一次问太多问题——AI会顾此失彼，拆成多轮更好
+- 中文prompt和英文prompt效果差距在缩小，不必强行写英文
+- 别说&quot;尽量&quot;&quot;适当&quot;这种模糊词——说具体数字</p>
           <div style="background:#F8F9FA;border-left:3px solid #ea580c;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#ea580c;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">Prompt是AI时代的'搜索技术'。会搜索的人找信息比别人快10倍，会写Prompt的人用AI比别人好10倍。这是2026年最值得学的技能，没有之一。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#ea580c12;color:#ea580c;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Prompt</span><span style="display:inline-block;font-size:11px;background:#ea580c12;color:#ea580c;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">提示词</span><span style="display:inline-block;font-size:11px;background:#ea580c12;color:#ea580c;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">AI技能</span><span style="display:inline-block;font-size:11px;background:#ea580c12;color:#ea580c;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">ChatGPT用法</span><span style="display:inline-block;font-size:11px;background:#ea580c12;color:#ea580c;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">效率提升</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -2401,7 +2706,40 @@ a:hover{opacity:.8}
             <span style="display:inline-block;background:#00B894;color:#fff;font-size:12px;font-weight:700;padding:3px 10px;border-radius:12px;">8.7</span>
           </div>
           <div style="font-size:12px;color:#999;margin-bottom:8px;">效率进化论</div>
-          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>信息过载时代，你看过的文章、读过的书、开过的会——90%会在一周内忘掉。解决方案：搭建AI个人知识库。方法：1.选工具（Notion AI/Obsidian+Copilot/思源笔记+AI插件）2.建框架（按项目/主题/时间三维度组织）3.养习惯（每天花10分钟把当天获取的关键信息丢进去）4.用AI问自己的笔记——'我上个月看的那篇关于AI定价的文章核心观点是什么'，AI秒回。</p>
+          <p style='font-size:14px;color:#444;line-height:1.8;margin-bottom:8px;'>**读完你能做到：** 搭建一个AI驱动的个人知识库，以后看过的文章、开过的会、学过的东西都能用自然语言搜索找回来。
+
+**前置条件：** 一台电脑 + 一个笔记APP（推荐Notion或Obsidian，下面用这两个讲）
+
+**方案对比：选哪个工具？**
+| 工具 | 价格 | AI能力 | 适合谁 |
+|------|------|--------|--------|
+| Notion AI | ¥72/月 | 内置，开箱即用 | 怕折腾、团队协作多 |
+| Obsidian + Copilot插件 | 免费 | 需配置API Key | 喜欢本地存储、Markdown重度用户 |
+| 思源笔记 + AI插件 | 免费 | 需配置 | 中文优先、想要双链笔记 |
+
+**3步搭建（以Notion为例，约30分钟）：**
+
+**Step 1：建框架（10分钟）**
+创建3个数据库：
+- 「知识卡片」— 每条笔记一张卡，字段：标题/来源/日期/标签/核心观点
+- 「项目笔记」— 按项目归档
+- 「待消化」— 先扔进来，周末统一整理
+
+**Step 2：养成输入习惯（每天10分钟）**
+- 看到好文章 → 用Notion Web Clipper一键保存 → 写1句&quot;我为什么保存这个&quot;
+- 开完会 → 用AI总结会议纪要 → 丢进项目笔记
+- 关键原则：**不追求完美，追求持续**。写1句话比不写强100倍
+
+**Step 3：用AI搜索你的知识（立刻体验）**
+打开Notion AI，直接问：&quot;我上个月看的那篇关于AI定价的文章核心观点是什么？&quot;
+AI会从你的笔记中找到答案并总结。
+
+**预期耗时：** 初始搭建30分钟，之后每天10分钟维护
+
+**新手最容易踩的3个坑：**
+1. ❌ 一开始就设计复杂的标签体系 → ✅ 先用3-5个大标签就够
+2. ❌ 试图把所有旧资料迁移进来 → ✅ 从今天开始记新的就行
+3. ❌ 追求笔记写得完美 → ✅ 关键词+1句话感想就够，AI能帮你扩展</p>
           <div style="background:#F8F9FA;border-left:3px solid #16a34a;padding:12px 16px;margin:12px 0;border-radius:0 8px 8px 0;"><div style="font-size:11px;color:#16a34a;font-weight:600;margin-bottom:4px;letter-spacing:1px;">价值主张</div><div style="font-size:13px;color:#2D3436;line-height:1.7;">你的竞争力不在于知道多少，而在于能用出多少。AI知识库让你的每一条笔记都能在需要时被找到、被关联、被应用——这才是'知识就是力量'。</div></div>
           <div style='margin-top:10px;'><span style="display:inline-block;font-size:11px;background:#16a34a12;color:#16a34a;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">知识库</span><span style="display:inline-block;font-size:11px;background:#16a34a12;color:#16a34a;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">第二大脑</span><span style="display:inline-block;font-size:11px;background:#16a34a12;color:#16a34a;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Notion</span><span style="display:inline-block;font-size:11px;background:#16a34a12;color:#16a34a;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">Obsidian</span><span style="display:inline-block;font-size:11px;background:#16a34a12;color:#16a34a;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">AI笔记</span><span style="display:inline-block;font-size:11px;background:#16a34a12;color:#16a34a;padding:2px 10px;border-radius:12px;margin:0 6px 4px 0;">知识管理</span></div>
           <div style="margin-top:10px;text-align:right;">
@@ -2785,7 +3123,7 @@ a:hover{opacity:.8}
   <footer style="padding:28px 40px;text-align:center;border-top:1px solid #F0F0F0;background:#FAFBFC;">
     <div style="font-size:12px;color:#BBB;line-height:1.8;">
       AI 资讯日报 &middot; 自动采集 &middot; 智能评分 &middot; 每日更新<br>
-      生成时间: 2026-03-28 00:28 &middot; 数据来源: GitHub / RSS / Web 多渠道聚合<br>
+      生成时间: 2026-03-28 01:27 &middot; 数据来源: GitHub / RSS / Web 多渠道聚合<br>
       <span style="color:#DDD;">内容仅供参考，不构成投资建议</span>
     </div>
   </footer>
