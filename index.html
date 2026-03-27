@@ -4,220 +4,224 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>AI日报 - 每日AI资讯精选</title>
-<meta name="description" content="AI资讯日报，每日精选AI领域最新动态，涵盖智能体、模型、开源项目、应用、创业等多个分类。">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<meta name="description" content="AI资讯日报，每日精选AI领域最新动态。">
 <style>
 [v-cloak]{display:none}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
 :root{
-  --bg:#f8f9fc;--card:#fff;
-  --text:#1a1a2e;--text-secondary:#5a607f;--text-muted:#9ca3b8;
-  --border:#eef0f6;--border-hover:#d8dce8;
+  --bg:#f7f8fa;--card:#fff;
+  --text:#1a1a2e;--text-secondary:#555b6e;--text-muted:#9ca3b8;
+  --border:#e8eaf0;--border-hover:#cdd1dc;
   --accent:#4f46e5;--accent-hover:#4338ca;--accent-light:#eef2ff;
-  --warm:#f97316;--warm-light:#fff7ed;
   --green:#059669;--green-light:#ecfdf5;--green-bg:#d1fae5;
-  --yellow:#d97706;--yellow-light:#fffbeb;--yellow-bg:#fef3c7;
+  --yellow:#d97706;--yellow-bg:#fef3c7;
   --gray-bg:#f1f5f9;
-  --radius:12px;--radius-sm:8px;--radius-full:9999px;
+  --radius:10px;--radius-sm:6px;--radius-full:9999px;
   --shadow-xs:0 1px 2px rgba(0,0,0,.04);
   --shadow-sm:0 1px 3px rgba(0,0,0,.05),0 1px 2px rgba(0,0,0,.03);
   --shadow-md:0 4px 12px rgba(0,0,0,.06),0 1px 3px rgba(0,0,0,.04);
-  --shadow-lg:0 12px 32px rgba(0,0,0,.08),0 2px 6px rgba(0,0,0,.04);
-  --transition:200ms cubic-bezier(.4,0,.2,1);
+  --shadow-lg:0 12px 32px rgba(0,0,0,.1),0 2px 6px rgba(0,0,0,.04);
+  --transition:180ms cubic-bezier(.4,0,.2,1);
 }
 html{font-size:15px;scroll-behavior:smooth;-webkit-font-smoothing:antialiased}
 body{
-  font-family:"Inter","SF Pro Display",-apple-system,"PingFang SC","Noto Sans SC",sans-serif;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Noto Sans SC",sans-serif;
   background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh;
 }
 a{color:var(--accent);text-decoration:none}
 a:hover{color:var(--accent-hover)}
 ::selection{background:var(--accent-light);color:var(--accent)}
 
+/* ── Header ── */
 .header{
-  background:var(--card);position:sticky;top:0;z-index:100;
+  background:rgba(255,255,255,.92);position:sticky;top:0;z-index:100;
   border-bottom:1px solid var(--border);
-  backdrop-filter:blur(12px);background:rgba(255,255,255,.88);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
 }
 .header-inner{
-  max-width:1200px;margin:0 auto;display:flex;align-items:center;
-  justify-content:space-between;height:56px;padding:0 24px;gap:20px;
+  max-width:860px;margin:0 auto;display:flex;align-items:center;
+  justify-content:space-between;height:52px;padding:0 20px;gap:16px;
 }
-.logo{display:flex;align-items:center;gap:8px;font-size:1.1rem;font-weight:700;letter-spacing:-.02em;color:var(--text);white-space:nowrap}
-.logo-mark{width:28px;height:28px;border-radius:8px;background:var(--accent);display:flex;align-items:center;justify-content:center;color:#fff;font-size:.8rem;font-weight:700}
+.logo{display:flex;align-items:center;gap:8px;font-size:1.05rem;font-weight:700;letter-spacing:-.02em;color:var(--text);white-space:nowrap}
+.logo-mark{width:26px;height:26px;border-radius:7px;background:var(--accent);display:flex;align-items:center;justify-content:center;color:#fff;font-size:.75rem;font-weight:700}
 
-.date-nav{display:flex;align-items:center;gap:6px}
-.date-nav-btn{width:30px;height:30px;border:none;border-radius:var(--radius-sm);background:transparent;cursor:pointer;color:var(--text-muted);display:flex;align-items:center;justify-content:center;transition:all var(--transition);font-size:.85rem}
+.date-nav{display:flex;align-items:center;gap:5px}
+.date-nav-btn{width:28px;height:28px;border:none;border-radius:var(--radius-sm);background:transparent;cursor:pointer;color:var(--text-muted);display:flex;align-items:center;justify-content:center;transition:all var(--transition)}
 .date-nav-btn:hover{background:var(--gray-bg);color:var(--text)}
-.date-nav input[type=date]{padding:5px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:.85rem;font-family:inherit;background:var(--card);color:var(--text);cursor:pointer;outline:none;transition:border-color var(--transition)}
-.date-nav input[type=date]:hover{border-color:var(--border-hover)}
+.date-nav input[type=date]{padding:4px 8px;border:1px solid var(--border);border-radius:var(--radius-sm);font-size:.82rem;font-family:inherit;background:var(--card);color:var(--text);cursor:pointer;outline:none;transition:border-color var(--transition)}
 .date-nav input[type=date]:focus{border-color:var(--accent)}
-.date-weekday{font-size:.78rem;color:var(--text-muted);font-weight:500;margin-left:2px}
-.today-btn{padding:4px 10px;border:1px solid var(--border);border-radius:var(--radius-full);background:var(--card);cursor:pointer;font-size:.75rem;font-family:inherit;color:var(--text-secondary);font-weight:500;transition:all var(--transition)}
+.date-weekday{font-size:.75rem;color:var(--text-muted);font-weight:500;margin-left:2px}
+.today-btn{padding:3px 9px;border:1px solid var(--border);border-radius:var(--radius-full);background:var(--card);cursor:pointer;font-size:.72rem;font-family:inherit;color:var(--text-secondary);font-weight:500;transition:all var(--transition)}
 .today-btn:hover{border-color:var(--accent);color:var(--accent)}
 
-.report-btns{display:flex;gap:4px;margin-left:4px}
-.dl-btn{padding:4px 10px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--card);cursor:pointer;font-size:.72rem;font-family:inherit;color:var(--text-muted);font-weight:500;transition:all var(--transition);display:flex;align-items:center;gap:3px}
+.report-btns{display:flex;gap:3px;margin-left:4px}
+.dl-btn{padding:3px 9px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--card);cursor:pointer;font-size:.7rem;font-family:inherit;color:var(--text-muted);font-weight:500;transition:all var(--transition);display:flex;align-items:center;gap:3px}
 .dl-btn:hover{border-color:var(--accent);color:var(--accent)}
-.dl-btn svg{width:12px;height:12px}
 
-.search-wrap{position:relative;width:240px;flex-shrink:0}
-.search-wrap input{width:100%;padding:7px 12px 7px 34px;border:1px solid var(--border);border-radius:var(--radius-full);font-size:.85rem;font-family:inherit;background:var(--bg);color:var(--text);outline:none;transition:all var(--transition)}
+.search-wrap{position:relative;width:200px;flex-shrink:0}
+.search-wrap input{width:100%;padding:6px 10px 6px 32px;border:1px solid var(--border);border-radius:var(--radius-full);font-size:.82rem;font-family:inherit;background:var(--bg);color:var(--text);outline:none;transition:all var(--transition)}
 .search-wrap input::placeholder{color:var(--text-muted)}
-.search-wrap input:focus{border-color:var(--accent);background:var(--card);box-shadow:0 0 0 3px rgba(79,70,229,.1)}
-.search-wrap .search-icon{position:absolute;left:11px;top:50%;transform:translateY(-50%);color:var(--text-muted);pointer-events:none;width:15px;height:15px}
+.search-wrap input:focus{border-color:var(--accent);background:var(--card);box-shadow:0 0 0 3px rgba(79,70,229,.08)}
+.search-wrap .search-icon{position:absolute;left:10px;top:50%;transform:translateY(-50%);color:var(--text-muted);pointer-events:none;width:14px;height:14px}
 
-.stats-bar{max-width:1200px;margin:0 auto;padding:12px 24px 0;display:flex;align-items:center;gap:16px}
-.stat-chip{font-size:.75rem;color:var(--text-muted);font-weight:500;display:flex;align-items:center;gap:4px}
+/* ── Stats ── */
+.stats-bar{max-width:860px;margin:0 auto;padding:10px 20px 0;display:flex;align-items:center;gap:16px}
+.stat-chip{font-size:.73rem;color:var(--text-muted);font-weight:500;display:flex;align-items:center;gap:4px}
 .stat-chip strong{color:var(--text-secondary);font-weight:600}
 
-.tabs-wrap{max-width:1200px;margin:0 auto;padding:12px 24px 0}
-.cat-tabs{display:flex;gap:6px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none;-ms-overflow-style:none}
+/* ── Tabs ── */
+.tabs-wrap{max-width:860px;margin:0 auto;padding:10px 20px 0}
+.cat-tabs{display:flex;gap:5px;overflow-x:auto;padding-bottom:4px;scrollbar-width:none;-ms-overflow-style:none}
 .cat-tabs::-webkit-scrollbar{display:none}
-.cat-tab{display:flex;align-items:center;gap:5px;padding:6px 14px;border-radius:var(--radius-full);border:1px solid var(--border);background:var(--card);cursor:pointer;font-size:.8rem;font-weight:500;white-space:nowrap;transition:all var(--transition);user-select:none;color:var(--text-secondary)}
+.cat-tab{display:flex;align-items:center;gap:4px;padding:5px 12px;border-radius:var(--radius-full);border:1px solid var(--border);background:var(--card);cursor:pointer;font-size:.78rem;font-weight:500;white-space:nowrap;transition:all var(--transition);user-select:none;color:var(--text-secondary)}
 .cat-tab:hover{border-color:var(--border-hover);color:var(--text)}
-.cat-tab.active{background:var(--accent);color:#fff;border-color:var(--accent);box-shadow:0 2px 8px rgba(79,70,229,.25)}
-.cat-tab .cat-icon{font-size:.9rem;line-height:1}
-.cat-count{font-size:.68rem;font-weight:600;padding:1px 6px;border-radius:var(--radius-full);background:rgba(0,0,0,.05)}
+.cat-tab.active{background:var(--accent);color:#fff;border-color:var(--accent);box-shadow:0 2px 8px rgba(79,70,229,.2)}
+.cat-tab .cat-icon{font-size:.85rem;line-height:1}
+.cat-count{font-size:.65rem;font-weight:600;padding:1px 5px;border-radius:var(--radius-full);background:rgba(0,0,0,.05)}
 .cat-tab.active .cat-count{background:rgba(255,255,255,.22)}
 
-.content{max-width:1200px;margin:0 auto;padding:16px 24px 48px}
+/* ── Feed Layout ── */
+.content{max-width:860px;margin:0 auto;padding:12px 20px 48px}
+.feed{display:flex;flex-direction:column;gap:1px;background:var(--border);border-radius:var(--radius);overflow:hidden}
 
-.featured-card{background:var(--card);border-radius:var(--radius);padding:24px 28px;cursor:pointer;transition:all var(--transition);box-shadow:var(--shadow-xs);margin-bottom:16px;position:relative;border:1px solid transparent}
-.featured-card:hover{box-shadow:var(--shadow-md);transform:translateY(-1px);border-color:var(--border)}
-.featured-card .featured-label{font-size:.65rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--warm);background:var(--warm-light);padding:2px 8px;border-radius:var(--radius-full);display:inline-flex;align-items:center;gap:3px;margin-bottom:12px}
-.featured-card .fc-header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;margin-bottom:12px}
-.featured-card .fc-title{font-size:1.15rem;font-weight:600;line-height:1.5;flex:1;letter-spacing:-.01em}
-.featured-card .fc-body{display:grid;grid-template-columns:1fr 1fr;gap:16px}
-.featured-card .fc-summary{font-size:.88rem;color:var(--text-secondary);line-height:1.75}
-.featured-card .fc-value{font-size:.85rem;color:var(--text-secondary);line-height:1.7;padding:12px 16px;background:var(--accent-light);border-radius:var(--radius-sm)}
-.featured-card .fc-value-label{font-size:.7rem;font-weight:600;color:var(--accent);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}
-.featured-card .fc-meta{display:flex;align-items:center;gap:10px;margin-top:14px;flex-wrap:wrap}
+.feed-item{
+  display:flex;align-items:flex-start;gap:14px;
+  padding:14px 18px;background:var(--card);cursor:pointer;
+  transition:all var(--transition);
+}
+.feed-item:hover{background:#f8f9ff;box-shadow:inset 3px 0 0 var(--accent)}
 
-.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
-.card{background:var(--card);border-radius:var(--radius);padding:0;cursor:pointer;transition:all var(--transition);display:flex;flex-direction:column;box-shadow:var(--shadow-xs);border:1px solid transparent;overflow:hidden}
-.card:hover{box-shadow:var(--shadow-md);transform:translateY(-1px);border-color:var(--border)}
-.card-header{display:flex;align-items:flex-start;justify-content:space-between;gap:10px}
-.card-title{font-size:.92rem;font-weight:600;line-height:1.55;flex:1;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;letter-spacing:-.01em}
-.score-badge{flex-shrink:0;min-width:32px;height:24px;display:flex;align-items:center;justify-content:center;border-radius:6px;font-size:.72rem;font-weight:700;letter-spacing:.02em}
-.score-high{background:var(--green-bg);color:var(--green)}
-.score-mid{background:var(--yellow-bg);color:var(--yellow)}
-.score-low{background:var(--gray-bg);color:var(--text-muted)}
+.feed-left{
+  display:flex;align-items:center;gap:6px;
+  min-width:90px;flex-shrink:0;padding-top:2px;
+}
+.cat-dot{display:inline-block;width:8px;height:8px;border-radius:50%;flex-shrink:0}
+.cat-dot.c-agent{background:#7c3aed}
+.cat-dot.c-skill{background:#d97706}
+.cat-dot.c-model{background:#2563eb}
+.cat-dot.c-opensource{background:#059669}
+.cat-dot.c-app{background:#db2777}
+.cat-dot.c-service{background:#4f46e5}
+.cat-dot.c-business_model{background:#ca8a04}
+.cat-dot.c-startup{background:#e11d48}
+.cat-dot.c-version_update{background:#0d9488}
+.cat-dot.c-tip{background:#ea580c}
+.cat-dot.c-tutorial{background:#16a34a}
+.cat-dot.c-success_case{background:#ca8a04}
+.feed-cat-name{font-size:.72rem;color:var(--text-muted);font-weight:500;white-space:nowrap}
 
-.card-meta{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
-.cat-dot{display:inline-flex;align-items:center;gap:4px;font-size:.74rem;font-weight:500;color:var(--text-secondary)}
-.cat-dot::before{content:'';width:7px;height:7px;border-radius:50%;flex-shrink:0}
-.cat-dot.c-agent::before{background:#7c3aed}
-.cat-dot.c-skill::before{background:#d97706}
-.cat-dot.c-model::before{background:#2563eb}
-.cat-dot.c-opensource::before{background:#059669}
-.cat-dot.c-app::before{background:#db2777}
-.cat-dot.c-service::before{background:#4f46e5}
-.cat-dot.c-business_model::before{background:#ca8a04}
-.cat-dot.c-startup::before{background:#e11d48}
-.cat-dot.c-version_update::before{background:#0d9488}
-.cat-dot.c-tip::before{background:#ea580c}
-.cat-dot.c-tutorial::before{background:#16a34a}
-.cat-dot.c-success_case::before{background:#ca8a04}
-.cat-dot.c-default::before{background:#94a3b8}
-.card-source{font-size:.74rem;color:var(--text-muted)}
-.card-author{font-size:.74rem;color:var(--text-muted)}
-.card-date{font-size:.7rem;color:var(--text-muted);margin-left:auto;white-space:nowrap}
-.card-summary{font-size:.84rem;color:var(--text-secondary);line-height:1.7;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
-.card-keywords{display:flex;gap:4px;flex-wrap:wrap;margin-top:auto;padding-top:2px}
-.kw-tag{font-size:.68rem;padding:2px 8px;border-radius:var(--radius-full);background:var(--bg);color:var(--text-muted);font-weight:500}
-.audience-badge{font-size:.68rem;padding:2px 8px;border-radius:var(--radius-full);font-weight:600;letter-spacing:.02em}
-.interest-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:8px}
-.interest-list li{padding:10px 14px;background:#f8fafc;border-radius:8px;font-size:.88rem;line-height:1.6;color:var(--text-secondary);border-left:3px solid #e2e8f0}
+.feed-center{flex:1;min-width:0}
+.feed-title{
+  font-size:.9rem;font-weight:600;line-height:1.5;color:var(--text);
+  display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;
+}
+.feed-oneliner{
+  font-size:.82rem;color:var(--text-secondary);line-height:1.6;margin-top:3px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;
+}
+.feed-meta{display:flex;align-items:center;gap:8px;margin-top:6px;flex-wrap:wrap}
+.feed-meta>span{font-size:.7rem;color:var(--text-muted)}
+.kw-tag{font-size:.65rem;padding:1px 7px;border-radius:var(--radius-full);background:var(--gray-bg);color:var(--text-muted);font-weight:500}
 
-/* Thumbnail - standard cards */
-.card-thumb{height:140px;border-radius:var(--radius) var(--radius) 0 0;background-size:cover;background-position:center;overflow:hidden}
-.card-thumb-gradient{display:flex;align-items:center;justify-content:center}
-.thumb-emoji{font-size:2.5rem;color:white}
-.card-inner{padding:18px 20px;display:flex;flex-direction:column;gap:10px}
-
-/* Audience tags */
-.audience-tag{font-size:.68rem;padding:3px 10px;border-radius:20px;font-weight:600;white-space:nowrap}
+.feed-right{
+  display:flex;flex-direction:column;align-items:flex-end;gap:6px;
+  flex-shrink:0;padding-top:2px;
+}
+.audience-tag{font-size:.65rem;padding:2px 8px;border-radius:var(--radius-full);font-weight:600;white-space:nowrap}
 .al-beginner{background:#dcfce7;color:#166534}
 .al-newcomer{background:#dbeafe;color:#1e40af}
 .al-intermediate{background:#fef3c7;color:#92400e}
 .al-advanced{background:#fce7f3;color:#9d174d}
 
-/* Modal article style */
-.modal-close-bar{display:flex;justify-content:flex-end;padding:12px 16px 0;position:sticky;top:0;z-index:2;background:var(--card);border-radius:16px 16px 0 0}
-.modal-article{max-width:680px;margin:0 auto;padding:0 24px 28px}
-.modal-hero{margin:-4px -24px 20px;max-height:360px;overflow:hidden;border-radius:0}
-.modal-hero img{width:100%;height:100%;object-fit:cover;display:block}
-.modal-head{margin-bottom:20px}
-.modal-meta-bar{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:12px}
-.modal-cat-pill{font-size:.75rem;padding:3px 10px;background:#f1f5f9;color:#475569;border-radius:20px}
-.modal-date-text{font-size:.75rem;color:#9ca3af}
-.modal-title{font-size:1.4rem;font-weight:700;line-height:1.5;margin:0;color:#111}
-.modal-oneliner{background:linear-gradient(135deg,#f0f4ff,#faf5ff);border-left:4px solid #6366f1;padding:16px 20px;border-radius:0 12px 12px 0;font-size:.92rem;line-height:1.7;color:#374151;margin-bottom:24px}
-.modal-body{font-size:.9rem;line-height:1.8;color:#4b5563;margin-bottom:24px}
-.modal-body p{margin-bottom:12px}
-.modal-why-care{background:#fafafa;border-radius:12px;padding:20px;margin-bottom:20px}
-.modal-why-care h3{font-size:1rem;margin:0 0 12px;color:#111;font-weight:600}
-.wc-line{padding:8px 12px;background:white;border-radius:8px;margin-bottom:8px;font-size:.88rem;line-height:1.6}
-.wc-action{padding:6px 12px;font-size:.88rem;color:#374151}
-.modal-actions{background:#f0fdf4;border-radius:12px;padding:20px;margin-bottom:20px}
-.modal-actions h3{font-size:1rem;margin:0 0 12px;color:#166534;font-weight:600}
-.modal-actions ul{list-style:none;padding:0;margin:0}
-.modal-actions li{padding:8px 0;font-size:.88rem;line-height:1.6;color:#374151;border-bottom:1px solid #dcfce7}
-.modal-actions li:last-child{border-bottom:none}
-.modal-highlights{margin-bottom:20px}
-.modal-highlights h3{font-size:1rem;margin:0 0 12px;color:#111;font-weight:600}
-.modal-foot{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;padding-top:20px;border-top:1px solid #f0f0f0}
-.modal-kws{display:flex;flex-wrap:wrap;gap:6px}
-.kw-pill{font-size:.72rem;padding:4px 10px;background:#f1f5f9;color:#475569;border-radius:20px}
-.modal-source-btn{display:inline-flex;align-items:center;gap:6px;padding:10px 20px;background:#6366f1;color:white;border-radius:20px;text-decoration:none;font-size:.88rem;font-weight:600;transition:all .2s}
-.modal-source-btn:hover{background:#4f46e5;transform:translateY(-1px)}
-.score-badge.sb-high{background:#22c55e;color:#fff}.score-badge.sb-mid{background:#f59e0b;color:#fff}.score-badge.sb-low{background:#9ca3af;color:#fff}
+.score-badge{flex-shrink:0;min-width:32px;height:22px;display:flex;align-items:center;justify-content:center;border-radius:5px;font-size:.7rem;font-weight:700;letter-spacing:.02em}
+.score-high{background:var(--green-bg);color:var(--green)}
+.score-mid{background:var(--yellow-bg);color:var(--yellow)}
+.score-low{background:var(--gray-bg);color:var(--text-muted)}
 
-.modal-overlay{position:fixed;inset:0;background:rgba(15,15,30,.4);z-index:200;display:flex;align-items:center;justify-content:center;padding:24px;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);animation:fadeIn .2s ease-out}
-.modal{background:var(--card);border-radius:16px;max-width:720px;width:100%;max-height:85vh;overflow-y:auto;box-shadow:var(--shadow-lg);animation:slideUp .25s ease-out}
-.modal::-webkit-scrollbar{width:6px}
+/* ── Modal ── */
+.modal-overlay{position:fixed;inset:0;background:rgba(15,15,30,.45);z-index:200;display:flex;align-items:center;justify-content:center;padding:20px;backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);animation:fadeIn .2s ease-out}
+.modal{background:var(--card);border-radius:14px;max-width:680px;width:100%;max-height:88vh;overflow-y:auto;box-shadow:var(--shadow-lg);animation:slideUp .25s ease-out}
+.modal::-webkit-scrollbar{width:5px}
 .modal::-webkit-scrollbar-thumb{background:#ddd;border-radius:3px}
-.modal-close{width:30px;height:30px;border-radius:var(--radius-sm);border:none;background:var(--bg);cursor:pointer;font-size:.9rem;display:flex;align-items:center;justify-content:center;flex-shrink:0;transition:all var(--transition);color:var(--text-muted)}
+.modal-close-bar{display:flex;justify-content:flex-end;padding:10px 14px 0;position:sticky;top:0;z-index:2;background:var(--card);border-radius:14px 14px 0 0}
+.modal-close{width:28px;height:28px;border-radius:var(--radius-sm);border:none;background:var(--gray-bg);cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all var(--transition);color:var(--text-muted)}
 .modal-close:hover{background:var(--border);color:var(--text)}
 
-.empty-state{text-align:center;padding:100px 20px}
-.empty-icon{font-size:3rem;margin-bottom:16px;opacity:.35}
-.empty-text{font-size:.92rem;color:var(--text-muted);font-weight:500}
-.empty-sub{font-size:.82rem;color:var(--text-muted);margin-top:4px;opacity:.7}
+.modal-article{max-width:600px;margin:0 auto;padding:8px 28px 32px}
+.modal-title{font-size:1.35rem;font-weight:700;line-height:1.5;margin:0 0 14px;color:#111;letter-spacing:-.01em}
+.modal-meta-bar{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-bottom:18px}
+.modal-cat-pill{font-size:.72rem;padding:2px 9px;background:var(--gray-bg);color:#475569;border-radius:var(--radius-full)}
+.modal-date-text{font-size:.72rem;color:#9ca3af}
+.score-badge.sb-high{background:#22c55e;color:#fff}
+.score-badge.sb-mid{background:#f59e0b;color:#fff}
+.score-badge.sb-low{background:#9ca3af;color:#fff}
 
-.pagination{display:flex;align-items:center;justify-content:center;gap:4px;padding:28px 0 8px}
-.page-btn{min-width:34px;height:34px;padding:0 10px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--card);cursor:pointer;font-size:.82rem;font-family:inherit;font-weight:500;color:var(--text-secondary);transition:all var(--transition);display:flex;align-items:center;justify-content:center}
+.modal-oneliner{
+  background:linear-gradient(135deg,#f0f4ff,#faf5ff);
+  border-left:3px solid #6366f1;padding:14px 18px;
+  border-radius:0 var(--radius) var(--radius) 0;
+  font-size:.9rem;line-height:1.75;color:#374151;margin-bottom:22px;
+}
+.modal-body{font-size:.88rem;line-height:1.8;color:#4b5563;margin-bottom:22px}
+.modal-body p{margin-bottom:10px}
+
+.modal-inline-img{margin-bottom:22px;border-radius:var(--radius);overflow:hidden;background:var(--gray-bg)}
+.modal-inline-img img{width:100%;display:block;object-fit:contain;max-height:320px}
+.modal-img-caption{display:block;font-size:.7rem;color:var(--text-muted);padding:6px 10px;text-align:center}
+
+.modal-why-care{background:#fafafa;border-radius:var(--radius);padding:18px;margin-bottom:18px}
+.modal-why-care h3{font-size:.95rem;margin:0 0 10px;color:#111;font-weight:600}
+.wc-line{padding:7px 10px;background:white;border-radius:6px;margin-bottom:6px;font-size:.85rem;line-height:1.6}
+.wc-action{padding:5px 10px;font-size:.85rem;color:#374151}
+
+.modal-actions{background:#f0fdf4;border-radius:var(--radius);padding:18px;margin-bottom:18px}
+.modal-actions h3{font-size:.95rem;margin:0 0 10px;color:#166534;font-weight:600}
+.modal-actions ol{padding:0 0 0 20px;margin:0}
+.modal-actions li{padding:6px 0;font-size:.85rem;line-height:1.65;color:#374151;border-bottom:1px solid #dcfce7}
+.modal-actions li:last-child{border-bottom:none}
+.modal-actions li::marker{color:var(--green);font-weight:700}
+
+.modal-foot{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;padding-top:18px;border-top:1px solid #eee}
+.modal-kws{display:flex;flex-wrap:wrap;gap:5px}
+.kw-pill{font-size:.7rem;padding:3px 9px;background:var(--gray-bg);color:#475569;border-radius:var(--radius-full)}
+.modal-source-btn{display:inline-flex;align-items:center;gap:5px;padding:8px 18px;background:var(--accent);color:white;border-radius:var(--radius-full);text-decoration:none;font-size:.85rem;font-weight:600;transition:all .2s}
+.modal-source-btn:hover{background:var(--accent-hover);color:white;transform:translateY(-1px)}
+
+/* ── Empty / Pagination ── */
+.empty-state{text-align:center;padding:80px 20px}
+.empty-text{font-size:.88rem;color:var(--text-muted);font-weight:500}
+
+.pagination{display:flex;align-items:center;justify-content:center;gap:4px;padding:24px 0 8px}
+.page-btn{min-width:32px;height:32px;padding:0 8px;border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--card);cursor:pointer;font-size:.8rem;font-family:inherit;font-weight:500;color:var(--text-secondary);transition:all var(--transition);display:flex;align-items:center;justify-content:center}
 .page-btn:hover:not(:disabled):not(.active){border-color:var(--border-hover);color:var(--text)}
 .page-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
 .page-btn:disabled{opacity:.35;cursor:not-allowed}
-.page-info{font-size:.78rem;color:var(--text-muted);margin:0 8px;font-weight:500}
+.page-info{font-size:.75rem;color:var(--text-muted);margin:0 6px;font-weight:500}
 
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
-@keyframes slideUp{from{opacity:0;transform:translateY(16px)}to{opacity:1;transform:translateY(0)}}
+@keyframes slideUp{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:translateY(0)}}
 
-@media(max-width:1024px){
-  .grid{grid-template-columns:repeat(2,1fr)}
-  .featured-card .fc-body{grid-template-columns:1fr}
-}
+/* ── Responsive ── */
 @media(max-width:768px){
-  .header-inner{height:auto;padding:10px 16px;flex-wrap:wrap;gap:10px}
-  .date-nav{order:2;width:100%;justify-content:center}
+  .header-inner{height:auto;padding:10px 14px;flex-wrap:wrap;gap:8px}
+  .date-nav{order:2;width:100%;justify-content:center;flex-wrap:wrap}
   .search-wrap{width:100%;order:3}
   .stats-bar{display:none}
-  .grid{grid-template-columns:1fr}
-  .tabs-wrap,.content{padding-left:16px;padding-right:16px}
-  .modal{margin:8px;max-height:92vh;border-radius:12px}
-  .modal-head{padding:18px 20px 14px;border-radius:12px 12px 0 0}
-  .modal-body{padding:16px 20px 24px}
-  .featured-card{padding:18px 20px}
+  .tabs-wrap,.content{padding-left:14px;padding-right:14px}
+  .feed-item{padding:12px 14px;gap:10px}
+  .feed-left{min-width:auto;flex-direction:column;align-items:flex-start;gap:2px}
+  .feed-right{flex-direction:row;gap:6px}
   .report-btns{display:none}
+  .modal-overlay{padding:0}
+  .modal{margin:0;max-height:100vh;border-radius:0;max-width:100%}
+  .modal-article{padding:8px 18px 28px}
+  .modal-title{font-size:1.15rem}
 }
 @media(max-width:480px){
-  .cat-tab{padding:5px 10px;font-size:.76rem}
-  .card{padding:14px 16px}
+  .cat-tab{padding:4px 9px;font-size:.74rem}
+  .feed-title{font-size:.85rem}
+  .feed-oneliner{font-size:.78rem}
+  .feed-left{display:none}
 }
 </style>
 </head>
@@ -242,19 +246,10 @@ a:hover{color:var(--accent-hover)}
         <button class="today-btn" @click="goToday">今天</button>
         <div class="report-btns">
           <a class="dl-btn" v-if="reportAvail.md"
-            :href="'./reports/'+selectedDate+'.md'" target="_blank">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-            MD
-          </a>
+            :href="'./reports/'+selectedDate+'.md'" target="_blank">MD</a>
           <a class="dl-btn" v-if="reportAvail.pdf"
-            :href="'./reports/'+selectedDate+'.pdf'" target="_blank">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-            PDF
-          </a>
-          <a class="dl-btn" :href="'./reports/'+selectedDate+'.html'" target="_blank">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
-            报告
-          </a>
+            :href="'./reports/'+selectedDate+'.pdf'" target="_blank">PDF</a>
+          <a class="dl-btn" :href="'./reports/'+selectedDate+'.html'" target="_blank">报告</a>
         </div>
       </div>
       <div class="search-wrap">
@@ -289,84 +284,35 @@ a:hover{color:var(--accent-hover)}
     </div>
   </div>
 
-  <!-- Content -->
+  <!-- Feed Content -->
   <div class="content">
     <div class="empty-state" v-if="displayItems.length === 0">
-      <div class="empty-icon" v-if="searchQuery">&#x1F50D;</div>
-      <div class="empty-icon" v-else>&#x1F4ED;</div>
-      <div class="empty-text" v-if="searchQuery">没有找到相关资讯</div>
-      <div class="empty-text" v-else>该日期暂无资讯数据</div>
-      <div class="empty-sub" v-if="searchQuery">试试其他关键词</div>
-      <div class="empty-sub" v-else>选择其他日期查看</div>
+      <div class="empty-text" v-if="searchQuery">没有找到相关资讯，试试其他关键词</div>
+      <div class="empty-text" v-else>该日期暂无资讯数据，选择其他日期查看</div>
     </div>
     <template v-else>
-      <!-- Featured -->
-      <div v-for="item in featuredItems" :key="'f-'+item.uuid"
-        class="featured-card" @click="openDetail(item)">
-        <div class="fc-cover" :style="getCoverStyle(item)">
-          <img v-if="getImageUrl(item)" :src="getImageUrl(item)" @error="$event.target.style.display='none'" />
-          <div class="fc-cover-fallback" v-else>
-            <span class="fc-cover-emoji">{{ getCategoryEmoji(item.category) }}</span>
-            <span class="fc-cover-label">{{ getCategoryName(item.category) }}</span>
+      <div class="feed">
+        <div class="feed-item" v-for="item in displayItems" :key="item.uuid" @click="openDetail(item)">
+          <div class="feed-left">
+            <span class="cat-dot" :class="'c-'+item.category"></span>
+            <span class="feed-cat-name">{{ categoryName(item.category) }}</span>
           </div>
-          <div class="featured-label">
-            <svg width="10" height="10" viewBox="0 0 24 24" fill="currentColor"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
-            精选
+          <div class="feed-center">
+            <div class="feed-title">{{ item.title }}</div>
+            <div class="feed-oneliner" v-if="item.one_liner">{{ item.one_liner }}</div>
+            <div class="feed-meta">
+              <span v-if="item.source_name">{{ item.source_name }}</span>
+              <span>{{ formatDate(item.published_at || item.collected_at) }}</span>
+              <span class="kw-tag" v-for="kw in (item.keywords||[]).slice(0,3)" :key="kw">{{ kw }}</span>
+            </div>
           </div>
-          <span class="audience-tag" :class="'al-'+item.audience_level">
-            {{ audienceLabel(item.audience_level) }}
-          </span>
-        </div>
-        <div class="fc-content">
-          <div class="fc-header">
-            <div class="fc-title">{{ item.title }}</div>
+          <div class="feed-right">
+            <span class="audience-tag" :class="'al-'+(item.audience_level||'newcomer')">
+              {{ audienceLabel(item.audience_level) }}
+            </span>
             <span class="score-badge" :class="scoreClass(item.recommendation_score)">
               {{ item.recommendation_score?.toFixed(1) || '--' }}
             </span>
-          </div>
-          <div class="fc-body">
-            <div class="fc-summary" v-if="item.summary">{{ item.summary }}</div>
-            <div class="fc-value" v-if="item.value_proposition">
-              <div class="fc-value-label">价值主张</div>
-              {{ item.value_proposition }}
-            </div>
-          </div>
-          <div class="fc-meta">
-            <span class="cat-dot" :class="'c-'+item.category">{{ categoryName(item.category) }}</span>
-            <span class="card-source" v-if="item.source_name">{{ item.source_name }}</span>
-            <span class="card-date">{{ formatDate(item.published_at || item.collected_at) }}</span>
-            <div class="card-keywords" v-if="item.keywords && item.keywords.length" style="margin-left:auto">
-              <span class="kw-tag" v-for="kw in item.keywords.slice(0,5)" :key="kw">{{ kw }}</span>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Grid -->
-      <div class="grid" v-if="standardItems.length">
-        <div class="card" v-for="item in standardItems" :key="item.uuid" @click="openDetail(item)">
-          <div class="card-thumb" v-if="getImageUrl(item)" :style="{backgroundImage: 'url('+getImageUrl(item)+')'}"></div>
-          <div class="card-thumb card-thumb-gradient" v-else :style="getCoverGradient(item.category)">
-            <span class="thumb-emoji">{{ getCategoryEmoji(item.category) }}</span>
-          </div>
-          <div class="card-inner">
-            <div class="card-header">
-              <div class="card-title">{{ item.title }}</div>
-              <span class="score-badge" :class="scoreClass(item.recommendation_score)">
-                {{ item.recommendation_score?.toFixed(1) || '--' }}
-              </span>
-            </div>
-            <div class="card-meta">
-              <span class="cat-dot" :class="'c-'+item.category">{{ categoryName(item.category) }}</span>
-              <span class="card-source" v-if="item.source_name">{{ item.source_name }}</span>
-              <span class="card-date">{{ formatDate(item.published_at || item.collected_at) }}</span>
-              <span class="audience-tag" :class="'al-' + (item.audience_level || 'newcomer')">
-                {{ audienceLabel(item.audience_level) }}
-              </span>
-            </div>
-            <div class="card-summary" v-if="item.summary">{{ item.summary }}</div>
-            <div class="card-keywords" v-if="item.keywords && item.keywords.length">
-              <span class="kw-tag" v-for="kw in item.keywords.slice(0,4)" :key="kw">{{ kw }}</span>
-            </div>
           </div>
         </div>
       </div>
@@ -391,57 +337,50 @@ a:hover{color:var(--accent-hover)}
     <div class="modal">
       <div class="modal-close-bar">
         <button class="modal-close" @click="detailItem=null">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
         </button>
       </div>
       <div class="modal-article" v-if="detailItem">
-        <!-- 封面大图 -->
-        <div class="modal-hero" v-if="getImageUrl(detailItem)">
-          <img :src="getImageUrl(detailItem)" @error="$event.target.style.display='none'" />
+        <h2 class="modal-title">{{ detailItem.title }}</h2>
+        <div class="modal-meta-bar">
+          <span class="audience-tag" :class="'al-'+(detailItem.audience_level||'newcomer')">
+            {{ audienceLabel(detailItem.audience_level) }}
+          </span>
+          <span class="modal-cat-pill">{{ getCategoryName(detailItem.category) }}</span>
+          <span class="modal-date-text">{{ detailItem.report_date }}</span>
+          <span class="score-badge" :class="detailItem.recommendation_score>=8?'sb-high':detailItem.recommendation_score>=6?'sb-mid':'sb-low'">
+            {{ detailItem.recommendation_score?.toFixed(1) || '--' }}
+          </span>
         </div>
-        <!-- 文章头 -->
-        <div class="modal-head">
-          <div class="modal-meta-bar">
-            <span class="audience-tag" :class="'al-'+(detailItem.audience_level||'newcomer')">
-              {{ audienceLabel(detailItem.audience_level) }}
-            </span>
-            <span class="modal-cat-pill">{{ getCategoryName(detailItem.category) }}</span>
-            <span class="modal-date-text">{{ detailItem.report_date }}</span>
-            <span class="score-badge" :class="detailItem.recommendation_score>=8?'sb-high':detailItem.recommendation_score>=6?'sb-mid':'sb-low'">{{ detailItem.recommendation_score?.toFixed(1) || '--' }}</span>
-          </div>
-          <h2 class="modal-title">{{ detailItem.title }}</h2>
-        </div>
-        <!-- 一句话说人话 -->
+        <!-- One-liner callout -->
         <div class="modal-oneliner" v-if="detailItem.one_liner">
           {{ detailItem.one_liner }}
         </div>
-        <!-- 正文摘要 -->
+        <!-- Summary body -->
         <div class="modal-body" v-html="formatSummary(detailItem.summary)"></div>
-        <!-- 为什么你该关心 -->
+        <!-- Inline image (only real URLs, not data:image) -->
+        <div class="modal-inline-img" v-if="getRealImageUrl(detailItem)">
+          <img :src="getRealImageUrl(detailItem)" @error="$event.target.parentElement.style.display='none'" />
+          <span class="modal-img-caption">来源图片</span>
+        </div>
+        <!-- Why care -->
         <div class="modal-why-care" v-if="detailItem.why_care">
-          <h3>&#x1F3AF; 为什么你该关心</h3>
+          <h3>为什么你该关心</h3>
           <div v-html="formatWhyCare(detailItem.why_care)"></div>
         </div>
-        <!-- 你能做什么 -->
+        <!-- Action items -->
         <div class="modal-actions" v-if="parsedActionItems.length">
-          <h3>&#x1F4CB; 你现在能做什么</h3>
-          <ul>
+          <h3>你现在能做什么</h3>
+          <ol>
             <li v-for="(act, i) in parsedActionItems" :key="i">{{ act }}</li>
-          </ul>
+          </ol>
         </div>
-        <!-- 亮点 -->
-        <div class="modal-highlights" v-if="parsedInterestingPoints.length">
-          <h3>&#x1F4A1; 亮点</h3>
-          <ul class="interest-list">
-            <li v-for="(pt,i) in parsedInterestingPoints" :key="i">{{ pt }}</li>
-          </ul>
-        </div>
-        <!-- 关键词 + 原文 -->
+        <!-- Footer: keywords + source link -->
         <div class="modal-foot">
           <div class="modal-kws" v-if="parsedKeywords.length">
             <span class="kw-pill" v-for="kw in parsedKeywords" :key="kw">{{ kw }}</span>
           </div>
-          <a v-if="detailItem.source_url" :href="detailItem.source_url" target="_blank" rel="noopener" class="modal-source-btn">&#x1F4D6; 查看原文</a>
+          <a v-if="detailItem.source_url" :href="detailItem.source_url" target="_blank" rel="noopener" class="modal-source-btn">查看原文</a>
         </div>
       </div>
     </div>
@@ -456,26 +395,31 @@ const { createApp, ref, computed, watch, onMounted } = Vue;
 const DATA = window.__STATIC_DATA__;
 const REPORT_AVAIL = window.__REPORT_AVAIL__;
 
-// Category info for covers and labels
+// Category display names
 const CINFO = {
-  agent:{emoji:'\u{1F916}',name:'AI\u667A\u80FD\u4F53',c:['#6366f1','#8b5cf6']},
-  skill:{emoji:'\u{1F3AF}',name:'AI\u6280\u80FD',c:['#ec4899','#f43f5e']},
-  model:{emoji:'\u{1F9E0}',name:'AI\u6A21\u578B',c:['#f59e0b','#ef4444']},
-  opensource:{emoji:'\u{1F4E6}',name:'\u5F00\u6E90\u9879\u76EE',c:['#10b981','#06b6d4']},
-  app:{emoji:'\u{1F4F1}',name:'AI\u5E94\u7528',c:['#3b82f6','#6366f1']},
-  service:{emoji:'\u2601\uFE0F',name:'AI\u670D\u52A1',c:['#8b5cf6','#ec4899']},
-  business_model:{emoji:'\u{1F4B0}',name:'\u5546\u4E1A\u6A21\u5F0F',c:['#f59e0b','#f97316']},
-  startup:{emoji:'\u{1F680}',name:'\u521B\u4E1A\u9879\u76EE',c:['#ef4444','#ec4899']},
-  version_update:{emoji:'\u{1F504}',name:'\u7248\u672C\u66F4\u65B0',c:['#06b6d4','#3b82f6']},
-  tip:{emoji:'\u{1F4A1}',name:'\u4F7F\u7528\u6280\u5DE7',c:['#10b981','#22c55e']},
-  tutorial:{emoji:'\u{1F4D6}',name:'\u5C0F\u6559\u7A0B',c:['#6366f1','#3b82f6']},
-  success_case:{emoji:'\u{1F3C6}',name:'\u6210\u529F\u6848\u4F8B',c:['#f97316','#f59e0b']},
+  agent:{name:'AI\u667A\u80FD\u4F53'},
+  skill:{name:'AI\u6280\u80FD'},
+  model:{name:'AI\u6A21\u578B'},
+  opensource:{name:'\u5F00\u6E90\u9879\u76EE'},
+  app:{name:'AI\u5E94\u7528'},
+  service:{name:'AI\u670D\u52A1'},
+  business_model:{name:'\u5546\u4E1A\u6A21\u5F0F'},
+  startup:{name:'\u521B\u4E1A\u9879\u76EE'},
+  version_update:{name:'\u7248\u672C\u66F4\u65B0'},
+  tip:{name:'\u4F7F\u7528\u6280\u5DE7'},
+  tutorial:{name:'\u5C0F\u6559\u7A0B'},
+  success_case:{name:'\u6210\u529F\u6848\u4F8B'},
 };
-
-function getCategoryEmoji(cat) { return (CINFO[cat]||{}).emoji||'\u{1F4F0}'; }
 function getCategoryName(cat) { return (CINFO[cat]||{}).name||cat; }
-function getImageUrl(item) {
+
+// Get real image URL (filter out data:image placeholders)
+function getRealImageUrl(item) {
   if (!item) return '';
+  const url = _extractImageUrl(item);
+  if (url && url.startsWith('http')) return url;
+  return '';
+}
+function _extractImageUrl(item) {
   if (item.cover_image_url) return item.cover_image_url;
   try {
     const f = typeof item.media_files === 'string' ? JSON.parse(item.media_files) : item.media_files;
@@ -483,16 +427,7 @@ function getImageUrl(item) {
   } catch(e) {}
   return '';
 }
-function getCoverGradient(cat) {
-  const c = (CINFO[cat]||{}).c||['#6366f1','#8b5cf6'];
-  return {background: 'linear-gradient(135deg, '+c[0]+', '+c[1]+')'};
-}
-function getCoverStyle(item) {
-  const url = getImageUrl(item);
-  if (url) return {backgroundImage:'url('+url+')',backgroundSize:'cover',backgroundPosition:'center'};
-  const c = (CINFO[item.category]||{}).c||['#6366f1','#8b5cf6'];
-  return {background: 'linear-gradient(135deg, '+c[0]+', '+c[1]+')'};
-}
+
 function formatSummary(s) {
   if (!s) return '';
   s = s.replace(/^\u{1F4AC}[^\n]*\n\n?/, '');
@@ -506,8 +441,8 @@ function formatWhyCare(wc) {
     return '<p>'+l+'</p>';
   }).join('');
 }
-const AUDIENCE_LABELS = {beginner:'\u{1F331} \u5C0F\u767D\u53CB\u597D',newcomer:'\u{1F3AF} \u65B0\u624B\u5165\u95E8',intermediate:'\u26A1 \u8FDB\u9636\u63D0\u5347',advanced:'\u{1F52C} \u9AD8\u7EA7\u73A9\u5BB6'};
-function audienceLabel(level) { return AUDIENCE_LABELS[level] || '\u{1F3AF} \u901A\u7528'; }
+const AUDIENCE_LABELS = {beginner:'\u5C0F\u767D',newcomer:'\u65B0\u624B',intermediate:'\u8FDB\u9636',advanced:'\u9AD8\u7EA7'};
+function audienceLabel(level) { return AUDIENCE_LABELS[level] || '\u901A\u7528'; }
 
 createApp({
   setup() {
@@ -518,23 +453,20 @@ createApp({
     const selectedCategory = ref('');
     const searchQuery = ref('');
     const currentPage = ref(1);
-    const perPage = 50;
+    const perPage = 30;
     const detailItem = ref(null);
     let searchTimer = null;
 
-    // Category name map
     const catMap = computed(() => {
       const m = {};
       allCategories.value.forEach(c => { m[c.id] = c; });
       return m;
     });
 
-    // Items for current date
     const dateItems = computed(() => {
       return allItems.value.filter(i => i.report_date === selectedDate.value);
     });
 
-    // Category counts for current date
     const catCounts = computed(() => {
       const counts = {};
       dateItems.value.forEach(i => {
@@ -543,12 +475,10 @@ createApp({
       return counts;
     });
 
-    // Only show categories with items
     const visibleCategories = computed(() => {
       return allCategories.value.filter(c => catCounts.value[c.id] > 0);
     });
 
-    // Filter by date (and optionally category)
     const filteredByDate = computed(() => {
       let items = dateItems.value;
       if (selectedCategory.value) {
@@ -557,13 +487,12 @@ createApp({
       return items;
     });
 
-    // Search across all items or filter by date+category
     const filteredItems = computed(() => {
       if (searchQuery.value.trim()) {
         const q = searchQuery.value.toLowerCase();
         return allItems.value.filter(i => {
           const text = [
-            i.title, i.title_en, i.summary,
+            i.title, i.title_en, i.summary, i.one_liner,
             i.value_proposition, i.source_name,
             ...(i.keywords || [])
           ].filter(Boolean).join(' ').toLowerCase();
@@ -573,40 +502,20 @@ createApp({
       return filteredByDate.value;
     });
 
-    // Pagination
     const totalPages = computed(() => Math.max(1, Math.ceil(filteredItems.value.length / perPage)));
     const pagedItems = computed(() => {
       const start = (currentPage.value - 1) * perPage;
       return filteredItems.value.slice(start, start + perPage);
     });
 
-    // Split into featured (TOP 5 per page) and standard grid
+    // Unified list — no featured/standard split
     const displayItems = computed(() => pagedItems.value);
-    const featuredItems = computed(() => {
-      return displayItems.value
-        .filter(i => i.value_proposition && i.recommendation_score >= 8.5)
-        .slice(0, 5);
-    });
-    const standardItems = computed(() => {
-      const fids = new Set(featuredItems.value.map(i => i.uuid));
-      return displayItems.value.filter(i => !fids.has(i.uuid));
-    });
 
     const avgScore = computed(() => {
       const items = dateItems.value;
       if (!items.length) return '0.0';
       const sum = items.reduce((s, i) => s + (i.recommendation_score || 0), 0);
       return (sum / items.length).toFixed(1);
-    });
-
-    const parsedInterestingPoints = computed(() => {
-      if (!detailItem.value) return [];
-      let pts = detailItem.value.interesting_points;
-      if (!pts) return [];
-      if (typeof pts === 'string') {
-        try { pts = JSON.parse(pts); } catch(e) { return [pts]; }
-      }
-      return Array.isArray(pts) ? pts : [String(pts)];
     });
 
     const parsedActionItems = computed(() => {
@@ -634,8 +543,8 @@ createApp({
 
     const dateLabel = computed(() => {
       const d = new Date(selectedDate.value + 'T00:00:00');
-      const days = ['日','一','二','三','四','五','六'];
-      return '周' + days[d.getDay()];
+      const days = ['\u65E5','\u4E00','\u4E8C','\u4E09','\u56DB','\u4E94','\u516D'];
+      return '\u5468' + days[d.getDay()];
     });
 
     const pageRange = computed(() => {
@@ -652,7 +561,6 @@ createApp({
       return pages;
     });
 
-    // Date navigation
     function adjustDate(days) {
       const d = new Date(selectedDate.value + 'T00:00:00');
       d.setDate(d.getDate() + days);
@@ -708,13 +616,11 @@ createApp({
       allItems, allDates, selectedDate, selectedCategory, searchQuery,
       currentPage, totalPages, detailItem, dateItems, catCounts,
       visibleCategories, filteredByDate, displayItems,
-      featuredItems, standardItems, avgScore, reportAvail,
-      dateLabel, pageRange, parsedInterestingPoints,
+      avgScore, reportAvail, dateLabel, pageRange,
       parsedActionItems, parsedKeywords,
       prevDay, nextDay, goToday, onDateChange, selectCategory,
       onSearchInput, goPage, openDetail, categoryName, scoreClass, formatDate,
-      getCategoryEmoji, getCategoryName, getImageUrl, getCoverGradient,
-      getCoverStyle, formatSummary, formatWhyCare, audienceLabel,
+      getCategoryName, getRealImageUrl, formatSummary, formatWhyCare, audienceLabel,
     };
   }
 }).mount('#app');
