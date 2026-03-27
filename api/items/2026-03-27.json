@@ -67,14 +67,14 @@
       "Anthropic"
     ],
     "content_hash": "1c620b956a24422e5bf078185fca36b7f2b6e18252878657fb71c7251b0f2a4b",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwNmI2ZDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjgyZjYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCflIQ8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPueJiOacrOabtOaWsDwvdGV4dD48L3N2Zz4=\"]",
+    "media_files": "[\"https://byteiota.com/wp-content/uploads/2026/03/tmpzcqds38u.jpg\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "newcomer",
     "one_liner": "AI编程考试拿了历史最高分，而且学会了简单题快答、难题深思——终于像个真正的程序员了",
     "why_care": "80.8%的SWE-bench意味着Claude能解决8成真实的GitHub编程问题。如果你是开发者，这是你现在能用的最强AI编程助手。如果你是非技术人员，这意味着AI写代码越来越靠谱了。",
     "action_items": "[\"如果你在写代码，现在就试试Claude的编程能力——把一个bug或需求描述给它\", \"对比一下Claude和GPT-5.4在你实际工作中的编码表现，选一个当主力工具\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwNmI2ZDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjgyZjYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCflIQ8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPueJiOacrOabtOaWsDwvdGV4dD48L3N2Zz4=",
+    "cover_image_url": "https://byteiota.com/wp-content/uploads/2026/03/tmpzcqds38u.jpg",
     "content_depth_score": 0.0
   },
   {
@@ -106,14 +106,14 @@
       "上下文窗口"
     ],
     "content_hash": "a27e5450e636860ed99c44d407f97103e6a01569e2e64755016cd2d098bf28a4",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwNmI2ZDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjgyZjYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCflIQ8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPueJiOacrOabtOaWsDwvdGV4dD48L3N2Zz4=\"]",
+    "media_files": "[\"https://blog.greeden.me/wp-content/uploads/2025/04/pexels-photo-6492156.jpeg\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "beginner",
     "one_liner": "AI从只会说话进化到能动手干活了——100万字的记忆力+能操控你的电脑",
     "why_care": "100万token意味着AI能一次读完一本书还记住所有细节。能操控电脑意味着AI不只是建议你做什么，而是直接帮你做。这是AI从顾问变成员工的关键一步。",
     "action_items": "[\"试试GPT-5.4的长文本能力：把一份几十页的报告丢给它，让它总结+提问\", \"体验一下Computer Use功能——让AI帮你完成一个具体的电脑操作任务\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwNmI2ZDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjgyZjYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCflIQ8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPueJiOacrOabtOaWsDwvdGV4dD48L3N2Zz4=",
+    "cover_image_url": "https://blog.greeden.me/wp-content/uploads/2025/04/pexels-photo-6492156.jpeg",
     "content_depth_score": 0.0
   },
   {
@@ -260,14 +260,14 @@
       "工具调用"
     ],
     "content_hash": "5a33e6fd7f153b758a8949563e151d1ba14033cc0a05a71b14642149d29e7cb1",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwNmI2ZDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjgyZjYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCflIQ8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPueJiOacrOabtOaWsDwvdGV4dD48L3N2Zz4=\"]",
+    "media_files": "[\"https://www.digitalapplied.com/blog/march-2026-ai-roundup-month-that-changed-everything/opengraph-image\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "newcomer",
     "one_liner": "AI世界终于有了统一的充电接口——以后所有AI工具都能互相连接了",
     "why_care": "9700万次安装意味着MCP已经成为事实标准。就像USB-C统一了充电口，MCP统一了AI工具的接口。这意味着你用的各种AI工具以后能无缝配合了。",
     "action_items": "[\"了解一下MCP协议是什么——简单说就是让不同AI工具能互相对话的标准\", \"如果你是开发者，去MCP官方文档看看如何让你的工具支持这个协议\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwNmI2ZDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjgyZjYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCflIQ8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPueJiOacrOabtOaWsDwvdGV4dD48L3N2Zz4=",
+    "cover_image_url": "https://www.digitalapplied.com/blog/march-2026-ai-roundup-month-that-changed-everything/opengraph-image",
     "content_depth_score": 0.0
   },
   {
@@ -1402,14 +1402,14 @@
       "躺平神器"
     ],
     "content_hash": "06df9195cfae84d180612aad9c34314f7df17ec04cb90deebb50b789f9ffa56e",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlZjQ0NDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYzQ4OTkiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfmoA8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuWIm+S4mumhueebrjwvdGV4dD48L3N2Zz4=\"]",
+    "media_files": "[\"https://techcrunch.com/wp-content/uploads/2022/07/GettyImages-1407840656.jpg?resize=1200,800\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "beginner",
     "one_liner": "一个家用机器人创业公司拿了1.65亿——目标是让你每天都能躺着",
     "why_care": "家用机器人从概念走向产品了。1.65亿融资说明投资人认为技术已经够成熟。如果你对智能家居感兴趣，这是值得关注的新品类。",
     "action_items": "[\"去Sunday Robotics官网看看Memo机器人的演示视频\", \"对比现有的扫地机器人和这种通用家务机器人的区别\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlZjQ0NDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYzQ4OTkiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfmoA8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuWIm+S4mumhueebrjwvdGV4dD48L3N2Zz4=",
+    "cover_image_url": "https://techcrunch.com/wp-content/uploads/2022/07/GettyImages-1407840656.jpg?resize=1200,800",
     "content_depth_score": 0.0
   },
   {
@@ -1441,14 +1441,14 @@
       "API定价"
     ],
     "content_hash": "20cad1ba7a6a6f7415bc0b6d08803755d172e18ef4dbff0dba3159820d517f03",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwNmI2ZDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjgyZjYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCflIQ8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPueJiOacrOabtOaWsDwvdGV4dD48L3N2Zz4=\"]",
+    "media_files": "[\"https://intuitionlabs.ai/images/articles/claude-vs-chatgpt-vs-copilot-vs-gemini-enterprise-comparison.jpg\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "newcomer",
     "one_liner": "AI从奢侈品变成日用品了——价格暴跌40-80%，创业者的好日子来了",
     "why_care": "AI调用成本暴跌意味着以前烧不起的AI功能，现在小团队也能用了。如果你有AI产品想法但觉得成本太高，现在是重新算账的时候了。",
     "action_items": "[\"去各大AI平台看看最新定价，对比你之前了解的价格\", \"重新计算一下你的产品成本模型——可能之前不赚钱的方案现在能跑通了\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwNmI2ZDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjgyZjYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCflIQ8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPueJiOacrOabtOaWsDwvdGV4dD48L3N2Zz4=",
+    "cover_image_url": "https://intuitionlabs.ai/images/articles/claude-vs-chatgpt-vs-copilot-vs-gemini-enterprise-comparison.jpg",
     "content_depth_score": 0.0
   },
   {
@@ -1558,14 +1558,14 @@
       "90%浪费"
     ],
     "content_hash": "8822d8070c0031fa011d999a279814e182905b26356584ccc7228a7592c4f389",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYzQ4OTkiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNDNmNWUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfjq88L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPkFJ5oqA6IO9PC90ZXh0Pjwvc3ZnPg==\"]",
+    "media_files": "[\"https://cdn.prod.website-files.com/651c34ac817aad4a2e62ec1b/68b00487c13ecab9edbbf700_prompt-engineering-main.jpg\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "intermediate",
     "one_liner": "你买了法拉利却只会踩油门——这份提示词指南教你用AI的手动挡",
     "why_care": "90%的人用AI的方式还停留在2024年。这份2026版终极指南不只是教你写prompt，而是教你一套系统化的AI使用方法论。掌握后效率至少翻3倍。",
     "action_items": "[\"下载这份指南，花1小时通读一遍——这可能是你今年最值得的1小时投资\", \"选3个指南中的技巧立即实践，养成新的AI使用习惯\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYzQ4OTkiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNDNmNWUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfjq88L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPkFJ5oqA6IO9PC90ZXh0Pjwvc3ZnPg==",
+    "cover_image_url": "https://cdn.prod.website-files.com/651c34ac817aad4a2e62ec1b/68b00487c13ecab9edbbf700_prompt-engineering-main.jpg",
     "content_depth_score": 0.0
   },
   {
@@ -1784,14 +1784,14 @@
       "编辑政策"
     ],
     "content_hash": "620c2365761f1574c0097c3d33214010150eb33c767efa63f2213a7fd34cefd1",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMxMGI5ODEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwNmI2ZDQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfk6Y8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuW8gOa6kOmhueebrjwvdGV4dD48L3N2Zz4=\"]",
+    "media_files": "[\"https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK037_WIKIPEDIA_C.jpg?quality=90&strip=all&crop=0%2C10.728364100735%2C100%2C78.54327179853&w=1200\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "beginner",
     "one_liner": "Wikipedia正式封杀AI生成文章——人类知识守门人向AI内容宣战了",
     "why_care": "这是AI内容泛滥的第一个重大反击。Wikipedia的决定传递了一个信号：AI生成≠高质量，人类编辑的价值反而在AI时代更重要了。",
     "action_items": "[\"思考你消费的内容中有多少是AI生成的，养成辨别的能力\", \"如果你在做内容产品，想想怎么保证人类编辑的价值不被AI稀释\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMxMGI5ODEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwNmI2ZDQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfk6Y8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuW8gOa6kOmhueebrjwvdGV4dD48L3N2Zz4=",
+    "cover_image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/02/STK037_WIKIPEDIA_C.jpg?quality=90&strip=all&crop=0%2C10.728364100735%2C100%2C78.54327179853&w=1200",
     "content_depth_score": 0.0
   },
   {
@@ -2479,14 +2479,14 @@
       "成本侵蚀"
     ],
     "content_hash": "17f06f08b9173b821c6785cbf02bfc6f248dad18867339476dd3f22632f86c08",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmOTczMTYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfkrA8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuWVhuS4muaooeW8jzwvdGV4dD48L3N2Zz4=\"]",
+    "media_files": "[\"https://www.revenera.com/blog/wp-content/uploads/2026/02/AI-Business-Strategy.png\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "intermediate",
     "one_liner": "七成企业加了AI功能反而亏钱，就像自助餐加了龙虾——用户吃爽了，老板哭了。",
     "why_care": "如果你在做产品或创业，加AI功能前一定要先算账。AI不是免费的魔法，每次调用都在烧算力费。不少公司先上线再说的策略已经翻车了，用户用得越多亏得越多。",
     "action_items": "[\"算一下你产品中AI功能每次调用的成本，对比这个功能带来的收入或留存提升\", \"给AI功能设置使用上限或分级策略，比如免费版每天10次、付费版无限次\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmOTczMTYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfkrA8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuWVhuS4muaooeW8jzwvdGV4dD48L3N2Zz4=",
+    "cover_image_url": "https://www.revenera.com/blog/wp-content/uploads/2026/02/AI-Business-Strategy.png",
     "content_depth_score": 0.0
   },
   {
@@ -2518,14 +2518,14 @@
       "元年"
     ],
     "content_hash": "c6fb82d3e3651dc807017f61f81f633acf3cf7b5e9c7e5951f2e56312ffd2d42",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmOTczMTYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfj4Y8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuaIkOWKn+ahiOS+izwvdGV4dD48L3N2Zz4=\"]",
+    "media_files": "[\"https://n.sinaimg.cn/spider20260105/356/w740h416/20260105/ccb3-6703ca103c5a877db95913aec740bb0d.png\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "intermediate",
     "one_liner": "零一万物的多AI Agent团队真的在5个行业落地干活了——不是PPT是实战",
     "why_care": "多Agent系统从概念走向落地了。零一万物在金融、法律等5个行业部署了多Agent团队，证明这个方向是可行的。",
     "action_items": "[\"了解零一万物在你所在行业的落地案例\", \"评估多Agent方案能不能解决你公司的某个复杂流程\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmOTczMTYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfj4Y8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuaIkOWKn+ahiOS+izwvdGV4dD48L3N2Zz4=",
+    "cover_image_url": "https://n.sinaimg.cn/spider20260105/356/w740h416/20260105/ccb3-6703ca103c5a877db95913aec740bb0d.png",
     "content_depth_score": 0.0
   },
   {
@@ -2633,14 +2633,14 @@
       "效率革命"
     ],
     "content_hash": "ffde970b7daed292921fca3788ee6038acf5fc4d9b42fa22004bb44fa3c7e79d",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlZjQ0NDQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfp6A8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPkFJ5qih5Z6LPC90ZXh0Pjwvc3ZnPg==\"]",
+    "media_files": "[\"https://www.usefolio.ai/images/og-image.png\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "intermediate",
     "one_liner": "告别写ETL脚本——说中文就能做数据转换了",
     "why_care": "非结构化数据处理一直是痛点。这个工具让你用自然语言描述数据转换逻辑，AI自动执行。做数据工程的人效率能翻好几倍。",
     "action_items": "[\"用你手头的一个数据清洗任务试试这个工具\", \"对比AI做的数据转换和你手写脚本的效率差异\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlZjQ0NDQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfp6A8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPkFJ5qih5Z6LPC90ZXh0Pjwvc3ZnPg==",
+    "cover_image_url": "https://www.usefolio.ai/images/og-image.png",
     "content_depth_score": 0.0
   },
   {
@@ -2867,14 +2867,14 @@
       "系统设计"
     ],
     "content_hash": "df19d75d8baa9e172f6794491320f208c4d97708edc48a8717abd9ad9a9cef0e",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlZjQ0NDQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfp6A8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPkFJ5qih5Z6LPC90ZXh0Pjwvc3ZnPg==\"]",
+    "media_files": "[\"https://percepta.ai/blog/constructing-machine-og.png\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "advanced",
     "one_liner": "如果把AI大模型当成一台电脑——它的操作系统应该长什么样？",
     "why_care": "LLM-as-CPU是一个很有想象力的思考框架。如果大模型是硬件，上层的调度、内存管理、任务切换怎么做？这个思路可能催生新一代AI基础设施。",
     "action_items": "[\"读一下这个概念框架，拓宽你对AI系统架构的想象\", \"思考这个类比对你正在做的AI应用有什么启发\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlZjQ0NDQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfp6A8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPkFJ5qih5Z6LPC90ZXh0Pjwvc3ZnPg==",
+    "cover_image_url": "https://percepta.ai/blog/constructing-machine-og.png",
     "content_depth_score": 0.0
   },
   {
@@ -2906,14 +2906,14 @@
       "性能对比"
     ],
     "content_hash": "87b6b92e8fb64f2bb15aa3c624568cd89f4869ea3692cc43d8accbccd1128364",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlZjQ0NDQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfp6A8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPkFJ5qih5Z6LPC90ZXh0Pjwvc3ZnPg==\"]",
+    "media_files": "[\"https://framerusercontent.com/images/6rLfLD4CVYcxFKzlgyHvH7yn3s.png?width=1920&height=1080\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "advanced",
     "one_liner": "用图片生成的方式做AI对话——这种反直觉的方法居然真的能用",
     "why_care": "扩散模型做LLM是一条非主流但有潜力的技术路线。Mercury 2的Agent任务评测是第一份真实场景的测试，结果值得关注。",
     "action_items": "[\"了解扩散模型做语言生成的基本原理\", \"关注Mercury系列的后续进展\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlZjQ0NDQiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfp6A8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPkFJ5qih5Z6LPC90ZXh0Pjwvc3ZnPg==",
+    "cover_image_url": "https://framerusercontent.com/images/6rLfLD4CVYcxFKzlgyHvH7yn3s.png?width=1920&height=1080",
     "content_depth_score": 0.0
   },
   {
@@ -2945,14 +2945,14 @@
       "社交货币"
     ],
     "content_hash": "f03527a4b738201764cbb4a8cb2e3c911c621f0b4f7ae09749343a93b7b7c1f0",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmOTczMTYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfkrA8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuWVhuS4muaooeW8jzwvdGV4dD48L3N2Zz4=\"]",
+    "media_files": "[\"https://images.unsplash.com/photo-1664448213918-42cb76919f76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDM1OXx8YWklMjB8ZW58MHx8fHwxNzc0MTg3NTcwfDA&ixlib=rb-4.1.0&q=80&w=2000\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "newcomer",
     "one_liner": "AI让卖课变得不值钱了，就像有了自来水就没人买桶装水，未来要卖的是圈子。",
     "why_care": "如果你是内容创作者或知识付费从业者，纯卖课的模式正在失效——学生直接问ChatGPT就行。但人们愿意为一群聪明人在一起交流付费。变现重心要从内容本身转向社群运营。",
     "action_items": "[\"把你最受欢迎的课程内容喂给ChatGPT，看它能复现多少——这就是你课程的贬值风险\", \"选一个你的核心受众群体，建一个付费社群做MVP测试，定价99元/月观察续费率\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmOTczMTYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfkrA8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuWVhuS4muaooeW8jzwvdGV4dD48L3N2Zz4=",
+    "cover_image_url": "https://images.unsplash.com/photo-1664448213918-42cb76919f76?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMTc3M3wwfDF8c2VhcmNofDM1OXx8YWklMjB8ZW58MHx8fHwxNzc0MTg3NTcwfDA&ixlib=rb-4.1.0&q=80&w=2000",
     "content_depth_score": 0.0
   },
   {
@@ -2984,14 +2984,14 @@
       "CIO"
     ],
     "content_hash": "5bed96c8365071a37fe945cddde9129ee12100a602e95b1ce1380e5367b1f2bf",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmOTczMTYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfkrA8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuWVhuS4muaooeW8jzwvdGV4dD48L3N2Zz4=\"]",
+    "media_files": "[\"https://www.cio.com/wp-content/uploads/2026/02/4134741-0-40641500-1771581747-ej-strat-VjWi56AWQ9k-unsplash.jpg?quality=50&strip=all&w=1024\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "intermediate",
     "one_liner": "未来团队可能是3个真人+7个AI员工，人类主要负责开会和改需求。",
     "why_care": "30%大型企业已强制AI培训，代码审查和测试正在被AI接管。不会和AI协作的工程师会像不会用Excel的会计一样被淘汰。现在学会管理AI同事是保住饭碗的关键技能。",
     "action_items": "[\"这周试着把一个日常开发任务完全交给AI Agent完成，记录它做得好和做不好的地方\", \"学会用Cursor或Claude Code做AI辅助代码审查，把它当第一轮审查员加入你的工作流\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmOTczMTYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfkrA8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuWVhuS4muaooeW8jzwvdGV4dD48L3N2Zz4=",
+    "cover_image_url": "https://www.cio.com/wp-content/uploads/2026/02/4134741-0-40641500-1771581747-ej-strat-VjWi56AWQ9k-unsplash.jpg?quality=50&strip=all&w=1024",
     "content_depth_score": 0.0
   },
   {
@@ -3062,14 +3062,14 @@
       "自动化"
     ],
     "content_hash": "15cbd1a40db16f297c93a167bd8ccaedb8390b31da895e594edc5a2610fce614",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYzQ4OTkiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNDNmNWUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfjq88L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPkFJ5oqA6IO9PC90ZXh0Pjwvc3ZnPg==\"]",
+    "media_files": "[\"https://substackcdn.com/image/fetch/$s_!MLVx!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84cf528b-ee9f-43a1-a5ea-9ea119128e96_1410x991.avif\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "intermediate",
     "one_liner": "让AI帮你写Prompt——不会提问就让AI教你怎么提问，套娃的最高境界",
     "why_care": "90%的人还在用最基础的prompt方式。Meta-Prompting的核心是：与其自己想怎么提问，不如让AI帮你设计更好的提问方式。聪明的偷懒。",
     "action_items": "[\"试试这个方法：先问AI'我该怎么向你提问才能得到最好的回答'\", \"把Meta-Prompting应用到你最常用的3个AI使用场景中\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYzQ4OTkiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNDNmNWUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfjq88L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPkFJ5oqA6IO9PC90ZXh0Pjwvc3ZnPg==",
+    "cover_image_url": "https://substackcdn.com/image/fetch/$s_!MLVx!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84cf528b-ee9f-43a1-a5ea-9ea119128e96_1410x991.avif",
     "content_depth_score": 0.0
   },
   {
@@ -3175,14 +3175,14 @@
       "taxonomy"
     ],
     "content_hash": "16a2fa86f7a835dc9aacaa3959d4fb9e6d5e7c91b0b33ed65e9ddb01dc9333de",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM2MzY2ZjEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM4YjVjZjYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfpJY8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPkFJ5pm66IO95L2TPC90ZXh0Pjwvc3ZnPg==\"]",
+    "media_files": "[\"https://nailinstitute.org/og-image.png\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "advanced",
     "one_liner": "多Agent系统的50种翻车方式大全——做Agent开发的人手一本的避坑指南",
     "why_care": "如果你在做多Agent系统，这份翻车百科能帮你提前避开别人踩过的坑。从死锁到幻觉传播，每种死法都有案例和解决方案。",
     "action_items": "[\"下载这份文档，重点看和你当前项目相关的翻车场景\", \"把你遇到过的Agent问题对照一下，看有没有现成的解决方案\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM2MzY2ZjEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM4YjVjZjYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfpJY8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPkFJ5pm66IO95L2TPC90ZXh0Pjwvc3ZnPg==",
+    "cover_image_url": "https://nailinstitute.org/og-image.png",
     "content_depth_score": 0.0
   },
   {
@@ -3214,14 +3214,14 @@
       "Dan Ives"
     ],
     "content_hash": "13720c20c667b22de09f1f510c01b151f335e2a34453af50850a1c7cdd6941d4",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmOTczMTYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfkrA8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuWVhuS4muaooeW8jzwvdGV4dD48L3N2Zz4=\"]",
+    "media_files": "[\"https://fortune.com/img-assets/wp-content/uploads/2025/12/GettyImages-1481133084-e1764639464890.jpg?resize=1200,600\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "newcomer",
     "one_liner": "AI行业烧了三年钱，2026年终于开始赚钱了——2万亿美元的蛋糕端上桌。",
     "why_care": "从实验到执行的转折意味着：企业不再问要不要用AI，而是怎么用AI赚钱。无论你是创业者、打工人还是投资者，2026年是入场的最佳时机——基础设施已就绪，变现路径已验证。",
     "action_items": "[\"列出你所在行业还没被AI渗透的3个环节，评估哪个最容易切入\", \"找一个你所在领域已经靠AI盈利的案例，拆解它的商业模式并思考能否复制\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmOTczMTYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfkrA8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuWVhuS4muaooeW8jzwvdGV4dD48L3N2Zz4=",
+    "cover_image_url": "https://fortune.com/img-assets/wp-content/uploads/2025/12/GettyImages-1481133084-e1764639464890.jpg?resize=1200,600",
     "content_depth_score": 0.0
   },
   {
@@ -3253,14 +3253,14 @@
       "数据驱动"
     ],
     "content_hash": "2cb37831ee0561d7f3561a084946d8007b6881787ea224736ad077c8c4c74fbb",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYzQ4OTkiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNDNmNWUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfjq88L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPkFJ5oqA6IO9PC90ZXh0Pjwvc3ZnPg==\"]",
+    "media_files": "[\"https://www.ibm.com/think/prompt-engineering.thumb.480.480.png\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "intermediate",
     "one_liner": "IBM说了：别再纠结怎么问AI了，关键是带什么背景信息问",
     "why_care": "IBM的2026版提示词指南核心观点：prompt的质量不在于措辞技巧，而在于你提供的背景信息质量。给AI越多上下文，它回答越好。",
     "action_items": "[\"下次提问时先花1分钟整理背景信息再发给AI\", \"下载IBM这份指南，学习企业级prompt的最佳实践\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYzQ4OTkiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNDNmNWUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfjq88L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPkFJ5oqA6IO9PC90ZXh0Pjwvc3ZnPg==",
+    "cover_image_url": "https://www.ibm.com/think/prompt-engineering.thumb.480.480.png",
     "content_depth_score": 0.0
   },
   {
@@ -3756,14 +3756,14 @@
       "约会议"
     ],
     "content_hash": "e8e1c9d5628c603cb9bf290884d44b796353e866f7ae3f0b0b7e66ff61c5fb4d",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM4YjVjZjYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYzQ4OTkiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPuKYge+4jzwvdGV4dD48dGV4dCB4PSI0MDAiIHk9IjI1MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSIgZm9udC1zaXplPSIzMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+QUnmnI3liqE8L3RleHQ+PC9zdmc+\"]",
+    "media_files": "[\"https://cdn.open-pr.com/3/2/324205796_g.jpg\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "newcomer",
     "one_liner": "AI帮你约会议了——自动找大家都有空的时间，再也不用来回发消息协调。",
     "why_care": "约会议可能是职场最烦人的事之一，来回协调时间能折腾半天。Slotflow让AI Agent自主查空闲、创预约、发通知。免费版每月100次预约够个人用，付费版79美元/月适合团队。",
     "action_items": "[\"注册Slotflow免费版，把你下周需要约的会议交给它处理，体验AI调度效果\", \"如果效果好，把Slotflow API集成到你团队的协作工具或AI助手中\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM4YjVjZjYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYzQ4OTkiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPuKYge+4jzwvdGV4dD48dGV4dCB4PSI0MDAiIHk9IjI1MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSIgZm9udC1zaXplPSIzMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+QUnmnI3liqE8L3RleHQ+PC9zdmc+",
+    "cover_image_url": "https://cdn.open-pr.com/3/2/324205796_g.jpg",
     "content_depth_score": 0.0
   },
   {
@@ -3795,14 +3795,14 @@
       "可信AI"
     ],
     "content_hash": "2ee1e1b920c37447534030c5ff1af4b18077e35dc8b091d52da1624613445bd2",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM4YjVjZjYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYzQ4OTkiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPuKYge+4jzwvdGV4dD48dGV4dCB4PSI0MDAiIHk9IjI1MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSIgZm9udC1zaXplPSIzMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+QUnmnI3liqE8L3RleHQ+PC9zdmc+\"]",
+    "media_files": "[\"https://si-interactive.s3.amazonaws.com/prod/planadviser-com/wp-content/uploads/2025/08/07172054/PA-InvestmentProductandServiceLaunches-WEB.jpg\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "intermediate",
     "one_liner": "金融AI终于不瞎说了，每句建议都带出处和可信度评分，像律师引用法条一样。",
     "why_care": "金融行业用AI最怕它胡说八道，一个错误建议可能导致百万损失。Datalign基于Halo框架让每个结论都可追溯、有置信度。这是金融AI从不敢用到敢用的转折点。",
     "action_items": "[\"了解Datalign的Halo框架如何实现信息溯源，评估能否应用到你的AI产品中\", \"给你现有的AI输出加上置信度标签，哪怕只是简单的高/中/低三档也比没有强\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM4YjVjZjYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYzQ4OTkiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPuKYge+4jzwvdGV4dD48dGV4dCB4PSI0MDAiIHk9IjI1MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSIgZm9udC1zaXplPSIzMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+QUnmnI3liqE8L3RleHQ+PC9zdmc+",
+    "cover_image_url": "https://si-interactive.s3.amazonaws.com/prod/planadviser-com/wp-content/uploads/2025/08/07172054/PA-InvestmentProductandServiceLaunches-WEB.jpg",
     "content_depth_score": 0.0
   },
   {
@@ -3834,14 +3834,14 @@
       "实战指南"
     ],
     "content_hash": "fd484bfadb592b262e9167ad4b50aefbf5b4614c94754b7497719bb7fa11910e",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMxMGI5ODEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyMmM1NWUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfkqE8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuS9v+eUqOaKgOW3pzwvdGV4dD48L3N2Zz4=\"]",
+    "media_files": "[\"https://app.asrify.com/media/366/featured?signature=30035cfb231e594586afcac9a49c6c053643126fd4430f3e1136f6f0540364a6\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "newcomer",
     "one_liner": "自由职业者用AI一天干完别人三天的活——剩下时间可以焦虑甲方了",
     "why_care": "自由职业者的核心竞争力是效率。会用AI的自由职业者能同时接更多单、交付更快、质量更稳定。不会用AI的正在被淘汰。",
     "action_items": "[\"梳理你的工作流程，找出3个可以用AI提效的环节\", \"本周就用AI处理一个平时耗时最长的任务，记录省了多少时间\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMxMGI5ODEiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMyMmM1NWUiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfkqE8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuS9v+eUqOaKgOW3pzwvdGV4dD48L3N2Zz4=",
+    "cover_image_url": "https://app.asrify.com/media/366/featured?signature=30035cfb231e594586afcac9a49c6c053643126fd4430f3e1136f6f0540364a6",
     "content_depth_score": 0.0
   },
   {
@@ -3873,14 +3873,14 @@
       "职业消亡"
     ],
     "content_hash": "9763246af21e15bb05a360fa6dd99bbae91d83e40f239f9e8913c16798ab8db6",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmOTczMTYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfkrA8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuWVhuS4muaooeW8jzwvdGV4dD48L3N2Zz4=\"]",
+    "media_files": "[\"https://cdn.prod.website-files.com/63e677cf5f9ef0afdbe871b8/69149b076f6db8f8ab2f022b_The%20Complete%20Guide%20to%20Prompt%20Engineering%20in%202026%20Trends%2C%20Tools%2C%20and%20Best%20Practices%20(1).png\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "intermediate",
     "one_liner": "以后不用人写提示词了，AI会自己给自己写prompt——提示词工程师可能要失业。",
     "why_care": "70%企业将部署prompt自动化，手写prompt正在从专业技能变成过渡期产物。与其花大量时间学prompt技巧，不如学会搭建自动化工作流，让AI自己优化prompt比你手动调效果更好。",
     "action_items": "[\"试用DSPy或PromptFoo等prompt自动优化工具，体验AI自动调prompt的效果\", \"把你最常用的5个prompt模板整理成可自动调用的工作流，而不是每次手动复制粘贴\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmNTllMGIiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNmOTczMTYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCfkrA8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPuWVhuS4muaooeW8jzwvdGV4dD48L3N2Zz4=",
+    "cover_image_url": "https://cdn.prod.website-files.com/63e677cf5f9ef0afdbe871b8/69149b076f6db8f8ab2f022b_The%20Complete%20Guide%20to%20Prompt%20Engineering%20in%202026%20Trends%2C%20Tools%2C%20and%20Best%20Practices%20(1).png",
     "content_depth_score": 0.0
   },
   {
@@ -4380,14 +4380,14 @@
       "涡轮增压"
     ],
     "content_hash": "a9d9bbcb447f96eaf00c5da042d6d7349b4c24bee132f0483cc25351af516350",
-    "media_files": "[\"data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwNmI2ZDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjgyZjYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCflIQ8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPueJiOacrOabtOaWsDwvdGV4dD48L3N2Zz4=\"]",
+    "media_files": "[\"https://phrase.com/wp-content/uploads/2026/03/Phrase-product-launch-march-2026-Header.jpg\"]",
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "newcomer",
     "one_liner": "翻译AI终于有记忆力了——同一个术语不会翻译一次变一次了",
     "why_care": "做翻译最头疼的是术语不一致。Phrase AI的术语记忆功能解决了这个问题，翻译质量和一致性都大幅提升。",
     "action_items": "[\"如果你经常需要翻译专业文档，试试Phrase AI的术语管理功能\", \"对比有记忆和无记忆的翻译在术语一致性上的差异\"]",
-    "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwNmI2ZDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjgyZjYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCflIQ8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPueJiOacrOabtOaWsDwvdGV4dD48L3N2Zz4=",
+    "cover_image_url": "https://phrase.com/wp-content/uploads/2026/03/Phrase-product-launch-march-2026-Header.jpg",
     "content_depth_score": 0.0
   },
   {
