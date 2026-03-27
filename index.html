@@ -426,7 +426,7 @@ createApp({
     const selectedCategory = ref('');
     const searchQuery = ref('');
     const currentPage = ref(1);
-    const perPage = 24;
+    const perPage = 50;
     const detailItem = ref(null);
     let searchTimer = null;
 
@@ -488,12 +488,12 @@ createApp({
       return filteredItems.value.slice(start, start + perPage);
     });
 
-    // Split into featured and standard (only for display items)
+    // Split into featured (TOP 5 per page) and standard grid
     const displayItems = computed(() => pagedItems.value);
     const featuredItems = computed(() => {
-      return displayItems.value.filter(i =>
-        i.value_proposition && i.recommendation_score >= 8
-      );
+      return displayItems.value
+        .filter(i => i.value_proposition && i.recommendation_score >= 8.5)
+        .slice(0, 5);
     });
     const standardItems = computed(() => {
       const fids = new Set(featuredItems.value.map(i => i.uuid));
