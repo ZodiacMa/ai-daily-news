@@ -35,7 +35,7 @@
     "audience_level": "intermediate",
     "one_liner": "HN讨论：消费级AI硬件盒子是不是个好生意？",
     "why_care": "社区在讨论LLM何时「够好」到可以脱离云端。如果本地推理成本足够低，消费级AI盒子可能成为新品类。对硬件创业者和边缘AI从业者有参考价值。",
-    "action_items": "[\"\\u9605\\u8bfbHN\\u8ba8\\u8bba\\u4e32\\u770b\\u793e\\u533a\\u89c2\\u70b9\", \"\\u8bc4\\u4f30\\u672c\\u5730\\u90e8\\u7f72vs\\u4e91\\u7aef\\u7684\\u6210\\u672c\\u62d0\\u70b9\"]",
+    "action_items": "[\"按照文中步骤在你的环境中实操\", \"分享给团队成员提升整体效率\"]",
     "cover_image_url": "",
     "content_depth_score": 9.0
   },
@@ -75,7 +75,7 @@
     "audience_level": "intermediate",
     "one_liner": "用认知数学框架阻止LLM幻觉——一个反直觉的Prompt工程方法",
     "why_care": "作者用数学公式、分支逻辑和硬性约束来教AI「怎么想」，效果出奇地好。这种结构化思维Prompt不是调参，而是改变了AI的推理路径。对频繁遇到幻觉问题的用户很有启发。",
-    "action_items": "[\"\\u9605\\u8bfb\\u5b8c\\u6574\\u7684re!Think\\u534f\\u8bae\", \"\\u5728\\u4f60\\u5e38\\u7528\\u7684LLM\\u4e0a\\u6d4b\\u8bd5\\u8ba4\\u77e5\\u7ea6\\u675fPrompt\"]",
+    "action_items": "[\"按照文中步骤在你的环境中实操\", \"分享给团队成员提升整体效率\"]",
     "cover_image_url": "",
     "content_depth_score": 9.0
   },
@@ -115,7 +115,7 @@
     "audience_level": "intermediate",
     "one_liner": "单Go二进制的零信任LLM网关，一个YAML配多个后端",
     "why_care": "一个YAML文件就能把OpenAI、Anthropic、Ollama等各种LLM后端统一管理。零信任架构意味着安全默认开启。对于需要管理多个LLM接入的团队，是运维友好的选择。",
-    "action_items": "[\"\\u4e0b\\u8f7d\\u5355\\u4e8c\\u8fdb\\u5236\\u90e8\\u7f72\\uff0c\\u914d\\u7f6e\\u4f60\\u7684LLM\\u540e\\u7aef\", \"\\u6d4b\\u8bd5\\u8bf7\\u6c42\\u8def\\u7531\\u548c\\u8d1f\\u8f7d\\u5747\\u8861\\u6548\\u679c\"]",
+    "action_items": "[\"去GitHub Star该项目并快速上手试用\", \"按照README完成基础配置\"]",
     "cover_image_url": "",
     "content_depth_score": 9.0
   },
@@ -155,7 +155,7 @@
     "audience_level": "beginner",
     "one_liner": "精选的真正开源AI项目清单——模型、工具、基础设施一网打尽",
     "why_care": "开源AI项目鱼龙混杂，很多号称开源其实有限制。这份清单只收录真正开源的项目，1400+星说明社区认可其筛选标准。找开源替代方案时的权威参考。",
-    "action_items": "[\"\\u6536\\u85cf\\u4ed3\\u5e93\\u4f5c\\u4e3a\\u5f00\\u6e90AI\\u7d22\\u5f15\", \"\\u68c0\\u67e5\\u4f60\\u76ee\\u524d\\u7528\\u7684AI\\u5de5\\u5177\\u662f\\u5426\\u6709\\u66f4\\u597d\\u7684\\u5f00\\u6e90\\u66ff\\u4ee3\"]",
+    "action_items": "[\"关注该模型的后续发展和社区实测\", \"在实际项目中小范围测试效果\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -195,7 +195,7 @@
     "audience_level": "beginner",
     "one_liner": "HN讨论：你为AI工作优化了什么样的桌面环境？",
     "why_care": "有趣的社区讨论——大家分享为配合AI Agent工作优化的桌面布局。超宽屏、多显示器分区、终端+浏览器并排等方案层出不穷。对想提升AI辅助开发效率的人有很多实用的设置灵感。",
-    "action_items": "[\"\\u9605\\u8bfb\\u8ba8\\u8bba\\u4e32\\u6536\\u96c6\\u9ad8\\u8d5e\\u8bbe\\u7f6e\\u65b9\\u6848\", \"\\u53c2\\u8003\\u522b\\u4eba\\u7684\\u5e03\\u5c40\\u4f18\\u5316\\u4f60\\u7684\\u5de5\\u4f5c\\u73af\\u5883\"]",
+    "action_items": "[\"按照文中步骤在你的环境中实操\", \"分享给团队成员提升整体效率\"]",
     "cover_image_url": "",
     "content_depth_score": 9.0
   },
@@ -235,7 +235,7 @@
     "audience_level": "beginner",
     "one_liner": "研究发现：AI会增加竞争激烈度，但不会提高整体成功率",
     "why_care": "arXiv新论文揭示了AI悖论：当所有人都用AI提升效率，竞争变得更激烈，但平均成功率并没有提升。这对AI创业者是重要的战略提醒——工具平权后，差异化必须来自其他地方。",
-    "action_items": "[\"\\u9605\\u8bfb\\u8bba\\u6587\\u6458\\u8981\\u7406\\u89e3\\u6838\\u5fc3\\u8bba\\u70b9\", \"\\u53cd\\u601d\\u4f60\\u7684AI\\u7b56\\u7565\\u4e2d\\u7684\\u771f\\u6b63\\u58c1\\u5792\\u662f\\u4ec0\\u4e48\"]",
+    "action_items": "[\"按照文中步骤在你的环境中实操\", \"分享给团队成员提升整体效率\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -275,7 +275,7 @@
     "audience_level": "beginner",
     "one_liner": "白宫AI与加密货币沙皇David Sacks离任",
     "why_care": "美国AI政策的关键人物变动。Sacks离任可能影响美国对AI监管的走向，包括开源AI、数据隐私等政策。对在美国市场有业务的AI公司，这是需要关注的信号。",
-    "action_items": "[\"\\u5173\\u6ce8\\u7ee7\\u4efb\\u8005\\u4eba\\u9009\\u548c\\u653f\\u7b56\\u65b9\\u5411\\u53d8\\u5316\"]",
+    "action_items": "[\"分析这个商业模式对你所在行业的借鉴意义\", \"关注后续融资和市场动态\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -315,7 +315,7 @@
     "audience_level": "intermediate",
     "one_liner": "论文：如何让LLM生成的代码天生安全——安全优先设计方法论",
     "why_care": "LLM写代码越来越普遍，但生成的代码安全吗？这篇论文提出了Security-by-Design框架，从根源上解决AI代码生成的安全隐患。对用AI写代码的团队是必读材料。",
-    "action_items": "[\"\\u9605\\u8bfb\\u8bba\\u6587\\u7684\\u5b89\\u5168\\u68c0\\u67e5\\u6e05\\u5355\", \"\\u5728\\u4f60\\u7684AI\\u4ee3\\u7801\\u751f\\u6210\\u6d41\\u7a0b\\u4e2d\\u52a0\\u5165\\u5b89\\u5168\\u5ba1\\u67e5\\u6b65\\u9aa4\"]",
+    "action_items": "[\"按照文中步骤在你的环境中实操\", \"分享给团队成员提升整体效率\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -355,7 +355,7 @@
     "audience_level": "newcomer",
     "one_liner": "AI数据中心的能耗问题正在成为全行业的政治和商业焦点",
     "why_care": "数据中心是AI的物理根基，但能耗争议正在升级。从电网负担到碳排放，AI基础设施面临越来越多的社会和政治压力。对于做AI基础设施或需要大量算力的团队，能源成本和合规将是越来越重要的变量。",
-    "action_items": "[\"\\u8bc4\\u4f30\\u4f60\\u7684AI\\u5de5\\u4f5c\\u8d1f\\u8f7d\\u7684\\u80fd\\u8017\\u6548\\u7387\", \"\\u5173\\u6ce8\\u80fd\\u6548\\u76f8\\u5173\\u7684\\u653f\\u7b56\\u53d8\\u5316\"]",
+    "action_items": "[\"分析这个商业模式对你所在行业的借鉴意义\", \"关注后续融资和市场动态\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -395,7 +395,7 @@
     "audience_level": "newcomer",
     "one_liner": "法官支持Anthropic，暂时阻止五角大楼的供应链禁令",
     "why_care": "Anthropic和美国国防部的博弈有了新进展——法官发出初步禁令，暂停了政府的黑名单。这场官司将影响AI公司与政府合作的游戏规则。对AI行业的政商关系有风向标意义。",
-    "action_items": "[\"\\u8ddf\\u8e2a\\u6848\\u4ef6\\u540e\\u7eed\\u53d1\\u5c55\", \"\\u8bc4\\u4f30\\u653f\\u5e9cAI\\u653f\\u7b56\\u5bf9\\u4f60\\u7684\\u4e1a\\u52a1\\u7684\\u6f5c\\u5728\\u5f71\\u54cd\"]",
+    "action_items": "[\"分析这个商业模式对你所在行业的借鉴意义\", \"关注后续融资和市场动态\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -435,7 +435,7 @@
     "audience_level": "newcomer",
     "one_liner": "Google Gemini支持从其他AI导入记忆和聊天历史了",
     "why_care": "AI记忆的可迁移性成为竞争焦点——Anthropic先动，Google紧跟。用户不再被锁在一个AI平台上。这意味着AI助手的竞争将从「谁更聪明」转向「谁更懂你」。",
-    "action_items": "[\"\\u8bd5\\u8bd5\\u628aClaude\\u7684\\u8bb0\\u5fc6\\u5bfc\\u5165Gemini\", \"\\u601d\\u8003AI\\u8bb0\\u5fc6\\u53ef\\u8fc1\\u79fb\\u5bf9\\u4f60\\u7684AI\\u4ea7\\u54c1\\u7b56\\u7565\\u610f\\u5473\\u7740\\u4ec0\\u4e48\"]",
+    "action_items": "[\"查看该服务的定价和免费额度\", \"评估在你的业务场景中的适用性\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -475,7 +475,7 @@
     "audience_level": "beginner",
     "one_liner": "iOS 27将允许第三方AI聊天机器人接入Siri",
     "why_care": "Apple终于开放了Siri的AI接入——用户可以选择ChatGPT、Claude等替代默认AI。这是AI分发渠道的重大变化，对所有AI公司来说都是新的流量入口。",
-    "action_items": "[\"\\u5173\\u6ce8iOS 27 beta\\u7684AI\\u63a5\\u5165API\\u6587\\u6863\", \"\\u8bc4\\u4f30\\u4f60\\u7684AI\\u4ea7\\u54c1\\u662f\\u5426\\u5e94\\u8be5\\u63a5\\u5165Siri\"]",
+    "action_items": "[\"查看该服务的定价和免费额度\", \"评估在你的业务场景中的适用性\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -515,7 +515,7 @@
     "audience_level": "newcomer",
     "one_liner": "Apple Music的AI歌单功能翻车了——推荐结果牛头不对马嘴",
     "why_care": "Apple的AI Playlist Playground表现很差，用户要金属乐给了流行，要古典给了电子。这说明音乐理解仍然是AI的弱项。对做音乐推荐或AI产品的团队来说，是一个很好的反面教材。",
-    "action_items": "[\"\\u4f53\\u9a8cApple Music\\u7684AI\\u6b4c\\u5355\\u529f\\u80fd\\u611f\\u53d7\\u75db\\u70b9\", \"\\u5982\\u679c\\u4f60\\u5728\\u505a\\u63a8\\u8350\\u7cfb\\u7edf\\uff0c\\u601d\\u8003\\u5982\\u4f55\\u907f\\u514d\\u7c7b\\u4f3c\\u95ee\\u9898\"]",
+    "action_items": "[\"下载或访问该应用体验核心功能\", \"对比同类工具选出最适合你的\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -555,7 +555,7 @@
     "audience_level": "beginner",
     "one_liner": "Google搜索的实时AI助手扩展到200+国家，支持更多语言",
     "why_care": "Google Search Live让你用语音和摄像头搜索信息，现在覆盖全球200+国家。AI搜索正在从文字输入走向多模态交互，传统SEO策略需要同步升级。",
-    "action_items": "[\"\\u4f53\\u9a8cGoogle Search Live\\u7684\\u8bed\\u97f3\\u641c\\u7d22\", \"\\u8bc4\\u4f30\\u4f60\\u7684\\u5185\\u5bb9\\u662f\\u5426\\u5bf9\\u8bed\\u97f3\\u641c\\u7d22\\u53cb\\u597d\"]",
+    "action_items": "[\"查看该服务的定价和免费额度\", \"评估在你的业务场景中的适用性\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -595,7 +595,7 @@
     "audience_level": "beginner",
     "one_liner": "Meta即将发布两款新Ray-Ban AI眼镜，AI可穿戴竞争加速",
     "why_care": "Meta在AI眼镜上押注越来越重，新款硬件意味着更强的视觉理解和更长的续航。可穿戴AI正在从概念走向日用品。对于关注AI硬件趋势的从业者，这是必须跟踪的赛道。",
-    "action_items": "[\"\\u5173\\u6ce8\\u53d1\\u552e\\u65f6\\u95f4\\u548c\\u5b9a\\u4ef7\", \"\\u8bc4\\u4f30AI\\u773c\\u955c\\u5728\\u4f60\\u7684\\u5e94\\u7528\\u573a\\u666f\\u4e2d\\u7684\\u53ef\\u80fd\\u6027\"]",
+    "action_items": "[\"下载或访问该应用体验核心功能\", \"对比同类工具选出最适合你的\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -635,7 +635,7 @@
     "audience_level": "beginner",
     "one_liner": "美国参议员要求调查数据中心的真实用电量",
     "why_care": "Warren和Hawley联名要求EIA收集数据中心的年度能耗数据。如果立法通过，AI公司可能需要公开算力能耗——这会直接影响运营成本透明度和ESG评分。",
-    "action_items": "[\"\\u5173\\u6ce8EIA\\u7684\\u56de\\u5e94\\u548c\\u540e\\u7eed\\u7acb\\u6cd5\\u52a8\\u5411\"]",
+    "action_items": "[\"分析这个商业模式对你所在行业的借鉴意义\", \"关注后续融资和市场动态\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -675,7 +675,7 @@
     "audience_level": "intermediate",
     "one_liner": "清华系孵化的星忆科技拿到首轮融资，做具身智能的数据层",
     "why_care": "对标英伟达EgoScale数据路径，做具身智能（Embodied AI）的第一人称视频数据。清华系背景+具身智能赛道+数据层定位，是当前最热的AI创业方向组合。融资成功说明资本对这个赛道的认可。",
-    "action_items": "[\"\\u4e86\\u89e3EgoScale\\u6846\\u67b6\\u548c\\u5177\\u8eab\\u6570\\u636e\\u7684\\u4ef7\\u503c\", \"\\u8bc4\\u4f30\\u5177\\u8eab\\u667a\\u80fd\\u8d5b\\u9053\\u7684\\u521b\\u4e1a\\u673a\\u4f1a\"]",
+    "action_items": "[\"研究该项目的技术路线和商业模式\", \"评估是否有合作或借鉴机会\"]",
     "cover_image_url": "",
     "content_depth_score": 9.0
   },
@@ -715,7 +715,7 @@
     "audience_level": "beginner",
     "one_liner": "杨植麟等AI大佬谈Token经济学——AI服务的计价方式正在重塑行业",
     "why_care": "Token不只是技术概念，已经成为AI行业的基础计费单位。黄仁勋、吴泳铭等大佬都在讨论Token经济学。对做AI产品定价、成本控制或投资的人来说，理解Token经济学是必修课。",
-    "action_items": "[\"\\u5206\\u6790\\u4f60\\u7684AI\\u4ea7\\u54c1\\u7684Token\\u6210\\u672c\\u7ed3\\u6784\", \"\\u601d\\u8003Token\\u5b9a\\u4ef7\\u7b56\\u7565\\u5bf9\\u4f60\\u7684\\u5546\\u4e1a\\u6a21\\u5f0f\\u7684\\u5f71\\u54cd\"]",
+    "action_items": "[\"分析这个商业模式对你所在行业的借鉴意义\", \"关注后续融资和市场动态\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -755,7 +755,7 @@
     "audience_level": "beginner",
     "one_liner": "10个最新AI硬件创业项目——深圳华强北的「龙虾」热潮",
     "why_care": "深圳华强北已经在卖AI一体机（「虾缸」），硬件创业者蜂拥而至。这10个项目展示了AI硬件从消费级到工业级的各种形态。对想做AI硬件或关注边缘AI趋势的人来说是必读的市场快照。",
-    "action_items": "[\"\\u8bc4\\u4f30\\u54ea\\u4e9b\\u786c\\u4ef6\\u5f62\\u6001\\u4e0e\\u4f60\\u7684\\u4e1a\\u52a1\\u76f8\\u5173\", \"\\u5173\\u6ce8\\u6df1\\u5733AI\\u786c\\u4ef6\\u4f9b\\u5e94\\u94fe\\u52a8\\u6001\"]",
+    "action_items": "[\"研究该项目的技术路线和商业模式\", \"评估是否有合作或借鉴机会\"]",
     "cover_image_url": "",
     "content_depth_score": 9.0
   },
@@ -795,7 +795,7 @@
     "audience_level": "intermediate",
     "one_liner": "CrewForm——开源的多Agent AI编排平台",
     "why_care": "又一个多Agent编排方案，与CrewAI、agent-orchestrator等竞争。开源+MIT许可意味着可以自由商用。多Agent编排赛道越来越拥挤，但也说明市场需求真实存在。",
-    "action_items": "[\"\\u5bf9\\u6bd4CrewAI\\u548cagent-orchestrator\\u7684\\u5dee\\u5f02\", \"\\u8bc4\\u4f30\\u662f\\u5426\\u9700\\u8981\\u5207\\u6362\\u7f16\\u6392\\u65b9\\u6848\"]",
+    "action_items": "[\"去GitHub Star该项目并快速上手试用\", \"按照README完成基础配置\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -835,7 +835,7 @@
     "audience_level": "intermediate",
     "one_liner": "Memory Crystal——AI Agent的持久化记忆方案，MIT开源",
     "why_care": "Agent记忆赛道的又一个选手。Memory Crystal强调的是「持久化」——确保Agent的记忆不会因为重启或升级而丢失。MIT许可对商用友好。Agent记忆正在成为独立的技术品类。",
-    "action_items": "[\"\\u5bf9\\u6bd4SimpleMem\\u548cMemSearch\\u8bc4\\u4f30\\u9002\\u7528\\u573a\\u666f\", \"\\u5728\\u4f60\\u7684Agent\\u4e2d\\u6d4b\\u8bd5\\u8bb0\\u5fc6\\u6301\\u4e45\\u5316\\u6548\\u679c\"]",
+    "action_items": "[\"更新到最新版本体验新功能\", \"检查更新日志中的破坏性变更\"]",
     "cover_image_url": "",
     "content_depth_score": 7.0
   },
@@ -875,7 +875,7 @@
     "audience_level": "intermediate",
     "one_liner": "OpenCode LLM代理——一个YAML把OpenAI/Anthropic/",
     "why_care": "多模型统一接入的需求持续增长。OpenCode LLM Proxy让你用一套API调用多个LLM厂商的模型，YAML配置即可切换。对需要多模型对比或故障转移的场景非常实用。",
-    "action_items": "[\"\\u90e8\\u7f72\\u4ee3\\u7406\\uff0c\\u914d\\u7f6e\\u4f60\\u5e38\\u7528\\u7684LLM\\u540e\\u7aef\", \"\\u6d4b\\u8bd5\\u6a21\\u578b\\u5207\\u6362\\u7684\\u5ef6\\u8fdf\\u548c\\u517c\\u5bb9\\u6027\"]",
+    "action_items": "[\"更新到最新版本体验新功能\", \"检查更新日志中的破坏性变更\"]",
     "cover_image_url": "",
     "content_depth_score": 5.0
   },
@@ -915,7 +915,7 @@
     "audience_level": "intermediate",
     "one_liner": "无需LLM调用的运行时RAG来源追溯——确保AI回答有据可查",
     "why_care": "RAG系统最大的信任问题是回答从哪来。Dokis在运行时强制追溯每个回答的来源，而且不需要额外的LLM调用（零延迟增加）。对做RAG产品又需要合规审计的团队来说是关键基础设施。",
-    "action_items": "[\"\\u96c6\\u6210\\u5230\\u4f60\\u7684RAG\\u7cfb\\u7edf\\u4e2d\\u6d4b\\u8bd5\", \"\\u8bc4\\u4f30\\u6765\\u6e90\\u8ffd\\u6eaf\\u5bf9\\u7528\\u6237\\u4fe1\\u4efb\\u7684\\u63d0\\u5347\\u6548\\u679c\"]",
+    "action_items": "[\"按照文中步骤在你的环境中实操\", \"分享给团队成员提升整体效率\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -955,7 +955,7 @@
     "audience_level": "advanced",
     "one_liner": "LLM说服力基准测试——衡量模型在多轮对话中说服人类的能力",
     "why_care": "AI的说服能力是双刃剑——理解它才能防范它。这个基准测试系统评估不同LLM在多轮对话中的说服力。对做AI安全、对话系统设计或需要评估模型影响力的研究者非常有价值。",
-    "action_items": "[\"\\u8dd1benchmark\\u5bf9\\u6bd4\\u4e3b\\u6d41\\u6a21\\u578b\\u7684\\u8bf4\\u670d\\u529b\\u5f97\\u5206\", \"\\u601d\\u8003\\u8bf4\\u670d\\u529b\\u8bc4\\u4f30\\u5728\\u4f60\\u7684\\u5e94\\u7528\\u4e2d\\u7684\\u610f\\u4e49\"]",
+    "action_items": "[\"查看该服务的定价和免费额度\", \"评估在你的业务场景中的适用性\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -995,7 +995,7 @@
     "audience_level": "newcomer",
     "one_liner": "跳过90%的KV反量化计算，LLM解码速度提升22%",
     "why_care": "纯工程优化带来的免费性能提升。通过分析KV缓存反量化的冗余计算模式，跳过90%的不必要计算，获得22%的解码加速。对做LLM推理优化或运行本地模型的开发者来说，是立即可用的性能技巧。",
-    "action_items": "[\"\\u9605\\u8bfb\\u4f18\\u5316\\u7ec6\\u8282\\u7406\\u89e3\\u539f\\u7406\", \"\\u5728\\u4f60\\u7684\\u63a8\\u7406\\u5f15\\u64ce\\u4e2d\\u6d4b\\u8bd5\\u8be5\\u4f18\\u5316\"]",
+    "action_items": "[\"按照文中步骤在你的环境中实操\", \"分享给团队成员提升整体效率\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -1035,7 +1035,7 @@
     "audience_level": "intermediate",
     "one_liner": "Bottrace——专为LLM Agent设计的Python无头CLI调试器",
     "why_care": "调试AI Agent比调试普通程序难得多——执行路径不确定、中间状态复杂。Bottrace专门为此设计，无头模式意味着可以集成到CI/CD中自动调试Agent故障。对做Agent开发的Python团队来说是生产力工具。",
-    "action_items": "[\"pip install bottrace\\uff0c\\u5728\\u4f60\\u7684Agent\\u9879\\u76ee\\u4e2d\\u8bd5\\u7528\", \"\\u96c6\\u6210\\u5230CI\\u6d41\\u7a0b\\u4e2d\\u81ea\\u52a8\\u68c0\\u6d4bAgent\\u56de\\u5f52\"]",
+    "action_items": "[\"按照文中步骤在你的环境中实操\", \"分享给团队成员提升整体效率\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -1075,7 +1075,7 @@
     "audience_level": "intermediate",
     "one_liner": "纯Rust实现的Prompt防火墙，拦截60-95%的LLM注入攻击",
     "why_care": "Prompt注入是LLM应用的头号安全威胁。Isartor用Rust实现高性能的Prompt防火墙，声称可以拦截60-95%的注入攻击。零依赖、低延迟、可嵌入任何LLM调用链。对任何对外提供LLM服务的产品来说是安全必备。",
-    "action_items": "[\"\\u5728\\u4f60\\u7684LLM\\u670d\\u52a1\\u524d\\u7aef\\u90e8\\u7f72Isartor\", \"\\u7528\\u516c\\u5f00\\u7684\\u6ce8\\u5165\\u6d4b\\u8bd5\\u96c6\\u9a8c\\u8bc1\\u62e6\\u622a\\u7387\"]",
+    "action_items": "[\"分析案例中的关键成功因素\", \"思考如何在你的场景中复用\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -1115,7 +1115,7 @@
     "audience_level": "intermediate",
     "one_liner": "一行代码测量每次LLM调用的净利润——LLMBillingKit",
     "why_care": "做LLM产品最怕的是看着收入增长但不知道每次调用赚了还是亏了。LLMBillingKit让你一行代码就能追踪每次LLM调用的成本和收入，实时算出净利润。对做AI SaaS产品的团队来说是财务透明化的基础工具。",
-    "action_items": "[\"\\u96c6\\u6210\\u5230\\u4f60\\u7684LLM\\u670d\\u52a1\\u4e2d\", \"\\u5efa\\u7acb\\u6bcf\\u65e5\\u6210\\u672c/\\u6536\\u5165\\u770b\\u677f\"]",
+    "action_items": "[\"研究该项目的技术路线和商业模式\", \"评估是否有合作或借鉴机会\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -1155,7 +1155,7 @@
     "audience_level": "beginner",
     "one_liner": "Toolcast——一条命令把任何API变成AI Agent可用的工具",
     "why_care": "Agent能力的上限取决于它能调用多少工具。Toolcast自动把任意REST API转换成Agent工具格式，省去了手写工具定义的繁琐工作。对需要快速扩展Agent工具库的团队来说，效率提升是数量级的。",
-    "action_items": "[\"\\u5bf9\\u4f60\\u6700\\u5e38\\u7528\\u7684API\\u8fd0\\u884ctoolcast\\u8f6c\\u6362\", \"\\u6d4b\\u8bd5\\u751f\\u6210\\u7684\\u5de5\\u5177\\u5b9a\\u4e49\\u5728Agent\\u4e2d\\u7684\\u5b9e\\u9645\\u6548\\u679c\"]",
+    "action_items": "[\"安装并试用该功能或插件\", \"评估对你工作流的增强效果\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -1195,7 +1195,7 @@
     "audience_level": "intermediate",
     "one_liner": "跨平台LLM推理框架，专为边缘设备高效部署设计",
     "why_care": "在手机、嵌入式设备上跑LLM的需求越来越大。OmniInfer提供了统一的跨平台推理接口，支持多种后端。对做端侧AI部署的团队是基础设施级工具。",
-    "action_items": "[\"pip install omniinfer\\uff0c\\u5728\\u4f60\\u7684\\u8bbe\\u5907\\u4e0a\\u8dd1benchmark\", \"\\u5bf9\\u6bd4llama.cpp\\u548cMLC-LLM\\u770b\\u63a8\\u7406\\u6027\\u80fd\"]",
+    "action_items": "[\"关注该模型的后续发展和社区实测\", \"在实际项目中小范围测试效果\"]",
     "cover_image_url": "",
     "content_depth_score": 9.0
   },
@@ -1235,7 +1235,7 @@
     "audience_level": "beginner",
     "one_liner": "一个帮你写Prompt的Claude Skill，零浪费Token，",
     "why_care": "写Prompt是门手艺活，这个Skill把Prompt工程自动化了。2400+星，支持多平台AI工具的Prompt生成。对于频繁需要写高质量Prompt的用户，能节省大量试错时间。",
-    "action_items": "[\"\\u5b89\\u88c5\\u5230Claude Code\\u4e2d\\u8bd5\\u7528\", \"\\u5bf9\\u6bd4\\u4f60\\u624b\\u5199\\u7684Prompt\\u770b\\u8d28\\u91cf\\u5dee\\u5f02\"]",
+    "action_items": "[\"安装并试用该功能或插件\", \"评估对你工作流的增强效果\"]",
     "cover_image_url": "",
     "content_depth_score": 9.0
   },
@@ -1275,7 +1275,7 @@
     "audience_level": "beginner",
     "one_liner": "用交互式可视化解释AI工作原理的教育项目",
     "why_care": "不是又一个AI课程，而是用可视化方式让你「看到」AI是怎么工作的。对向非技术团队解释AI原理，或者自己建立直觉理解都非常有帮助。",
-    "action_items": "[\"\\u5728\\u7ebf\\u4f53\\u9a8c\\u53ef\\u89c6\\u5316demo\", \"\\u7528\\u6765\\u7ed9\\u56e2\\u961f\\u505aAI\\u57fa\\u7840\\u77e5\\u8bc6\\u57f9\\u8bad\"]",
+    "action_items": "[\"关注该模型的后续发展和社区实测\", \"在实际项目中小范围测试效果\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -1315,7 +1315,7 @@
     "audience_level": "beginner",
     "one_liner": "Claude Code技能：16项检查+6项优化，提升网站的AI搜索引擎可见度",
     "why_care": "SEO要被AEO/GEO替代了——你的网站不仅要让Google找到，还要让AI能理解和引用。这个Skill提供完整的AI引擎优化检查清单，是新时代的SEO工具。",
-    "action_items": "[\"\\u5b89\\u88c5Skill\\uff0c\\u5bf9\\u4f60\\u7684\\u7f51\\u7ad9\\u8dd1\\u4e00\\u6b21\\u5168\\u91cf\\u68c0\\u67e5\", \"\\u4f18\\u5148\\u4fee\\u590d16\\u9879\\u57fa\\u7840\\u68c0\\u67e5\\u4e2d\\u7684\\u7ea2\\u706f\\u9879\"]",
+    "action_items": "[\"安装并试用该功能或插件\", \"评估对你工作流的增强效果\"]",
     "cover_image_url": "",
     "content_depth_score": 7.0
   },
@@ -1355,7 +1355,7 @@
     "audience_level": "intermediate",
     "one_liner": "开源的Claw管理面板，一键管理多个Claw实例",
     "why_care": "如果你同时跑多个AI Claw实例，需要一个统一的管理面板。轻量级Web UI，适合自建AI基础设施的团队。",
-    "action_items": "[\"Docker\\u90e8\\u7f72\\uff0c\\u7ed1\\u5b9a\\u4f60\\u7684Claw\\u5b9e\\u4f8b\"]",
+    "action_items": "[\"下载或访问该应用体验核心功能\", \"对比同类工具选出最适合你的\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -1395,7 +1395,7 @@
     "audience_level": "intermediate",
     "one_liner": "全自主AI助手基础设施，Rust写的，跨平台部署，近3万星",
     "why_care": "如果你在找一个可以在任何设备上跑的AI助手框架，ZeroClaw用Rust实现了极致性能和跨平台能力。对于想脱离云服务自建AI的团队，这是目前最成熟的选择之一。",
-    "action_items": "[\"\\u514b\\u9686\\u4ed3\\u5e93\\u8bd5\\u8dd1\\uff1agit clone + cargo build\", \"\\u5bf9\\u6bd4OpenClaw\\u770b\\u67b6\\u6784\\u5dee\\u5f02\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -1435,7 +1435,7 @@
     "audience_level": "intermediate",
     "one_liner": "生产级可组合AI Agent框架，Python生态，开箱即用",
     "why_care": "做Agent应用最头疼的是从demo到生产的鸿沟。Alphora直接面向生产环境设计，组合式架构让你像搭积木一样拼Agent。适合已经玩过LangChain想要更稳定方案的团队。",
-    "action_items": "[\"pip install alphora\\uff0c\\u8dd1\\u5b98\\u65b9example\", \"\\u5bf9\\u6bd4LangGraph/CrewAI\\u770b\\u54ea\\u4e2a\\u66f4\\u9002\\u5408\\u4f60\\u7684\\u573a\\u666f\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -1475,7 +1475,7 @@
     "audience_level": "intermediate",
     "one_liner": "给OpenClaw加上向量+BM25混合检索的长期记忆插件",
     "why_care": "AI Agent最大的痛点之一就是记忆。这个插件用LanceDB实现了向量+全文混合检索+Cross-Encoder重排序，还支持多作用域隔离。如果你在用OpenClaw但觉得记忆不够智能，这是直接的升级方案。",
-    "action_items": "[\"npm install memory-lancedb-pro\", \"\\u914d\\u7f6e\\u5230\\u4f60\\u7684OpenClaw\\u5b9e\\u4f8b\\u4e2d\\u6d4b\\u8bd5\\u68c0\\u7d22\\u6548\\u679c\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 9.0
   },
@@ -1515,7 +1515,7 @@
     "audience_level": "intermediate",
     "one_liner": "Markdown优先的AI Agent记忆系统，灵感来自OpenClaw",
     "why_care": "Zilliz（Milvus背后的公司）做的Agent记忆库，Markdown格式存储意味着人类可读+版本可控。比纯向量存储多了一层可解释性，适合需要审计Agent记忆内容的场景。",
-    "action_items": "[\"pip install memsearch\\uff0c\\u63a5\\u5165\\u4f60\\u7684Agent\\u9879\\u76ee\", \"\\u5bf9\\u6bd4memory-lancedb-pro\\u9009\\u62e9\\u9002\\u5408\\u7684\\u65b9\\u6848\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 7.0
   },
@@ -1555,7 +1555,7 @@
     "audience_level": "intermediate",
     "one_liner": "Claude Code的浏览器式DevTools",
     "why_care": "用Claude Code写代码时最大的痛点是不知道它在干嘛。这个工具让你像浏览器DevTools一样检查每个工具调用、子Agent和Token消耗。2700+星，开发体验的刚需工具。",
-    "action_items": "[\"npm install claude-devtools\", \"\\u5728\\u4e0b\\u4e00\\u4e2aClaude Code\\u9879\\u76ee\\u4e2d\\u542f\\u7528\\uff0c\\u89c2\\u5bdf\\u5de5\\u5177\\u8c03\\u7528\\u94fe\"]",
+    "action_items": "[\"安装并试用该功能或插件\", \"评估对你工作流的增强效果\"]",
     "cover_image_url": "",
     "content_depth_score": 7.0
   },
@@ -1595,7 +1595,7 @@
     "audience_level": "advanced",
     "one_liner": "自动化ML算法设计与优化系统，用进化搜索+经验记忆驱动",
     "why_care": "AutoML的新思路：不只是调参，而是让系统自己设计算法。用渐进式搜索和经验记忆来避免重复探索，对于需要大量ML实验的团队来说可以节省大量人工试错时间。",
-    "action_items": "[\"\\u9605\\u8bfb\\u8bba\\u6587\\u4e86\\u89e3\\u6838\\u5fc3\\u65b9\\u6cd5\", \"\\u5728\\u5c0f\\u89c4\\u6a21\\u6570\\u636e\\u96c6\\u4e0a\\u8dd1baseline\\u5bf9\\u6bd4\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 9.0
   },
@@ -1635,7 +1635,7 @@
     "audience_level": "advanced",
     "one_liner": "Composio出品的并行编码Agent调度器，5500星，",
     "why_care": "一个编码Agent不够用？这个工具能同时调度多个Agent并行写代码，还能自动处理CI失败和合并冲突。对于大型重构或多模块并行开发的团队，效率提升是倍数级的。",
-    "action_items": "[\"GitHub\\u4e0astar+watch\\uff0c\\u7b49\\u7a33\\u5b9a\\u7248\", \"\\u8bc4\\u4f30\\u4f60\\u7684\\u9879\\u76ee\\u662f\\u5426\\u9002\\u5408\\u5e76\\u884cAgent\\u5f00\\u53d1\\u6a21\\u5f0f\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -1675,7 +1675,7 @@
     "audience_level": "advanced",
     "one_liner": "全球首个自主产品引擎：AI Agent自动调研市场、生成功能、提交PR",
     "why_care": "把「从需求到代码」的全流程自动化了：市场调研→功能设计→代码实现→PR提交。80+个API端点，还有崩溃恢复和成本追踪。适合想用AI替代初级产品经理+开发者组合的团队。",
-    "action_items": "[\"\\u81ea\\u5efa\\u90e8\\u7f72\\u8bd5\\u8dd1\\u4e00\\u4e2a\\u5c0f\\u529f\\u80fd\\u7684\\u5b8c\\u6574\\u6d41\\u7a0b\", \"\\u8bc4\\u4f30\\u8f93\\u51fa\\u8d28\\u91cf\\u662f\\u5426\\u8fbe\\u5230\\u4f60\\u7684\\u4ee3\\u7801\\u6807\\u51c6\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -1715,7 +1715,7 @@
     "audience_level": "intermediate",
     "one_liner": "CLI AI Agent的WebSocket桥接器，",
     "why_care": "纯粹的传输层，不做任何Prompt处理。如果你想把命令行AI工具集成到Web应用中，这是最简单的方案——就一根管道。",
-    "action_items": "[\"npm install agent-ws\\uff0c\\u914d\\u5408Claude Code\\u8bd5\\u8bd5\\u6d41\\u5f0f\\u8f93\\u51fa\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 7.0
   },
@@ -1755,7 +1755,7 @@
     "audience_level": "intermediate",
     "one_liner": "48个AI Agent + 36个工作流Skill，",
     "why_care": "不是简单的Prompt模板，而是完整的游戏工作室模拟——策划、美术、程序、测试全部由AI Agent协作。6700+星说明社区认可这种团队化Agent的方向。对想做复杂多Agent协作的项目有很强的参考价值。",
-    "action_items": "[\"clone\\u4ed3\\u5e93\\u7814\\u7a76Agent\\u534f\\u8c03\\u673a\\u5236\", \"\\u628a\\u591aAgent\\u534f\\u4f5c\\u6a21\\u5f0f\\u8fc1\\u79fb\\u5230\\u4f60\\u81ea\\u5df1\\u7684\\u9886\\u57df\"]",
+    "action_items": "[\"安装并试用该功能或插件\", \"评估对你工作流的增强效果\"]",
     "cover_image_url": "",
     "content_depth_score": 7.0
   },
@@ -1795,7 +1795,7 @@
     "audience_level": "intermediate",
     "one_liner": "自托管的多Agent调度平台，统一看板管理任务、工作流和成本",
     "why_care": "当你有多个AI Agent在跑不同任务时，需要一个统一的管控中心。这个平台提供任务调度、多Agent工作流、花费监控和运维治理，3400+星说明社区认可度不错。",
-    "action_items": "[\"Docker\\u90e8\\u7f72\\u8bd5\\u7528\", \"\\u5bf9\\u6bd4agent-orchestrator\\u9009\\u62e9\\u9002\\u5408\\u7684\\u65b9\\u6848\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 7.0
   },
@@ -1835,7 +1835,7 @@
     "audience_level": "intermediate",
     "one_liner": "上下文镜头——帮你理解和管理LLM的上下文窗口使用情况",
     "why_care": "LLM的上下文窗口是最宝贵的资源，但大多数人不知道自己的Prompt占了多少空间。Context Lens让你可视化上下文使用情况，帮你优化Prompt设计。",
-    "action_items": "[\"\\u5b89\\u88c5\\u5de5\\u5177\\uff0c\\u5206\\u6790\\u4f60\\u6700\\u5e38\\u7528\\u7684Prompt\\u7684\\u4e0a\\u4e0b\\u6587\\u5360\\u7528\", \"\\u4f18\\u5316\\u6700\\u5403\\u4e0a\\u4e0b\\u6587\\u7684\\u90e8\\u5206\"]",
+    "action_items": "[\"关注该模型的后续发展和社区实测\", \"在实际项目中小范围测试效果\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -1875,7 +1875,7 @@
     "audience_level": "newcomer",
     "one_liner": "CMU教授的现代AI入门课配套代码——从ML基础到手搓LLM",
     "why_care": "Zico Kolter是CMU的知名教授，这门课从机器学习基础讲到从零训练LLM。配套代码库让你可以跟着课程动手实践。对想系统学习AI而不是只会调API的人非常有价值。",
-    "action_items": "[\"clone\\u4ed3\\u5e93\\uff0c\\u8ddf\\u7740\\u8bfe\\u7a0b\\u76ee\\u5f55\\u5b66\\u4e60\", \"\\u4ece\\u5934\\u8bad\\u7ec3\\u4e00\\u4e2a\\u5c0f\\u578bLLM\\u7406\\u89e3\\u5e95\\u5c42\\u539f\\u7406\"]",
+    "action_items": "[\"跟着教程一步步实操\", \"尝试在教程基础上做扩展和改进\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -1915,7 +1915,7 @@
     "audience_level": "intermediate",
     "one_liner": "地理空间优化器——用AI解决物流、选址等空间优化问题",
     "why_care": "把AI和地理信息结合解决实际的空间优化问题，比如物流路线规划、最优选址。对做供应链、物流、城市规划的团队是直接可用的工具。",
-    "action_items": "[\"\\u9605\\u8bfb\\u652f\\u6301\\u7684\\u4f18\\u5316\\u573a\\u666f\\u5217\\u8868\", \"\\u7528\\u4f60\\u7684\\u5730\\u7406\\u6570\\u636e\\u8dd1\\u4e00\\u6b21\\u4f18\\u5316\\u770b\\u6548\\u679c\"]",
+    "action_items": "[\"关注该模型的后续发展和社区实测\", \"在实际项目中小范围测试效果\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -1955,7 +1955,7 @@
     "audience_level": "advanced",
     "one_liner": "用Zig重写的极速AI助手基础设施，6800+星，比Rust版更极致",
     "why_care": "ZeroClaw的Zig版本，追求的是极致的二进制大小和启动速度。如果你对系统编程感兴趣，或者需要在资源极度受限的环境跑AI，Zig方案值得关注。",
-    "action_items": "[\"\\u5173\\u6ce8\\u4ed3\\u5e93\\uff0c\\u7b49\\u5f85API\\u7a33\\u5b9a\", \"\\u5982\\u679c\\u719f\\u6089Zig\\u53ef\\u4ee5\\u5c1d\\u8bd5\\u7f16\\u8bd1\\u90e8\\u7f72\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -1995,7 +1995,7 @@
     "audience_level": "advanced",
     "one_liner": "5美元芯片上跑OpenClaw，无需操作系统，纯硬件Agent",
     "why_care": "这个项目把AI Agent直接跑在裸金属硬件上，不需要Linux、不需要Node.js。4800+星说明嵌入式AI社区非常兴奋。对IoT和边缘AI场景有革命性意义——AI Agent可以跑在任何芯片上了。",
-    "action_items": "[\"\\u67e5\\u770b\\u652f\\u6301\\u7684\\u82af\\u7247\\u5217\\u8868\", \"\\u5982\\u679c\\u4f60\\u6709ESP32\\u7b49\\u5f00\\u53d1\\u677f\\u53ef\\u4ee5\\u8bd5\\u8dd1\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -2035,7 +2035,7 @@
     "audience_level": "intermediate",
     "one_liner": "框架无关、Git原生的AI Agent定义标准",
     "why_care": "目前每个Agent框架都有自己的配置格式，迁移成本很高。GitAgent提出了一个通用标准——用Git原生方式定义Agent，不绑定任何框架。如果这个标准被广泛采用，Agent的可移植性会大幅提升。",
-    "action_items": "[\"\\u9605\\u8bfb\\u89c4\\u8303\\u6587\\u6863\\uff0c\\u7406\\u89e3Agent\\u5b9a\\u4e49\\u683c\\u5f0f\", \"\\u8bc4\\u4f30\\u662f\\u5426\\u53ef\\u4ee5\\u628a\\u4f60\\u73b0\\u6709\\u7684Agent\\u8fc1\\u79fb\\u5230\\u8fd9\\u4e2a\\u6807\\u51c6\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -2075,7 +2075,7 @@
     "audience_level": "newcomer",
     "one_liner": "Meta智能眼镜的实时AI助手：语音+视觉+Agent行动，",
     "why_care": "把AI Agent从屏幕里解放出来——戴上眼镜就能用语音和视觉交互。结合Gemini Live的实时对话能力和OpenClaw的Agent框架，这是可穿戴AI的一个完整方案。",
-    "action_items": "[\"\\u5982\\u679c\\u6709Ray-Ban Meta\\u773c\\u955c\\u53ef\\u4ee5\\u8bd5\\u7528\", \"\\u5173\\u6ce8\\u53ef\\u7a7f\\u6234AI\\u7684\\u53d1\\u5c55\\u8d8b\\u52bf\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -2115,7 +2115,7 @@
     "audience_level": "advanced",
     "one_liner": "智能电线杆Skill——用AI监控和管理城市基础设施",
     "why_care": "IoT+AI在城市基础设施管理上的具体应用。虽然是小众场景，但展示了AI Skill如何应用到传统行业的具体案例。",
-    "action_items": "[\"\\u4e86\\u89e3IoT+AI\\u5728\\u57fa\\u7840\\u8bbe\\u65bd\\u7ba1\\u7406\\u4e2d\\u7684\\u5e94\\u7528\\u6a21\\u5f0f\"]",
+    "action_items": "[\"关注该模型的后续发展和社区实测\", \"在实际项目中小范围测试效果\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -2155,7 +2155,7 @@
     "audience_level": "intermediate",
     "one_liner": "把B站收藏夹变成可对话的知识库——语音转写+向量检索+问答",
     "why_care": "收藏了一堆B站视频但从来不看？这个项目把收藏夹自动转写成文字，建立向量检索索引，然后你可以直接对话提问。对中文内容消费者来说是真正的知识管理利器。",
-    "action_items": "[\"\\u90e8\\u7f72\\u5230\\u672c\\u5730\\uff0c\\u5bfc\\u5165\\u4f60\\u7684B\\u7ad9\\u6536\\u85cf\\u5939\", \"\\u6d4b\\u8bd5\\u5bf9\\u8bdd\\u68c0\\u7d22\\u6548\\u679c\\uff0c\\u770b\\u662f\\u5426\\u80fd\\u66ff\\u4ee3\\u91cd\\u590d\\u89c2\\u770b\"]",
+    "action_items": "[\"分析案例中的关键成功因素\", \"思考如何在你的场景中复用\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -2195,7 +2195,7 @@
     "audience_level": "newcomer",
     "one_liner": "同一个AI模型在不同平台价格差10倍——一份省钱指南",
     "why_care": "很多人不知道同一个模型（如GPT-4、Claude）通过不同渠道访问价格差异巨大。这份清单列出了各平台的真实成本对比，对控制AI使用成本非常有价值。",
-    "action_items": "[\"\\u5bf9\\u7167\\u6e05\\u5355\\u68c0\\u67e5\\u4f60\\u76ee\\u524d\\u7684AI\\u652f\\u51fa\\u662f\\u5426\\u6709\\u4f18\\u5316\\u7a7a\\u95f4\", \"\\u8003\\u8651\\u5207\\u6362\\u5230\\u66f4\\u4fbf\\u5b9c\\u7684\\u63a5\\u5165\\u6e20\\u9053\"]",
+    "action_items": "[\"分析这个商业模式对你所在行业的借鉴意义\", \"关注后续融资和市场动态\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -2235,7 +2235,7 @@
     "audience_level": "beginner",
     "one_liner": "AI情绪镜——输入文字就能分析情绪并给出温和的回应",
     "why_care": "一个把NLP情绪分析做成可交互产品的项目。输入自由文本，自动总结想法、识别情绪、生成非评判性的回应。对做心理健康AI或情感计算的团队有参考价值。",
-    "action_items": "[\"clone\\u4ed3\\u5e93\\u4f53\\u9a8c\\u60c5\\u7eea\\u5206\\u6790\\u6548\\u679c\", \"\\u8bc4\\u4f30\\u662f\\u5426\\u53ef\\u4ee5\\u96c6\\u6210\\u5230\\u4f60\\u7684\\u4ea7\\u54c1\\u4e2d\"]",
+    "action_items": "[\"下载或访问该应用体验核心功能\", \"对比同类工具选出最适合你的\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -2275,7 +2275,7 @@
     "audience_level": "intermediate",
     "one_liner": "LLM驱动的A/H/美股智能分析器，多数据源+实时新闻+决策仪表盘，",
     "why_care": "免费的AI股票分析工具，多市场覆盖，可以定时自动运行。LLM负责综合分析多源信息并给出决策建议。对个人投资者来说是低成本的智能投研助手。注意：投资决策仍需自行判断。",
-    "action_items": "[\"clone\\u4ed3\\u5e93\\u914d\\u7f6e\\u4f60\\u5173\\u6ce8\\u7684\\u80a1\\u7968\\u6c60\", \"\\u8bbe\\u7f6e\\u5b9a\\u65f6\\u4efb\\u52a1\\u6bcf\\u65e5\\u81ea\\u52a8\\u5206\\u6790\"]",
+    "action_items": "[\"分析案例中的关键成功因素\", \"思考如何在你的场景中复用\"]",
     "cover_image_url": "",
     "content_depth_score": 7.0
   },
@@ -2315,7 +2315,7 @@
     "audience_level": "intermediate",
     "one_liner": "Vercel出品的AI Agent浏览器自动化CLI，Rust实现，2.5万星",
     "why_care": "浏览器自动化是AI Agent落地的关键能力。Vercel官方出品的方案用Rust保证了性能和稳定性，无头浏览器模式适合服务端部署。2.5万星说明这是该领域的头部项目，值得作为浏览器Agent的标准选择。",
-    "action_items": "[\"\\u5b89\\u88c5CLI\\u8bd5\\u7528\\u6d4f\\u89c8\\u5668\\u81ea\\u52a8\\u5316\\u4efb\\u52a1\", \"\\u8bc4\\u4f30\\u66ff\\u6362Playwright/Puppeteer\\u7684\\u53ef\\u884c\\u6027\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 9.0
   },
@@ -2355,7 +2355,7 @@
     "audience_level": "intermediate",
     "one_liner": "火山引擎开源的AI Agent专用上下文数据库",
     "why_care": "字节跳动旗下火山引擎开源了专为AI Agent设计的上下文数据库。统一了Agent的短期记忆、长期记忆和知识库管理，不再需要拼接多个中间件。大厂开源的基础设施级项目，质量和维护有保障。",
-    "action_items": "[\"\\u9605\\u8bfb\\u67b6\\u6784\\u6587\\u6863\\u7406\\u89e3\\u8bbe\\u8ba1\\u7406\\u5ff5\", \"\\u5728Agent\\u9879\\u76ee\\u4e2d\\u66ff\\u6362\\u73b0\\u6709\\u8bb0\\u5fc6\\u65b9\\u6848\\u8bd5\\u7528\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -2395,7 +2395,7 @@
     "audience_level": "beginner",
     "one_liner": "Claude Code的营销技能包——CRO/SEO/文案/增长工程，1.7万星",
     "why_care": "17000星说明AI编码Agent不只是写代码。这个技能包让Claude Code掌握了转化率优化、文案写作、SEO分析和增长黑客等营销能力。对做增长的团队来说，等于给技术Agent加了营销大脑。",
-    "action_items": "[\"\\u5b89\\u88c5\\u5230Claude Code\\uff0c\\u8bd5\\u7528CRO\\u5206\\u6790\\u529f\\u80fd\", \"\\u5bf9\\u4f60\\u7684\\u843d\\u5730\\u9875\\u8dd1\\u4e00\\u6b21\\u5168\\u91cf\\u4f18\\u5316\\u5efa\\u8bae\"]",
+    "action_items": "[\"安装并试用该功能或插件\", \"评估对你工作流的增强效果\"]",
     "cover_image_url": "",
     "content_depth_score": 9.0
   },
@@ -2435,7 +2435,7 @@
     "audience_level": "intermediate",
     "one_liner": "Ralph：自主AI Agent循环执行PRD直到所有需求完成，1.4万星",
     "why_care": "给它一份产品需求文档（PRD），它就会反复循环直到所有需求都实现。不是做一次就停，而是持续迭代直到完成。1.4万星说明自主循环执行是社区非常期待的Agent模式。适合有清晰PRD但缺人手实现的小团队。",
-    "action_items": "[\"\\u7528\\u4e00\\u4e2a\\u5c0f\\u578bPRD\\u6d4b\\u8bd5\\u5b8c\\u6210\\u5ea6\", \"\\u8bc4\\u4f30\\u8f93\\u51fa\\u4ee3\\u7801\\u8d28\\u91cf\\u662f\\u5426\\u8fbe\\u6807\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 9.0
   },
@@ -2475,7 +2475,7 @@
     "audience_level": "advanced",
     "one_liner": "基于荣格理论的LLM Agent动态MBTI人格模拟框架",
     "why_care": "让AI Agent拥有可进化的「人格」——不是固定的角色扮演，而是基于荣格心理学理论的动态MBTI人格系统。Agent的人格会随着交互经验而演变。对做AI角色、虚拟伴侣或社交AI的团队有启发价值。",
-    "action_items": "[\"\\u9605\\u8bfb\\u6846\\u67b6\\u6587\\u6863\\u7406\\u89e3\\u4eba\\u683c\\u6f14\\u5316\\u673a\\u5236\", \"\\u601d\\u8003\\u52a8\\u6001\\u4eba\\u683c\\u5bf9\\u4f60\\u7684AI\\u4ea7\\u54c1\\u7684\\u4ef7\\u503c\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -2515,7 +2515,7 @@
     "audience_level": "advanced",
     "one_liner": "百度百舸出品的思考+学习Agent框架，目标是专家级AI Agent",
     "why_care": "百度开源的Agent框架，核心理念是Agent不仅要能思考（CoT），还要能从执行中学习经验。目标是让Agent达到专家级水平而非仅仅完成任务。对想做垂直领域专家Agent的团队是重要的架构参考。",
-    "action_items": "[\"pip install loongflow\\uff0c\\u5728\\u4f60\\u7684\\u9886\\u57df\\u6570\\u636e\\u4e0a\\u6d4b\\u8bd5\", \"\\u5bf9\\u6bd4\\u4e0eReAct/Reflexion\\u7b49\\u6846\\u67b6\\u7684\\u6548\\u679c\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -2555,7 +2555,7 @@
     "audience_level": "intermediate",
     "one_liner": "LLM Agent的高效终身记忆系统，3200+星",
     "why_care": "解决Agent「金鱼记忆」问题——SimpleMem提供了高效的终身记忆方案。与现有记忆系统的区别在于对内存和计算效率的极致优化，适合需要长期运行的Agent场景。对话越长、经验越多，Agent越聪明。",
-    "action_items": "[\"pip install simplemem\\uff0c\\u96c6\\u6210\\u5230\\u4f60\\u7684Agent\\u4e2d\", \"\\u5bf9\\u6bd4memory-lancedb-pro\\u548cmemsearch\\u7684\\u6548\\u679c\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -2595,7 +2595,7 @@
     "audience_level": "beginner",
     "one_liner": "AI编码Agent技能/工具/教程精选清单，",
     "why_care": "Agent技能生态爆发期的导航索引——收录了各主流AI编码Agent（Claude、Codex、Copilot等）的技能、工具和教程。对于想快速了解Agent生态全貌并找到适合自己的工具的开发者来说，是必备收藏。",
-    "action_items": "[\"\\u6536\\u85cf\\u4ed3\\u5e93\\uff0c\\u5b9a\\u671f\\u67e5\\u770b\\u66f4\\u65b0\", \"\\u6311\\u9009\\u9002\\u5408\\u4f60\\u5de5\\u4f5c\\u6d41\\u7684\\u6280\\u80fd\\u5b89\\u88c5\\u8bd5\\u7528\"]",
+    "action_items": "[\"安装并试用该功能或插件\", \"评估对你工作流的增强效果\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -2635,7 +2635,7 @@
     "audience_level": "intermediate",
     "one_liner": "Agent的可视化反馈工具——让你看到Agent在想什么，3100+星",
     "why_care": "调试AI Agent最痛苦的是不知道它在哪一步出了问题。Agentation提供了Agent执行过程的可视化反馈，让你像看动画一样理解Agent的思考和行动链。3100+星说明可观测性是Agent开发的核心需求。",
-    "action_items": "[\"\\u5b89\\u88c5\\u5de5\\u5177\\u8fde\\u63a5\\u4f60\\u7684Agent\", \"\\u5728\\u4e00\\u4e2a\\u5931\\u8d25\\u6848\\u4f8b\\u4e0a\\u7528\\u53ef\\u89c6\\u5316\\u5b9a\\u4f4d\\u95ee\\u9898\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 6.0
   },
@@ -2675,7 +2675,7 @@
     "audience_level": "beginner",
     "one_liner": "AI Agent的GEO优化技能",
     "why_care": "传统SEO优化Google排名，GEO优化AI搜索引用。当越来越多用户通过AI获取信息时，你的内容能否被AI引用成为新的流量入口。这个技能让AI Agent自动优化内容的AI可见度。",
-    "action_items": "[\"\\u5b89\\u88c5GEO\\u6280\\u80fd\\uff0c\\u5206\\u6790\\u4f60\\u7684\\u6838\\u5fc3\\u5185\\u5bb9\\u9875\", \"\\u4f18\\u5148\\u4fee\\u590d\\u7ed3\\u6784\\u5316\\u6570\\u636e\\u548c\\u8bed\\u4e49\\u6807\\u8bb0\"]",
+    "action_items": "[\"安装并试用该功能或插件\", \"评估对你工作流的增强效果\"]",
     "cover_image_url": "",
     "content_depth_score": 5.0
   },
@@ -2715,7 +2715,7 @@
     "audience_level": "advanced",
     "one_liner": "一个脚本同时跑Claude Code/Codex/OpenCode/Cursor",
     "why_care": "灵感来自Ralph的多Agent并行思路，用一个Bash脚本同时启动6个不同的AI编码Agent协作工作。虽然简单粗暴，但展示了「Agent军团」的可能性——多个Agent各有所长，并行出结果再择优。",
-    "action_items": "[\"\\u9605\\u8bfb\\u811a\\u672c\\u7406\\u89e3\\u591aAgent\\u7f16\\u6392\\u903b\\u8f91\", \"\\u5728\\u4e00\\u4e2a\\u5c0f\\u9879\\u76ee\\u4e0a\\u6d4b\\u8bd5\\u591aAgent\\u5e76\\u884c\\u6548\\u679c\"]",
+    "action_items": "[\"去GitHub查看项目代码和文档\", \"评估在你的工作流中集成的可行性\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -2755,7 +2755,7 @@
     "audience_level": "intermediate",
     "one_liner": "Langfuse官方Agent技能集——为开源LLM工程平台增加Agent能力",
     "why_care": "Langfuse是最受欢迎的开源LLM可观测性平台之一，现在官方推出了Agent技能。如果你已经在用Langfuse做LLM监控，可以直接扩展Agent能力。开源生态的优势就在于这种无缝集成。",
-    "action_items": "[\"\\u5982\\u679c\\u5728\\u7528Langfuse\\uff0c\\u76f4\\u63a5\\u5b89\\u88c5\\u5b98\\u65b9\\u6280\\u80fd\", \"\\u8bc4\\u4f30Langfuse\\u662f\\u5426\\u9002\\u5408\\u4f5c\\u4e3a\\u4f60\\u7684Agent\\u76d1\\u63a7\\u65b9\\u6848\"]",
+    "action_items": "[\"安装并试用该功能或插件\", \"评估对你工作流的增强效果\"]",
     "cover_image_url": "",
     "content_depth_score": 9.0
   },
@@ -2795,7 +2795,7 @@
     "audience_level": "newcomer",
     "one_liner": "从零构建AI Agent的实战教程",
     "why_care": "不是概念介绍，而是手把手的实战教程。从LLM API调用开始，逐步教你Prompt工程、工具调用、Agent循环的完整链路。对想深入理解Agent底层原理而不只是用框架的开发者来说是最佳学习路径。",
-    "action_items": "[\"\\u6309\\u6559\\u7a0b\\u987a\\u5e8f\\u52a8\\u624b\\u5b9e\\u8df5\", \"\\u4ece\\u96f6\\u5b9e\\u73b0\\u4e00\\u4e2a\\u6700\\u5c0f\\u53ef\\u7528\\u7684Agent\"]",
+    "action_items": "[\"跟着教程一步步实操\", \"尝试在教程基础上做扩展和改进\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -2835,7 +2835,7 @@
     "audience_level": "intermediate",
     "one_liner": "工业级全流程AI影视生产平台——从短片到长片的可控AI视频制作",
     "why_care": "自称是首家工业级AI影视生产平台，强调的是「可控性」和「全流程」。不是玩具级的AI视频生成，而是面向专业影视制作的完整工作流。对影视行业从业者和AI视频创业者来说值得关注。",
-    "action_items": "[\"\\u7533\\u8bf7\\u8bd5\\u7528\\u8d26\\u53f7\\uff0c\\u8bc4\\u4f30\\u89c6\\u9891\\u8d28\\u91cf\", \"\\u5bf9\\u6bd4\\u4e0eRunway/Pika\\u7b49\\u5de5\\u5177\\u7684\\u5dee\\u5f02\"]",
+    "action_items": "[\"下载或访问该应用体验核心功能\", \"对比同类工具选出最适合你的\"]",
     "cover_image_url": "",
     "content_depth_score": 8.0
   },
@@ -2875,7 +2875,7 @@
     "audience_level": "intermediate",
     "one_liner": "CCG工作流——结构化的AI Agent任务编排工具",
     "why_care": "提供了一种结构化的方式来定义和编排AI Agent的工作流程。对需要可复现、可审计的Agent任务执行流程的团队有参考价值。适合把Agent从随机对话模式升级到结构化工作流模式。",
-    "action_items": "[\"\\u9605\\u8bfb\\u5de5\\u4f5c\\u6d41\\u5b9a\\u4e49\\u8bed\\u6cd5\", \"\\u628a\\u4f60\\u7684\\u4e00\\u4e2aAgent\\u4efb\\u52a1\\u6539\\u5199\\u6210\\u7ed3\\u6784\\u5316\\u5de5\\u4f5c\\u6d41\"]",
+    "action_items": "[\"研究该项目的技术路线和商业模式\", \"评估是否有合作或借鉴机会\"]",
     "cover_image_url": "",
     "content_depth_score": 7.0
   },
@@ -2915,7 +2915,7 @@
     "audience_level": "beginner",
     "one_liner": "Entire.io CLI——命令行界面的AI助手客户端",
     "why_care": "又一个命令行AI助手，但Entire.io的差异化在于与其平台生态的深度集成。对已经在用Entire.io平台的用户来说是自然的扩展。对其他用户则是了解CLI AI工具生态多样性的一个数据点。",
-    "action_items": "[\"\\u8bc4\\u4f30\\u662f\\u5426\\u9700\\u8981\\u66f4\\u591aCLI AI\\u5de5\\u5177\\u9009\\u62e9\"]",
+    "action_items": "[\"下载或访问该应用体验核心功能\", \"对比同类工具选出最适合你的\"]",
     "cover_image_url": "",
     "content_depth_score": 9.0
   },
