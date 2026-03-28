@@ -72,7 +72,7 @@
     "status": "active",
     "audience_level": "newcomer",
     "one_liner": "AI编程考试拿了历史最高分，而且学会了简单题快答、难题深思",
-    "why_care": "了解版本更新领域最新进展，把握行业脉搏",
+    "why_care": "如果你是开发者，Claude Opus是目前编程能力最强的AI——SWE-bench 80.8%是真实修bug的成功率。配合Claude Code使用体验极佳。",
     "action_items": "[\"阅读详细评测：https://byteiota.com/ai-coding-benchmarks-2026-claude-vs-gpt-vs-gemini/\", \"在Claude Code中切换到Opus处理最棘手的bug\", \"搭配Sonnet+Opus混合方案平衡成本和能力\"]",
     "cover_image_url": "https://byteiota.com/wp-content/uploads/2026/03/tmpzcqds38u.jpg",
     "content_depth_score": 9.0
@@ -226,7 +226,7 @@
     "status": "active",
     "audience_level": "newcomer",
     "one_liner": "Google的AI三级火箭——便宜的、全能的、超级聪明的，总有一款适合你",
-    "why_care": "了解版本更新领域最新进展，把握行业脉搏",
+    "why_care": "Google不再是AI竞赛陪跑者。250万token+免费Flash意味着：特定场景（超长文档、视频分析）Gemini可能比GPT和Claude更好用。值得重新评估。",
     "action_items": "[\"阅读详细对比：https://medium.com/@Micheal-Lanham/the-march-2026-frontier-gpt-5-4-vs-gemini-3-1-vs-claude-4-6-daebf22e672e\", \"试用免费的Gemini Flash做日常任务\", \"处理超长文档时测试Gemini Ultra的250万token上下文\"]",
     "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMwNmI2ZDQiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiMzYjgyZjYiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPvCflIQ8L3RleHQ+PHRleHQgeD0iNDAwIiB5PSIyNTAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtZmFtaWx5PSJzeXN0ZW0tdWkiIGZvbnQtc2l6ZT0iMzIiIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjkiPueJiOacrOabtOaWsDwvdGV4dD48L3N2Zz4=",
     "content_depth_score": 9.0
@@ -273,7 +273,7 @@
   {
     "id": 83,
     "uuid": "fc213cb5-d86d-44ae-8dad-0970e3097ff0",
-    "title": "【服务动态】AI服务新动态，基础设施升级",
+    "title": "OpenAI Frontier：企业级AI Agent的安全部署管理平台",
     "title_en": "",
     "category": "service",
     "source_name": "OpenAI",
@@ -350,7 +350,7 @@
   {
     "id": 111,
     "uuid": "84147d79-a2a6-4c9f-99af-9fb4b4d52523",
-    "title": "【学习资源】AI学习资源，入门进阶",
+    "title": "ChatGPT/Claude/Gemini横评指南：什么场景该用哪个AI",
     "title_en": "",
     "category": "tutorial",
     "source_name": "AI评测室",
@@ -2028,7 +2028,7 @@
   {
     "id": 27,
     "uuid": "9a08d2dc-fae6-440a-8da6-faeb410e6217",
-    "title": "【开源项目】开源新工具，降低AI开发门槛",
+    "title": "oh-my-claudecode：像oh-my-zsh一样增强Claude Code体验",
     "title_en": "",
     "category": "opensource",
     "source_name": "GitHub Trending",
@@ -3036,7 +3036,7 @@
   {
     "id": 99,
     "uuid": "638a2c8a-8eca-4d79-bb3c-7fd1fef7b4ad",
-    "title": "【实用技巧】AI实用技巧，立竿见影",
+    "title": "Meta-Prompting实战：2026年让AI帮你写提示词的新方法",
     "title_en": "",
     "category": "tip",
     "source_name": "The AI Corner",
@@ -3067,7 +3067,7 @@
     "status": "active",
     "audience_level": "intermediate",
     "one_liner": "让AI帮你写提示词，效率翻倍",
-    "why_care": "了解实用技巧领域最新进展，把握行业脉搏",
+    "why_care": "让AI写Prompt比你自己写更高效。掌握这个技巧，Prompt Engineering的门槛直接降一半。",
     "action_items": "[\"阅读原文教程：https://www.the-ai-corner.com/p/your-2026-guide-to-prompt-en\", \"试试对ChatGPT说「请帮我生成一个用于XX任务的最优提示词」，对比效果\", \"建立你的Meta-Prompt模板库：不同任务类型各存一个生成提示词的Prompt\"]",
     "cover_image_url": "https://substackcdn.com/image/fetch/$s_!MLVx!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F84cf528b-ee9f-43a1-a5ea-9ea119128e96_1410x991.avif",
     "content_depth_score": 8.0
@@ -3964,7 +3964,7 @@
   {
     "id": 10,
     "uuid": "9d23ec44-f2db-4695-bd51-7ebd966504b4",
-    "title": "【智能体】AI智能体新进展，自动化再升级",
+    "title": "SwiftUI Agent Skill：教AI写高质量SwiftUI代码的Claude Code技能包",
     "title_en": "",
     "category": "agent",
     "source_name": "GitHub",
@@ -4003,7 +4003,7 @@
   {
     "id": 11,
     "uuid": "62cd243e-5b67-4432-a1b6-42d51b170d6a",
-    "title": "【智能体】AI智能体新进展，自动化再升级",
+    "title": "NVIDIA OpenShell：用Rust给AI Agent造了一个安全沙箱",
     "title_en": "",
     "category": "agent",
     "source_name": "GitHub",
@@ -4345,7 +4345,7 @@
     "report_date": "2026-03-27",
     "status": "active",
     "audience_level": "intermediate",
-    "one_liner": "服务动态：AI服务新动态",
+    "one_liner": "Postman也加了AI：API测试终于不用手动一个个试了——开...",
     "why_care": "API测试自动化能把质量保障成本降80%，Postman用户直接升级就能用，零迁移成本。",
     "action_items": "[\"查看完整更新日志：https://blog.postman.com/new-capabilities-march-2026/\", \"选一个你项目里最复杂的API，用AI生成测试套件试试效果\", \"评估是否能替换现有的手写测试流程，计算节省的人力成本\"]",
     "cover_image_url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI4MDAiIGhlaWdodD0iNDAwIj48ZGVmcz48bGluZWFyR3JhZGllbnQgaWQ9ImciIHgxPSIwJSIgeTE9IjAlIiB4Mj0iMTAwJSIgeTI9IjEwMCUiPjxzdG9wIG9mZnNldD0iMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiM4YjVjZjYiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0eWxlPSJzdG9wLWNvbG9yOiNlYzQ4OTkiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB3aWR0aD0iODAwIiBoZWlnaHQ9IjQwMCIgZmlsbD0idXJsKCNnKSIgcng9IjEyIi8+PHRleHQgeD0iNDAwIiB5PSIxODAiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iODAiPuKYge+4jzwvdGV4dD48dGV4dCB4PSI0MDAiIHk9IjI1MCIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZm9udC1mYW1pbHk9InN5c3RlbS11aSIgZm9udC1zaXplPSIzMiIgZmlsbD0id2hpdGUiIG9wYWNpdHk9IjAuOSI+QUnmnI3liqE8L3RleHQ+PC9zdmc+",
@@ -4510,7 +4510,7 @@
   {
     "id": 55,
     "uuid": "159da187-d040-4459-baf0-1efd5ace9494",
-    "title": "【应用推荐】AI应用新体验，效率提升利器",
+    "title": "awesome-seedance：即梦AI Seedance 2.0的社区资源宝库",
     "title_en": "",
     "category": "app",
     "source_name": "GitHub",
@@ -4705,7 +4705,7 @@
   {
     "id": 60,
     "uuid": "61226703-c539-4d3c-a481-a6f6e4ef4c7d",
-    "title": "【应用推荐】AI应用新体验，效率提升利器",
+    "title": "Open-Claude-Cowork：让多个Claude实例组队协同作战",
     "title_en": "",
     "category": "app",
     "source_name": "GitHub",
@@ -4744,7 +4744,7 @@
   {
     "id": 63,
     "uuid": "08158f9f-2402-4190-9eb4-8c04538a5b67",
-    "title": "【学习资源】AI学习资源，入门进阶",
+    "title": "Datawhale零基础AI编程教程：用自然语言描述需求让AI写代码",
     "title_en": "",
     "category": "tutorial",
     "source_name": "GitHub",

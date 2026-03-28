@@ -682,7 +682,7 @@
   {
     "id": 195,
     "uuid": "e82a42d2-208d-4d8a-bf33-feab4e4b3bdf",
-    "title": "【商业洞察】AI商业新动态，影响行业走向",
+    "title": "Token经济学圆桌：月之暗面/智谱/小米MiMo一把手热议AI算力价值",
     "title_en": "杨植麟/张鹏/夏立雪/罗福莉/黄超，谈龙虾，谈“Token经济学”",
     "category": "business_model",
     "source_name": "36氪",
@@ -762,7 +762,7 @@
   {
     "id": 201,
     "uuid": "e0f8b747-01e7-4be7-8a95-e78ac3f29279",
-    "title": "【开源项目】开源新工具，降低AI开发门槛",
+    "title": "ccg-workflow：平台级多Agent编排工具，不只是框架",
     "title_en": "CrewForm – Open-source multi-agent AI orchestration platform",
     "category": "opensource",
     "source_name": "HN-AI",
@@ -1002,7 +1002,7 @@
   {
     "id": 215,
     "uuid": "fd67247b-eafc-4b22-8d95-9687f171ffd3",
-    "title": "【实用技巧】AI实用技巧，立竿见影",
+    "title": "2026年AI工具选择指南：ChatGPT/Claude/Gemini各自擅长什么",
     "title_en": "Show HN: Bottrace – headless CLI debugger for Python, built for LLM agents",
     "category": "tip",
     "source_name": "HN-LLM",
@@ -1202,7 +1202,7 @@
   {
     "id": 163,
     "uuid": "63b09a7c-1e8b-4dbd-9430-5f68841c7e28",
-    "title": "【技能扩展】AI新技能，扩展工具箱",
+    "title": "Prompt Master：AI提示词写作教练，结构化输出最优Prompt",
     "title_en": "nidhinjs/prompt-master",
     "category": "skill",
     "source_name": "GitHub",
@@ -1282,7 +1282,7 @@
   {
     "id": 165,
     "uuid": "294c80bd-6054-449d-bb22-09a25e3ff798",
-    "title": "【技能扩展】AI新技能，扩展工具箱",
+    "title": "GTM Engineer Skills：Claude Code网站SEO/AEO优化技能包",
     "title_en": "onvoyage-ai/gtm-engineer-skills",
     "category": "skill",
     "source_name": "GitHub",
@@ -1442,7 +1442,7 @@
   {
     "id": 133,
     "uuid": "be125b8e-f608-4421-bda5-ccd4517fc261",
-    "title": "【智能体】AI智能体新进展，自动化再升级",
+    "title": "Memory-LanceDB-Pro：给AI Agent装上混合记忆引擎",
     "title_en": "CortexReach/memory-lancedb-pro",
     "category": "agent",
     "source_name": "GitHub",
@@ -1482,7 +1482,7 @@
   {
     "id": 134,
     "uuid": "af3693af-eac5-4a99-a5a4-f0579cadfe0b",
-    "title": "【智能体】AI智能体新进展，自动化再升级",
+    "title": "MemSearch：Zilliz出品的Markdown-first AI Agent记忆系统",
     "title_en": "zilliztech/memsearch",
     "category": "agent",
     "source_name": "GitHub",
@@ -1522,7 +1522,7 @@
   {
     "id": 135,
     "uuid": "e734a2e2-3250-46ec-b168-fa6582c27961",
-    "title": "【技能扩展】AI新技能，扩展工具箱",
+    "title": "Claude DevTools：像Chrome开发者工具一样检查Claude Code",
     "title_en": "matt1398/claude-devtools",
     "category": "skill",
     "source_name": "GitHub",
@@ -1602,7 +1602,7 @@
   {
     "id": 137,
     "uuid": "8189c63e-7502-4b3d-bf46-cb5b48356787",
-    "title": "【智能体】AI智能体新进展，自动化再升级",
+    "title": "Composio Agent Orchestrator：5个AI Agent并行编码的调度器",
     "title_en": "ComposioHQ/agent-orchestrator",
     "category": "agent",
     "source_name": "GitHub",
@@ -1682,7 +1682,7 @@
   {
     "id": 139,
     "uuid": "68ae5b0c-cde8-4e00-bc95-650da24bf1f1",
-    "title": "【智能体】AI智能体新进展，自动化再升级",
+    "title": "Agent-WS：极简WebSocket桥接器，让CLI Agent连接Web应用",
     "title_en": "Lisovate/agent-ws",
     "category": "agent",
     "source_name": "GitHub",
@@ -1722,7 +1722,7 @@
   {
     "id": 140,
     "uuid": "e9e74020-393a-4fae-9bcf-cfd8055bbf54",
-    "title": "【技能扩展】AI新技能，扩展工具箱",
+    "title": "Claude Code Game Studios：48个AI Agent组成的游戏开发工作室",
     "title_en": "Donchitos/Claude-Code-Game-Studios",
     "category": "skill",
     "source_name": "GitHub",
@@ -1962,7 +1962,7 @@
   {
     "id": 143,
     "uuid": "de298504-bf56-4400-821c-3e886e3b12cc",
-    "title": "【智能体】AI智能体新进展，自动化再升级",
+    "title": "MimiClaw：5美元芯片上跑AI Agent，C语言裸金属运行时",
     "title_en": "memovai/mimiclaw",
     "category": "agent",
     "source_name": "GitHub",
@@ -2242,7 +2242,7 @@
   {
     "id": 174,
     "uuid": "0b340b4e-9b28-408c-b5e2-5ee14ac7a745",
-    "title": "LLM驱动的A/H/美股智能分析器",
+    "title": "LLM驱动的A/H/美股智能分析器：多数据源行情+LLM决策仪表盘",
     "title_en": "ZhuLinsen/daily_stock_analysis",
     "category": "success_case",
     "source_name": "GitHub",
@@ -2251,7 +2251,7 @@
     "author": "ZhuLinsen",
     "published_at": "2026-01-10T06:43:20Z",
     "collected_at": "2026-03-28T05:55:10.152761",
-    "summary": "真实落地案例，验证了AI在实际业务中的价值。成功的关键因素分析；可复制的经验；行业普适性。\n\n原文摘要：LLM驱动的 A/H/美股智能分析器：多数据源行情 + 实时新闻 + LLM决策仪表盘 + 多渠道推送，零成本定时运行，纯白嫖. LLM-powered stock analysis system f",
+    "summary": "开源项目LLM Smart Stock Analyzer是一个多数据源股票智能分析系统，支持A股、港股和美股。集成实时行情数据、新闻资讯和LLM驱动的决策分析仪表盘，还支持多渠道消息推送。核心价值在于将散落在各处的股票数据源和AI分析能力整合到一个可视化仪表盘中，降低个人投资者获取和分析信息的门槛。代码完全开源，可自行部署和定制。",
     "value_proposition": "真实落地案例，验证了AI在实际业务中的价值",
     "interesting_points": "成功的关键因素分析；可复制的经验；行业普适性",
     "target_audience": "AI开发者、自动化工程师",
@@ -2282,7 +2282,7 @@
   {
     "id": 175,
     "uuid": "7a6f5507-1a93-41df-b449-b58567400fe4",
-    "title": "【智能体】AI智能体新进展，自动化再升级",
+    "title": "Vercel Agent Browser：Rust写的无头浏览器，让AI Agent自主上网",
     "title_en": "vercel-labs/agent-browser",
     "category": "agent",
     "source_name": "GitHub",
@@ -2362,7 +2362,7 @@
   {
     "id": 177,
     "uuid": "ec3caf56-4d1e-4d46-871c-bbdfaa21d100",
-    "title": "【技能扩展】AI新技能，扩展工具箱",
+    "title": "Marketing Skills：Claude Code营销技能包，覆盖文案/SEO/数据分析",
     "title_en": "coreyhaines31/marketingskills",
     "category": "skill",
     "source_name": "GitHub",
@@ -2562,7 +2562,7 @@
   {
     "id": 182,
     "uuid": "4da6db5d-290f-4e6a-8113-5bff201ede3c",
-    "title": "【技能扩展】AI新技能，扩展工具箱",
+    "title": "Awesome Agent Skills：AI编码Agent技能目录大全",
     "title_en": "heilcheng/awesome-agent-skills",
     "category": "skill",
     "source_name": "GitHub",
@@ -2682,7 +2682,7 @@
   {
     "id": 185,
     "uuid": "c49be78b-41fa-4982-9c17-ca5e1e8ac681",
-    "title": "【智能体】AI智能体新进展，自动化再升级",
+    "title": "四Agent并行编码工具：同时启动Claude Code/Codex/OpenCode/Cursor",
     "title_en": "michaelshimeles/ralphy",
     "category": "agent",
     "source_name": "GitHub",
@@ -2922,7 +2922,7 @@
   {
     "id": 221,
     "uuid": "b36637ba-feb7-4364-8e1b-fbad69f24e72",
-    "title": "【智能体】AI智能体新进展，自动化再升级",
+    "title": "Softaworks Agent Toolkit：给AI编码Agent加专业技能点",
     "title_en": "softaworks/agent-toolkit",
     "category": "agent",
     "source_name": "GitHub",
