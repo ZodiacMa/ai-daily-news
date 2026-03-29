@@ -500,6 +500,7 @@ function formatSummary(s) {
 }
 /* Lightweight Markdown→HTML renderer for summary content */
 function renderMarkdown(src) {
+  if (!src) return '';
   var lines = src.split('\n');
   var html = '', inCode = false, codeBuf = [], codeLang = '';
   var inUl = false, inOl = false, inTable = false, tRows = [];
